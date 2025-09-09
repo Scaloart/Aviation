@@ -33,10 +33,17 @@ jobs:
           ZIP_NAME="BrieFly-macOS-${{ inputs.version }}.zip"
           ditto -c -k --sequesterRsrc --keepParent "$APP_PATH" "$ZIP_NAME"
 
+      - name: Export version variables
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "MAJOR=${VERSION%%.*}" >> $GITHUB_ENV
+
       - name: Prepare Hosting folder structure
         run: |
-          mkdir -p public/macos/v${{ inputs.version%%.* }}/
-          mv "BrieFly-macOS-${{ inputs.version }}.zip" "public/macos/v${{ inputs.version%%.* }}/"
+          mkdir -p "public/macos/v${MAJOR}/"
+          mv "BrieFly-macOS-${{ inputs.version }}.zip" "public/macos/v${MAJOR}/"
 
       - name: Install Firebase CLI
         run: |
@@ -53,4 +60,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: macos-unsigned-zip
-          path: public/macos/v${{ inputs.version%%.* }}/BrieFly-macOS-${{ inputs.version }}.zip
+          path: public/macos/v${{ env.MAJOR }}/BrieFly-macOS-${{ inputs.version }}.zip
