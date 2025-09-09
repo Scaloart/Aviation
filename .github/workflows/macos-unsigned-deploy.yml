@@ -1,0 +1,56 @@
+name: Build and Deploy macOS (Unsigned)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to package (e.g., 4.0.0)"
+        required: true
+        default: "4.0.0"
+
+jobs:
+  build-and-deploy:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Flutter pub get
+        run: flutter pub get
+
+      - name: Build macOS release (unsigned)
+        run: flutter build macos --release
+
+      - name: Zip .app
+        run: |
+          APP_PATH="macos/Build/Products/Release/BrieFly.app"
+          if [ ! -d "$APP_PATH" ]; then echo "App not found at $APP_PATH"; exit 1; fi
+          ZIP_NAME="BrieFly-macOS-${{ inputs.version }}.zip"
+          ditto -c -k --sequesterRsrc --keepParent "$APP_PATH" "$ZIP_NAME"
+
+      - name: Prepare Hosting folder structure
+        run: |
+          mkdir -p public/macos/v${{ inputs.version%%.* }}/
+          mv "BrieFly-macOS-${{ inputs.version }}.zip" "public/macos/v${{ inputs.version%%.* }}/"
+
+      - name: Install Firebase CLI
+        run: |
+          npm install -g firebase-tools
+
+      - name: Deploy to Firebase Hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          if [ -z "$FIREBASE_TOKEN" ]; then echo "FIREBASE_TOKEN secret is missing"; exit 1; fi
+          firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+
+      - name: Upload artifact (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-unsigned-zip
+          path: public/macos/v${{ inputs.version%%.* }}/BrieFly-macOS-${{ inputs.version }}.zip

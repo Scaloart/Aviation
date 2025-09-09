@@ -1,0 +1,1071 @@
+METEOROLOGIE
+
+1-VALIDITE DU TAF .METAR ? TEMPS DE RENOUVELLEMENT ?
+
+METAR : Meteological Aerodrom Report
+Message d’observation MTO régulier,diffusé chaque heure sur les petits aérodromes  ou 30 min sur les grands a/d
+
+TAF : Terminal Aérodrome Forecast
+Message de prévision d’a/d établi à l’avance pour une certaine tranche horaire 
+
+Long TAF : 12h à 30h renouvelable chaque 6h .
+Short  TAF : 9h renouvelable chaque 3h ..
+
+2-DEFINIR LE MESSAGE DE TYPE TENDENCE ?
+
+Prévision établie pour répondre aux besoins des usagers locaux qui se trouvent à moins d’une heure de l’a/d .elle comporte la prévision d’un ou plusieurs des éléments suivants : Vw,visibilité ,temps significatif et nuages.
+Période de validité inf à 2h, le plus courant est de type tendence qui se compose d’un METAR ou SPECI auquel il se joint en code une tendence prévue de conditions MTO.
+
+NOSIG : Pas de changement significatif prévu au cours des 2h suivant l’heure de l’observation.
+GRADU : Prévu , un ou des changements se produisent à une allure constante pendant une partie ou la totalité de la periode .
+RAPID : Remplace GRADU si les changements se produisent au cours d’une période inferieure à 30min .
+INTER : Prévu  un ou des changements se produisent fréquemment pendant de brèves periodes , les conditions varient entre celle de l’observation et celle prévue.
+TEND : Si aucun des précédents n’est applicable .
+
+SKC : pas de nuages et CAVOK ne s’applique pas.
+NSC : pas de nuages significatifs au dessous de 1500m, ni CB ni SKC sont appliquables 
+TEMPO : indicateur de fluctuation temporaire d’un ou plusieurs paramètres MTO durant moins d’une heure et couvrant moins de la moitié de la période de fluctuation (début et fin de la validité de la tendence)
+BECMG : les parametres évolueront entre les heures indiquees et prendront temps à 1h non précise durant cette periode les valeures indiquées ,la période d’évolution normalement inf à 2h et dans tous les cas inf à 4h .
+PROB : indicateur de probabilité d’occurrence des phénomènes dercrits, peut être suivi de 30 au 40 cela veut dire une probabilité 30 ou 40% .
+3-DEFINITION DU SPECI ?
+Observation spéciale de diffusion internationale, il est établie en cas de changement important (amélioration ,ou aggravation ) sur les parametres suivants : vent,visibilite horizontal, portée visuelle de piste ,plafond,nébulosité des nuages bas et phénomènes significatifs. Il n’a pas d’heure fixe (à chaque fois que c’est necessaire).Sa structure est  identique au METAR.
+
+4-DEFINITION DU SIGMET ?
+
+Message rédigé en anglais abrégé, qui a pour but de signaler un certain nombre de phénomène jugés dangereux pour l’aéronautique comme : turbulence sévère, givrage sévère , orage grêle ,lignes de grains ondes orographiques, cyclones tropicaux.
+Le phénomène qui peut être observé (obs),ou prévu (FCST) est decrit en donnant sa position géographique en 3D, son déplacement et son évolution .
+INTSF : Intensifiant. WKN : s’affaiblissant. NC: no change.
+La durée est inférieure à 6h et de préférence égale à 4h mais celui-ci peut être reconduit plusieurs fois si c’est nécessaire .
+Certains SIGMET sont qualifiés de SST (supersonic transport) et concernent les phénomènes situés à haute altitude
+
+5-DEFINITION DU TERME CAVOK ?
+
+CAVOK : Celing and Visibility OK
+•	Visibilité supérieure ou égale à 10km
+•	Pas de nuages au dessous de 1500m ou altitude mini de secteur la plus élevée si elle est sup à 1500m
+•	Absence de CB
+•	Pas de temps significatif
+
+
+
+
+6- QUAND UTILISE-T- ON LE TERME VRB ?
+
+VRB est utilisé pour signalé une direction variable lorsque le vent est inf à 3kt ou pour des forces supérieures si la direction varie de 180° ou plus 
+
+7- DANS UN METAR QUE SIGNIFIE R09/0150D ?
+
+La RVR est de 150m sur la piste 09 en baisse (U : en hausse ; N sans changement).
+
+8- QUELLE EST LA DUREE DE VALIDITE D’UNE CARTE TEMSI ?
+
+TEMSI : Time estimited meterological signifiant information 
+WINTEM : Wind and temperature 
+La carte TEMSI est une carte schématique du temps significatif prévu à l’heure fixe, où ne sont portés que les phénomènes importants et les masses nuageuses .
+Elle est produite toutes les 6h : 00h ,06h, 12h , et 18h
+Disponible 9h avant les heures de validité.
+
+9- POUR UN VOYAGE , QUELLE SERA LA COMPOSITION DE VOTRE DOSSIER MTO ?
+
+Réglementairement,le dossier de vol doit être constitué de :
+•	Une carte TEMSI couvrant le trajet
+•	Des cartes de vents et T° prévus en altitude en fonction du ou des FL utilisables lors du vol.
+•	METAR , du terrain de départ et SPECI s’il existe.
+•	Les messages TAF des terrains de départ ,destination ,dégagement ainsi que tous les terrains pouvant servir en secours au vol projeté
+•	Les messages SIGMET  interessant le vol .
+
+10-TYPE DE CANEVAS DES CARTES WINTEM  ET TEMSI ,PROPRIETES ?
+
+Canevas MERCATOR DIRECT 
+Propriétés :
+•	Conforme : il conserve les angles 
+•	Loxodromique : la loxodromie est toujours representée par une droite 
+•	Orthodromique :au voisinage de l’équateur
+•	Quasi équidistant : entre 20°N et 20°S (echelle constante)
+
+11 - EN CROISIERE ,COMMENT POUVEZ VOUS ACTUALISER VOS PARAMETRES MTO ?
+
+ ATIS 
+VOLMET
+Fréquence a/d le + proche.
+
+
+12 - Définition et différents types de tropopauses ? 
+
+Le premier niveau au dessus de 500 Hpa ou le gradient de T° devient inf à 2°C/1000m sur plus de 2000m d’épaisseur. Elle est la limite sup de la troposphère.
+Types de tropopauses
+
+Tropopause équatoriale : Equateur=<L<=30°N , 14<=ALT<=18KM ,      -60<=T°<=-80°C
+Tropopause subtropicale :30°<=L<=50 à 60° , 10<=ALT<=12KM, T°moy=-60°C
+Tropopause polaire: 50°N<=L<pole , 8<=ALT<=9km, T°moy=-45°C
+13 - DEFINITION  ISOHYPSE ?
+Ligne reliant les points d’égale altitude à laquellle se mesure une pression donnée.ces lignes sont cotées en mgp.
+14 - DEFINITION DU GEOPOTENTIEL ?
+Le géopotentiel représente le travail à dépenser pour élevé l’unité de masse du niveau moyen de l’air (Zo=0) à  l’altitude Z
+15 - DEFINITION DU HAUT ET BAS GEOPOTENTIEL ?
+Haut géopotentiel : figures formés par des isohypses à geop.plus élevé que la côte de l’isohypse renforcée , on parle d’anticyclone d’altitude.
+Bas géopotentiel : figures formées par des isohypses à geop.moins  élevé que la côte d’isohypse renforcé, on parle de depression d’altitude.
+16 - DEFINITION :ANTICYCLONE ,DEPRESSION ?
+Anticyclone : zone de haute pression qui s’analyse en surface par un ensemble de lignes isobares dont la côte croit de l’extérieur vers le centre de la figure.
+Depression : zone de haute pression qui s’analyse en surface par un ensemble de lignes isobares dont la côte decroit de l’extérieur vers le centre de la figure.
+
+17 - DEFINITION DU MARAIS BAROMETRIQUE ?
+C’est une vaste zone où la pression est partout voisine de 1015hpa.
+Elle est favorable au dévloppement des foyers orageux.
+      18 - DEFINITION DES PARAMETRES SUIVANTS ?
+Tension De Vapeur (E) : Pression partielle d’une particule de la vapeur d’eau contenue dans un volume d’air atmo.
+Tension De Vapeur Saturante(Ew) : pression partielle de la vapeur d’eau lorqu’elle est saturée.
+Humudité Relative (U) : U=100.e/ew
+Rapport De Mélange (R) : rapport de masse de vapeur d’eau/masse d’air  
+  R = mv / ma  =0,622 e / p-e (kg/kg)
+Rapport de mélange saturant (rw) : Mv max/ ma =0,622 ew / p-ew (kg/kg)
+Tenpérature  pseudo adiabatique du thermomètre mouillé (ow) : tenpérature atteinte par une particule d’air humide détendue adiabatiquement jusqu'à son point de rosée, puis comprimée de façon pseudo  adiabatique jusqu'au niveau 1000 hpa.
+Tenpérature Virtuelle(Tv) : c’est la tenpérature à laquelle il faut élever de l’air sec à pression constante, pour qu’il ait la même masse volumique que l’air humide considéré à la même pression  TV=(1+0.608r).T
+19 - QUELS SONT LES DEFFIRENTS PROCESSUS DE FORMATION DE PRECIPITATIONS ?
+•	Grossissement par transfert de vapeur d’eau 
+•	Effet de captation 
+•	Effet de courbure
+•	Salinité
+20 - DANGER DES PRECIPITATIONS ?
+•	Réduction de la visibilité ou du plafond peuvent rendre l’atterissage difficile, même impossible 
+•	La pluie surfondue peut être à l’origine d’un verglas sévère d’hydroplanage ,discontinuité brutale de l’adhérance des roues 
+•	Risque de corrosion
+21 - PRECIPITATION ET NUAGES ASSOCIES ?
+Bruine :St                                                   averse de pluie :cu,cb,ac.  
+Pluie :Ns,As                                                 averse de neige :cu,cb,ac.
+Pluie se congelant :Ns,As                            averse de gresil :cu,cb
+Neige :As,Ns                                                averse de grêle :cb
+Neige en grains :St    
+22 - REGLES DE BUYS-BALLOT ?
+Dans L’H.N,les vents tournent dans le sens des aiguilles d’une montre autour des A(H) ,et dans le sens contraire autour des D(L).
+Cette règle s’inverse dans l’H.S.
+
+
+
+
+23 - DEFINITION DES GRAINS ?
+C’est un ensemble de manifestations MTO dont la plus caracteristique est une saute de vent ,il est observé lorsque les conditions suivantes sont observées :
+La V>=16kt >=22 kt pendant moins d’une minute.
+On distingue :
+Grain blanc :coup de vent par ciel clair (en l’absense de cb)
+Grain de vent : coup de vent au passage d’un cb(absense de précipitation)
+Grain de pluie ,de neige,de grêle
+Grain orageux :observations d’eclairs et de tonnerre
+24 - QUELLES SONT LES CONSEQUENCES D’UN EFFET DE FOEHN ?
+L’effet de FOEHN est un phénomène MTO qui apparaît quand un vent dominant rencontre un relief assez élevé,contournant ce relief et redescend de l’autre côté après l’assechement de son contenu de vapeur d’eau . 
+En contournant le relief ,l’air subit une détente adiabatique jusqu'à son point de condensation ce qui implique une formation des nuages coiffant le sommet du relief. Si ce nuage provoque des précipitations ,la masse d’air perd de l’eau et en passant de l’autre côtè du versant, elle devient moins humide à cause du réchauffement de l’air  .
+Du côté sous le vent peut se former de belles éclaircies.
+La base des nuages du côté sous le vent est plus élevée que le côté au vent. 
+Il ya risque d’avalanche.L’air très chaud favorise les feux des forêts.
+25 - LORSQUE LE VENT SOUFLE ASSEY FORT PERPENDICULAIREMENT A UNE LIGNE DE CRETE ; POURQUOI NE DEVEZ PAS VOLER SOUS LE VENT ?
+On trouve du côté sous le vent des courants rabattants avec une forte turbulence.
+15-COMMENT EFFECTUER LE FRANCHISSEMENT D’UN COL ?
+Le franchissement d’un col ne s’effectue jamais perpendiculairement ,mais toujours en oblique ce qui nous permettra d’effectuer un demi tour ,en parcourant un secteur de virage minimal.
+26 - CITEZ LES 5 PARTICULARITES D’UN CB ?
+•	Précipitations violentes :averses de ;pluie, neige,grêle
+•	Givrage fort
+•	Foudroiement 
+•	Visibilité très réduite
+•	Turbulence sévère
+27 - POURQUOI IL EST DEMANDE DE CONTOURNER UN CB EN MAITENANT ENVIRON UNE DISTANCE DE 10 A 20 NM ?
+Autour d’un cb des micro rafales peuvent prendre forme j’usqu’à 50 km ,ainsi de très fortes turbulences qui peuvent dépasser les limites de résistance stucturale de l’avion.
+28 - POUR QUELLES RAISONS LE VENT SUR NOS COTES EST IL GENERALEMENT MOINS FORT LE JOUR QUE LA NUIT ?
+Phénomène dù à la brise de mer le jour et brise de terre la nuit .
+Le jour ,le sol s’echauffe plus que la mer , l’air chaud est remplacé par l’air froid de la mer ce qui affaiblit le vent synoptique 
+La nuit le phénomène s’inverse par brise de terre  avec un renforcement du vent synoptique 
+29 - DEFINSSEZ LE FRONT QUASI STATIONAIRE AVEC SON SYNBOLE ?
+Front qui ne se dépalce pas , les masse d’air situées de part et d’autre du front n’ont pas de mouvement dans une direction normale au front.
+30 - QUELLE EST LA CONSEQUENCE D’UN FRONT FROID SECONDAIRE ?
+Front froid secondaire : front froid situé à l’arrière d’une perturbation complète et provoqué par le contraste thermique entre l’air froid postérieur et l’expulsion de l’air encore plus froid .
+31 - DIFFERENTS TYPES D’OCCLUSION+COUPE ?
+Le front froid rejoint progressivement le front chaud et l’air chaud est rejete en altitude ;la perturbation commence a s’occlure.
+On aura occlusion a caractere de front froit ou de front chaud en fonction des tenperatures relatives de l’air froid anterieur et posterieur .
+         32 - DIFFERENTS TYPES DE BROUILLARDS ?
+1-BROUILLARD DE RAYOUNNEMENT :
+Refroidissement par nuit clair d’une masse d’air suffisament humide.
+Les condition de formation :
+•	Ciel clair ou peu nuageux de nuit 
+•	Forte humidite de l’air 
+•	Vent faible de 1 a 3 kt
+•	Situation anticyclonique
+2-BROUILLARD D’ADVECTION :
+Refroidissement d’une masse  d’air tres humide et relativement chaude sur un sol plus froid .c’est un brouillard qui s’observe sur les continents pendant la saison froide . les conditions  de formation :
+•	Differnce de la tenpérature suffisante 
+•	Forte humidité de l’air 
+•	Vent supérieur à 4 kt et peut atteindre exeptionnellement 50 kt 
+On distingue :
+•	Le brouillard cotier : sur le continent en hiver et en ocean en ete 
+•	 Le brouillard marin :contraste thermique entre  different courant marin 
+•	Brouillard de masse d’air :associé au secteur chaud d’une perturbation d’ouest 
+3-brouillard de mélange :
+Mélange de deux masse d’air de tenpérature differente.
+4-brouillard d’évaporation :
+Augmentation de la vapeur d’eau dans la masse d’air qui est due à l’évaporation des sols ou des surfaces aquatiques.
+5-brouillard industriel 
+33 - DEFINITION DE LA BRUME ,BRUME SECHE?
+Brume : suspension dans l’atmosphere de microscopiques goutlettes d’eau ou de particules humides ,reduisant la visibilite entre 1 et 5km
+Brume sèche : suspension de particules séches ,extremement petites,invisible à loeil nu et suffisamment nombreuses pour donner un aspect opalescent .elle reduit la visibilite a moins de 5000m
+34 - DEFINITION ET CARACTERISTIQUE DES JET POLAIRE ET SUBTROPICAL ?
+Jet :tube aplatei de courant de vent dont la force est superieur a 60 kt .Il sont repertorie sur la carte TEMSI
+Jet polaire :
+•	Origine :juxtaposition  de deux masse polaire et tropicale d’air : polaire et tropicale
+•	Latitude :35°-70°
+•	Altitude :FL310-FL410
+•	Longueur :2000 a 4000 km
+•	Largeur :400 a 800 km 
+•	Apaisseur :4 a 8 km 
+•	Vitesse : hiver :120 a 150 kt   -   ete :60 a 80 kt 
+Jet subtropical :
+•	Origine :persistance en haute troposphere d’un contraste thrmique entre le froid polaire vers une latitude tres basse et l’air chaud equatorial qui remonte vers le pole au voisinage de la troposphere
+•	Latitude :20-35°
+•	Altitude :FL 240- FL 390 
+•	Longueur :4000 a 7000 km 
+•	Epaisseur :45 à 8km
+•	Vitesse :Hiver :120 à 150kt
+    					       Eté :60 à 6km
+35 - CITEZ LES DIFFERENTS TYPES DE TURBULENCE ?
+Turbulence : Est la manifestation au niveau de l’avion,de la gitation de l’air ,celle-ci peut engendrer des susceptibles de modifier les paramètres de vol et d’incommoder les passagers durant un laps de temps +/- court .
+On distingue :
+1-Turbulence de frottement :
+•	Origine :Turbulence de basses  couches due aux deplacement de la masse d air sur un sol regueux.ce qui genere des tourbillons à axes horizontales et verticale par freinage du flux
+•	Conditions :
+	Vitesse de deplacement de masse d’air superieur à 20kt
+  Nature du sol et masse d’air thermiqueuement differente
+Un nuage de type stratus ou stratocumulus apparaît au sommet de la couche
+2-Turbulence convective :
+Sous l’influence de rayonnement solaire, le sol s’echauffe differement en fonction de sa nature.Des bulles d’air ont tendance à se former au dessus des endroits les plus chauds.Ces bulles ce developpe et ce detachent et s’élévent sous forme de colonnes escendantes.Des colonnes ascendantes se forme au dessus de l’endroit reletivement plus froid.Les colones ascendantes sont materialisees par des Cu,dont la base est  plate.
+3-Turbulence orographique :
+Du à la presence du relief. On a un courant ascendant du cote au vent et courant descendant du cote sous le vent,avec un nuage selon la stabiliteé de lair .L’effet dy relief paut perturber l’air jusqu ‘à 5 fois sa hauteur.
+4-Turbulence en air clair :
+Turbulence en abscence de nuage au dessus de 4500m et qui n’est pas due a la presence voisine de nuage convectif.Elle apparaît losque le gradiant horizontal de vent important (20kt/60nm) ou bien un gradiant vertical de temperature important(5°c /120NM)
+Localisation :
+•	Au dessus et au dessous et sur le cote polaire du jet 
+•	Entre deux jets relativement proche 
+•	Thalwegs
+•	Dorsale presentant parfois une atmosphere agitee
+•	Au visinage de la tropopause meme en absence de jet
+Dimensions :
+•	Longueurs :1000 à 5000KM
+•	Largeur :100 à 500 KM
+•	Epaisseur :150 à 4500m
+Pour eviter la CAT il faut change de FL
+5-Turbulence de sillage :
+Du au tourbillions marginaux de bout d’ ailes
+6- Turbulence du surfaces frontales :
+36 - SYSTEME NUAGEUX ASSOCIE A UNE PERTURBATION ?
+Il existe 2 types de perturbation, une à air chaud stable et l autre air chaud instable.
+Ci-dessous un shéma expliquant les systèmes nuageux associer a une perturbations
+Tête : étage superieur de la perturbation , caracterise par des nuages de l’étage sup :CI,CS,CC
+La traine :Partie de la perturbation a l arriere du front froid ,caracterise par des nuages instable cumuliformes :CU,CB
+La marge : partie sud de la perturbation , caracterise par des nuages de l etage moyen :AS,AC et l etage sup :CI,CC,CS
+Le secteur chaud : siege des movements turbulents a l’origine des SC ou ST
+La nebulosite varie de OVC a BKN avec la bruine et visibilite degradé de 3 à 6 km .
+Le corps : se qui entoure le front ,caracterise par des nuages selon leur stabilite :NS,AS ,SC,CB.
+Liaison :Partie la plus au sud du secteur chaud , reliee de secteur chaud consecutifs,caracterise par :ST,SC,Brouillard .
+37- QUELS SONT LES TROIS TYPES DE GIVRAGE ?
+Gelée blanche :c’est un depot de glace, d’aspect cristallin ,presentent le plus souvent la forme d’écaille,d’aiguille,de plumeou d’évontailles.
+Cette pellicule se depose sur le plan et la verriére des apparails .Elle est formee par la transformation direct de la vapeur d eau en glace.
+La gelee blanche peut ce rencontrer :
+-Au sol . un avion parqué a l’expérieur peut ,tout comme la surface du sol ,ce recouvrire d une mince pelicule de givre suite a l émission de rayonnement infrarouge vers le ciel clair .Ce phenomene depend du mode de refroidissement de la surface .
+Ce dépot se produit dans l’air calme (vent nul) à température négative et amène à saturation par rayonnement nocturne , ou suite au passage d’air chaud et humide sur un  sol plus froid .
+Ce type de givrage ne présente pas un danger sérieux. Il faut cependant veiller à le faire disparaître avant le décollage car il prédisposé à la formation du givrage plus dangereux, de même  qu’une couche de neige,aussi mince soit elle ,sur les ails de l’avion. Ne jamis croire que cette neige pourrait fondre ou être  expulsée par le déplacement de l’avion.
+-En vol : Au cours d’une descente rapide, l’avion très froid provoque la sublimation de la vapeurs d’eau contenue dans les couches d’air humides qu’ il traverse, ce phénomène se produit par ciel clair. On peut en général supprimer ce givrage on remontent par palier de 4 min .
+Le givre blanc ou opaque : c’est un dépot de glace constitué par des granules plus ou moins séparés par les inclusions d’air ,orné parfois de ramifications cristallines, ce dépot est opaque et friable identique à celui de la glace que l’on peut observer en hiver sous du stratus ,sur les arbres,les fils suspendus etc …
+Ce type de givrage s’observe losque les goutelettes rencontrées se solidifient complétement et instantanément (température très basse et très petites goutelettes d’eau surfondues.).des prismes d’air enfermés entre les cristaux de glace rendant la glace opaque en raison de la présence de grosses gouttes gelées d’un diamètre de 0.5à1mm .
+Les nuages dans lesquels on peut rencontrer du givre opaque sont :
+-les stratus
+-stratocumulus stable 
+-altostratus mince 
+-les cumulus de beau temps.
+Ce type de givrage et en general tres peut dangereux.etant donnee que le givre opaque adhere faiblement au surface ,tout les degivreurs ,meme les plus primitifs parviennent à l’eliminer 
+Le givre dur transparent ou verglas : il s’agit d’un dépot de glace généralement homogène et transparent ,d’aspect vitreux et lisse provenent de la congélation de goutelettede bruine ou goutte de pluis ,en surfusion,sur les objets dont la surface est à une température inferieure à 0°c ou très peut superieure.
+Cette peliculle,qui peut attindre plusieurs centimetres d’epaisseur ,adhere forttement a la surface de l’apparaille sur lequelle elle se depose et peut s’etendre horizontalement loins de son point de chute , surtout sur le nez ,le cookpit,et les ailes ;
+Ce type de givrage se forme lorsque les goutelettes se transforment en glace ,mais du fait de la chaleur latente dégagée durant ce processus elles s’étalent avant de solidifiers completement .comme les goutte éclatent en s’étalant aucun prisme d’air ne peut être en personne et la glace devient transparent .
+Ce dépot de glace épouse progressivement le profil des apparails et on a pu parfois observer la formation de filets de glace deriere les bord de fuit des ailes et empennage.
+•	Les nuages dans lesquelles on peut rencontrer du givre dur transparant sont :
+•	Les nuages des systèmes frontaux (tete de CU,et CB en formation )
+•	L’altoccumulus bourgeonnanat
+•	L’altocumulus epais
+•	Le stratocumulus instable.
+38 - IL EST HABITUELLEMENT DEMANDE DE CONTOURNER UN CB EN MAINTENANT ENVIRON UNE DISTANCE DE 10 NM A 50 KM ,POURQUOI ?
+Autour d’un CB , du micro rafales peuvent prendre forme jusqu'à 50 km aux alentours d’un CB très actif. Ainsi une très forte turbulence qui peuvent depasser les limites de resistance structurale de l’avion.
+39 - CISAILLEMENT DE VENT : DEFINITION ET SYMPTOMES ?
+Définition : Tout changement de vitesse ou de direction de vent dans l’espace des courants descendant compris.C’est lorsque le phenomene survient au-dessus de 500 m qu’il revêt une importance particulière pour les avions.
+Symptomes : +-15kt , +-500ft, en approche +-1 point de glide ou bien une position de poussee anormalea.
+40 - QUELLES SONT LES DIFFERENTS TYPES D’ORAGES ET LES  
+      PHENOMENES DANGEREUX ASSOCIES ?
+LES ORAGES DE TYPE FRONTAL :
+-	les orages a FRONT CHAUD se creent lorsque’une masse d’air chaude instable en mouvement avance vers une masse d’air froide et s’eleve comme l’air froid est plus dense que l’air chaud. La zone de precipitations peut faire entre 250 et 300 km de large mais leur largeur ne font pas plus de 50 km.
+-	-les orages à FRONT FROID sont souvent violents et susceptibles de provoquer la formation de tornades . Ils se forment quand une masse d’air froide plus rapide que le front chaud passe sous celui-ci .Alors l’air chaud et humide qui est plus leger que l’air froid ,s’eleve en creent des courants ascendants et donc un cumulonimbus.
+-	-les orages a FRONT OCCLus interviennent quand une masse d’air chaud evincée par la rencontre de deux masses d’air froid soulevé . Lors de ces orages la base des cumulonimbus est généralement à des altitudes très élevées.
+-	Les orages PRE-FRONTAUx sont les plus difficiles a prevoir et tres violent. Trois facteurs intervient à la formation de ses orages : une poussée d’un front froid, un air instable et le rechauffement du sol consécutif à un fort rayonnement.
+LES ORAGES DE MASSES D’AIR :
+Ces orages sont causes par un surchauffement des sols. C’est aux tropiques ou ils sont très intenses comme la chaleur au sol atteint son maximum ! ces orages , pauvent éclater à n’importe quel moment de la journée ou de la nuit également , et sur la terre ferme ou en mer , contrairement aux autres orages c’est bien entendu en saison chaude que ses orages éclatent. Ces orages peuvent se répéter plusieurs jours par  la suite.
+LES ORAGES OROGRAPHIQUES
+Les orages orographiques interviennent par un écoulement instable d’air chaud et humide qui est soulevé par une chaine de monatgnes . Alors le long de la chaine de montagnes ces orages s’alignent et agissent  tant que l’ecoulement d’air les alimente, Ils éclatent souvent sur les reliefs et restent au même endroit.
+Phénomènes associés aux orages :
+LA PLUIE
+Tous les nuages orageux contiennent une quantité considérable d’eau liquide qui peut être entrainée par les mouvements ascendants ou descendants ou être en équilibre dans les nuages. La pluie observée au sol est associée aux mouvements descendants.dans tous les nuage on a pu constater que la plus grande quantité d’eau liquide se rencontre dans les basse couches .
+LA GRELE :
+La grele se rencontre au maximum dans 10% des nuages observes .lorsqu’elle apparaît ,la grele a une tres faible duree ( quelques minutes) .les grelons presentent un diemetre allant de 0.5 mm dans les basse couches a plus de 14 cm a 3000 pieds.
+LE GIVRAGE :
+Les courants ascendants peuvent porter de grandes quantites d’eau si celles-ci sont transporter au-dela de la tenperature de congelation ,elles forment de l’eau surfondue qui peut se solidifier a l’inpact et adherer aux surfaces .le givrage se rencontre avec la plusb grande intensite environ 5000 pieds au-dessous de l’isotherme de 0°c.
+LA TURBULENCE :
+Les CB provoquent toujours une turbulence severe .les plus fortes turbulences observees a l’interieur d’un nuage se situent au point de cisaillement (sheering) ou zone de transition des courants ascendants et descendants .elles se presentent au milieu du nuage , tres precisement dans les 5000 ou 6000 pieds au-dessus de l’isotherme 0°c .
+La turbulence peut etre aussi tres forte a l’exterieur des nuages d’orages ,elle peut etre rencontree dans les basses couches et devoncer le CB de 10 a 25 km.
+La turbulence est egalement possible plusieurs milliers de pieds au-dessus d’un gros orage et dans un rayon de 40 km alentour .
+LA NEIGE :
+De la neige moderee ou forte peutv etre observee avec la maximum de frequence a une altitude de 20000 a 21000 pieds aux latitudes temperees  .Cependant il convient de noter que la neige peut etre observee a n’inporte quel niveau au-dessus de l’isoterme de 0° c associée à de l’eau liquide dans la plupart des cas (sleet) . Ceci est évidamment d’une très grandes inportance pour les conditions de givrage .
+LE VENT :
+Les courants descendants qui atteignent le solo déplacent latéralement . l’air froid descendant se déplace ainsi  à l’avant de la cellule et forme un pseudo-front froid 
+Le passage de pseudo-front froid se manifeste par une violente rafale.La vitesse de cette rafale est en generale la plus grande que l’on puisse enregistrer au cours dub passage d’un CB (jusqu'à 80 kt ) . la durée de ces rafales excède rarement quelques minutes (15 min max).
+
+
+LES VARIATIONS DE PRESSION :
+Des variation de pression tresc rapides et assez inportantes son enregistrees durant le passage d’un orage qui doivent être prise en considération pour déterminer le QFE .
+D’autres phénomènes associes aux orage et interessant principalement les pilotes sont revus dans le chapitre consacre aux aspects operationnels.
+LES TORNADES : 
+Lorsque des masses d’air chaud et froid se rencontrent , les contrastes de tenperature sont parfois tellement violents en l’espace de quellques kilometres que des tornades peuvent se former sous les cellules orageuses ( constituee de plusieurs CB ) .
+41 -  EN VFR QUAND PEUT ON RENCONTRER DU GIVRAGE DE CELLULE ?
+Dans la pluie surfondue liee à un front .
+
+
+
+REGLEMENTATION
+
+1 - LES DIFFERENTS SERVICES DE LA CIRCULATION AERIENNE ?
+• Contrôle
+• Information
+• Alerte
+• Service consultatif
+
+2 - LES FONCTIONS DU SERVICE DE CONTROLE DE LA CIRCULATION AERIENNE ?
+• Empêcher les abordages entre aéronefs
+• Empêcher les collisions dans l’aire de manœuvre, entre les aéronefs et les obstacles
+• Accélérer et régulariser la circulation aérienne
+
+3 - LA CLASSE D’ESPACE INUTILISABLE POUR LES VOLS VFR ?
+CLASSE A
+
+4 - DEFINITION D’UNE CLAIRENCE ?
+Une clairence est une autorisation délivrée par le service de contrôle en vue d’accélérer la circulation aérienne. Elle assure l’espacement IFR/IFR, IFR/VFR contrôlé et entre les aéronefs en VFR spécial.
+Teneur :
+• L’identification de l’aéronef indiquée dans le plan de vol
+• La limite d’autorisation
+• La route
+• Les niveaux de vol
+• Toutes autres instructions ou renseignements nécessaires + heure d’expiration de l’autorisation
+
+5 - DEFINITION ET INTERETS DE LA SURFACE « S » ?
+Elle est définie par le plus élevé des deux niveaux suivants :
+• 3000 ft AMSL (Above Mean Sea Level)
+• 1000 ft AGL (Above Ground Level)
+Elle correspond à la ligne de changement de conditions météorologiques de vol à vue et fait office d’altitude de transition en espace aérien non contrôlé. Ainsi, tout aéronef doit voler en niveau de vol au-dessus de la surface “S” et en altitude au-dessous de la surface « S » en EANC.
+
+6 - OBLIGATION DE VOLER EN NIVEAU DE VOL ?
+• Au-dessus de l’altitude de transition en espace aérien contrôlé
+• Au-dessus de la surface « S » en espace aérien non contrôlé
+
+7 - LA RÈGLE SEMI-CIRCULAIRE DES NIVEAUX DE VOL ?
+Les niveaux de vol réglementaires dépendent de l’orientation magnétique de la route suivie et du régime de vol (VFR ou IFR).
+• Si la route magnétique est comprise entre 000° et 179° : niveau impair +500 ft en VFR, impair en IFR
+• Si la route magnétique est comprise entre 180° et 359° : niveau pair +500 ft en VFR, pair en IFR
+
+8 - COUVERTURES DES FEUX DE NAVIGATION ?
+Ils couvrent un champ de 110° mesuré à partir de l’avant vers la droite pour le feu vert, et vers la gauche pour le feu rouge.
+
+9 - L’HEURE MENTIONNÉE SUR LE PLAN DE VOL ?
+Correspond à l’heure estimée de départ du poste de stationnement (HBD)
+
+10 - L’INTÉRÊT DE L’INDICATION DE L’AUTONOMIE EN CASE 19 DU FPL ?
+Pour que le service de circulation aérienne puisse alerter les centres de coordination de sauvetage s’il estime qu’un aéronef en difficulté doit avoir épuisé son carburant ou que la quantité restante est insuffisante pour lui permettre de se poser en lieu sûr.
+
+11 - LA DISTANCE ENTRE LE SEUIL ET LES PLOTS ?
+Sur une piste en dur, elle est de 300 m. S’il n’y a pas de plots, l’école considère le point de toucher à 100 m du seuil.
+Sans indication sur la documentation, le tour de piste s’effectue à 1000 ft.
+
+12 - RÈGLES DE PRIORITÉ DE PASSAGE ENTRE DEUX AÉRONEFS ?
+• Priorité de passage :
+
+Ballons
+
+Planeurs
+
+Dirigeables
+
+Aéronefs remorquant d’autres aéronefs ou objets
+
+Aéronefs volant en formation
+
+Aéronefs motopropulsés
+• En vol :
+
+Lorsqu’ils se rapprochent de face, chacun oblique à droite
+
+En routes convergentes : priorité à l’aéronef à droite
+
+En dépassement : l’aéronef dépassé a la priorité
+• Au sol :
+
+Face à face : arrêt ou obliquer à droite
+
+Routes convergentes : priorité à droite
+
+En dépassement : priorité à l’aéronef dépassé
+• Décollage : ne pas décoller s’il y a risque d’abordage
+• Atterrissage : priorité à l’aéronef en approche finale ou d’urgence
+
+13 - CONDITIONS MTO MINI POUR VOLER SELON LES RÈGLES VFR EN EANC ?
+(Contenu manquant, à compléter si nécessaire)
+
+14 - LES FORMALITÉS DE DÉCLARATION D’UN « AIRPROX » ?
+AIRPROX est le mot de code utilisé pour désigner un cas de proximité dangereuse entre aéronefs.
+• En vol : utiliser la fréquence air/sol pour signaler immédiatement les faits
+• Après l’atterrissage : remplir le compte-rendu d’incident
+Contenu du message initial :
+
+Identification des aéronefs
+
+Type d’incident : AIRPROX
+
+Détails de l’incident
+
+Informations diverses
+
+15 - EN CAS D’ACCIDENT, LE CDB SUR LES LIEUX DEVRAIT ?
+• Rester en vue de l’aéronef/navire en détresse jusqu’à ce que sa présence ne soit plus nécessaire
+• Si la position n’est pas certaine, aider à la localiser
+• Communiquer au RCC :
+
+Type, identification, état de l’aéronef
+
+Position géographique ou relative
+
+Heure UTC
+
+Nombre de personnes vues
+
+Survivants à la mer
+
+État physique des survivants
+• Suivre les instructions du RCC ou ATS
+• Si premier sur les lieux et pas un aéronef SAR : coordonner les mouvements jusqu’à l’arrivée du SAR
+• Si incapable de communiquer avec RCC : passer le relais à un autre aéronef par accord mutuel
+
+
+16 - ORDRES DE PRIORITE DES MESSAGES ?
+•	Messages de detresse
+•	Messages d’urgence
+•	Messages interessant la securite des vols
+•	Messages meteorologiques
+•	Messages interessant la regularite des vols
+17 - LES DOCUMENTS NECESSAIRES POUR TOUT VOL AU SOURS  DUQUEL UN ATTERISSAGE EST PREVU EN DEHORS DE      L’AERODROME DE DECOLLAGE ?
+•	Licence ou carte stagiaire CDN
+Certificat d’immatriculation
+Assurance
+Licence de station d’aeronefs
+Certificat de limitation de nuisance
+Fiche de pesée
+•	OPs manuel/Policy manual
+•	Air flight Manual(AFM)
+18 - AVANT CHAQUE VOL, VERIFIER LA VALIDITE DE ?
+CDN, l’assurance et la licence de station de l’aeronef et eventuellement la validite de la carte stagiaire ou licence.
+19 - EQUIPEMENT MINIMAL EXIGE EN VOL VFR DE JOUR ?
+•	Un anemometre
+•	Un altimetre
+•	Un compas magnetique compensable
+•	Une montre 
+•	Un thermometre d’air exterieur
+•	Un horizon artificeil
+•	Un conservateur de caps
+•	Un variometre
+•	Un indicatuer de derapage
+•	Une radio balise de detresse
+•	Equipement de contrôle pour chaque moteur
+•	Indicateur de quntite de carburant pour chaque reservoir
+•	Indicateur de position pour les trains d’atterissage
+20 - LES TROIS CODES TRANSPONDEUR CARACTERISTIQUES ?
+•	7700=detresse
+•	7600=Panne radio
+•	7500=HIghjacking
+21 - REGLES D’UTILSATION DU SYSTEME D’INHALATION D’OXYGENE POUR UN  AVION A CABINE NON PRESSURISEE ?
+PNT : chaque membre de l’équipage de conduite doit disposer d’un systeme inhalateur et d’une quantité d’oxygène pour l’alimenter :
+Pendant toute la durée de vol entre FL110 et Fl130 diminuée de 30min
+Pendant toute le durée de vol au dessus de FL 130 
+PNC+PAX : Doivent disposer d’une quantité d’oxygène suffisante pour diminuer de 30min
+100% des occupnats pendant toute la durée de vol au dessus du FL130
+En plus , chaque PNC doit disposer d’un equipument porttif individuel assurant une protection contre l’hypoxie pendant au moins 15 min à Zv max.
+22 - LA QUANITITE MINIMALE DE CARBURANT A EMPORTER POUR EFFECTUER UN VOYAGE EN VFR ?
+Delestage d’étape+Delestage de dégegement +réserve finale+résrve de route
+23 - PROCEDURE DE PANNE COM EN VOL ?
+•	Revenir sur la fréquence précédente
+•	Etablir la communication sur une autre fréquence
+•	Etablir le contact avec d’autres aéronefs ou stations
+•	Si aucune communication ne peut être établie, transmettre des comptes rendus aux heures ou positions prévues sur la fréquence de service.Le message doit être transmis 2fois et précédé de l’expression « transmitting blind »
+•	Afficher le code de transpondeurSSr : A7600
+Puis , si la panne a eu lieu dans un EAC :
+a/ Avant d’avoir reçu la clairance de pénétrer dans l’espace , l’aéronef ne doit pas y pénétrer
+b/ après avoir reçu la clairance de pénétrer ou lorsqui’il  évolue dans l’espace,
+l’aéronef doit atterrir sur l’aérodrome le plus proche lorsqu’il existe, les conditions particulières portées à la connaissance des usagers par la voie de l’information aéronautique
+dans un EANC :
+a/ atterrir sur l’aérodrome approprié le plus proche
+b/Informaer l’ATS de la cloture des communications après atterissage.
+24 - AERODROMES DE DEGAGEMENT ?
+Nombre d’aérodrome de dégagement reglementaire=1
+Il est possible de ne pas considerer d’aérodrome de dégagment si :
+•	La durée du vol est inférieure ou égale à 6h
+•	L’aérodrome de destination comporte deux pistes utilisables 
+•	Pendant l’heure qui précède et les deux heures qui suivent l’heure prévue d’atterissage à l’aerodrome de destination ,la visibilite est superieure a 8km et le plafond est d’au moins 1500ft.
+25 - CLASSIFICATION DES ESPACE AERIENS ?
+Classe A : Espace aérien contrôle de classe A.espace aerien ou ne sont admis que les vols IFR.dans cet espace ,les organismes du contrôle de la circulation aerienne assurent les espacement entre les vols IFR.
+Classe B :Espace aérien contrôle de classe B ,ou sont admis les vols IFR et VFR,Dans cet espace ,la separation est assuree entre les vols IFR ,entre les vols IFR et les vols VFR et entre les vols VFR.
+Classe C : Espace aerien de classe C.ou sont admis les vols IFR et VFR .Dans cet espace ,l’espacement est assure entre les vols IFR,entre les vols IFR et les vols VFR,et seule l’information de trafic est assure aux vols VFR sur les autres vols VFR.
+Classe D : Espace aerien de classe D,ou sont admis les vols IFR et les vols VFR dans cet espace,les organismes du contrôle de la circulation aerien assurent des espacemant entre les vols IFR et fournissent des informations de trafic aux vols IFR surtout les volVFR et aux vols VFR sur les vols IFR et sur les autres vols VFR
+Classe E : espace aerien contrôle de classe E ou sont admis les vols IFR et vols VFR .dans cet espace les oraganismes de la circulation aerien assurent les espacement entre les vols IFR 
+Classe F : espace aerien non contrôle ,ou sont admis les vols IFR et les vols VFR dans cet espace les organismes de la circulation aerien assurent le service consultatif de la circulation aerien .
+Classe G :Espace aerien non contrôle de classe G,ou sont admis les vols IFR et les vols VFR.dans cet espace les organismes de la circulation aerien assurent seulement le service d’information de vol et le service d’alerte 
+
+26 - PASSAGE VFR VERS IFR ?
+Mention Z dans la case 8 du PLN.
+27 - VOLET EQUIPEMENT SUR LE PLN ?
+Equipement COM/NAV :
+N : si l’avion n’est doté d’aucun equipement com/nav correspondant à la route à suivre ou si ces équipements sont en panne
+S : si l’avion doté des équipements com/nav correspondant 
+Ajouter :
+X : pour les vols traversants l’espace MNPS
+I : pour les aéronefs équipés pour les navigation par inertie 
+M : pour les a/f équipés d’OMEGA
+Equipement SSR :
+N : néant 
+A : Transpondeur mode A
+C : Tronspendeur mode A et C 
+X : Tronspendeur mode S sans transmission ni de l’identification de l’A/F ni de l’altitude pression 
+P : Tronspendeur mode S ,y compris la transmission de l’altitude pression mais sans la transmission de l’identification de l’A/F
+I : Transpondeur mode S y compris la transmission de l’identification de l’A/A      
+      mais sans la transmission de l’altitude pression 
+S : tronspendeur mode S y compris la transmission de l’altitude pression et de l’identification de l’A/F 
+28 - INTERCEPTION ?
+un a/f intercepté par un autre a/f devra immédiatement :
+•	Suivre les instructions de l’a/f intercepteur , en interpretant les signaux visuels et en y repondant conformement aux spécifications du tableau ci-dessous :
+•	Aviser si possible l’organisme competent des services de la circulation aerien 
+•	Essayer d’etablire des comminications radio avec l a/f intercepteur ou avec l’organisme approprie de contrôle de l’interception,en lancant un appel general sur la fq d’urgence 121.5 en indiquant l’identide de l a/f intercepte et la nature du vol 
+•	S’il est doté d’un tronspendeur SSR,emmettre le groupe code 7700 sur le mode A
+•	Si des instructions recues par radio et émanant d’une source quelconque sont contraires à celles qui ont été données par radio ou par  moyen des signaux visuels,par l’a/f intercepteur, l’a/f intercepté demandera immédiatement des eclaircissement ,tout en continuant de se conformer aux instructions radio.ou visuelles données par l’a/f intercepteur .
+29 - CALLAGE DES AVIONS ?
+Le nombre et la position des calles à mettre en place varient :
+•	Suivant le temps d’escale de l’avion 
+•	Selon les conditions météorologiques et la pente de l’aire de stationnement
+•	Selon le type d’avion 
+30 - GILETS DE SAUVETAGE ?
+Tout avion doit emporter pour chaque passager et membre d’équipage un gilet de sauvetage et pour chaque bébé un gilet bébé ou un berceau dès lors :
+•	Qu’il décolle ou atterrit sur un aérodrome où la trajectoire de décollage ou d’approche se situe au dessus de l’eau  
+•	Qu’il survole une étendue d’eau à plus de 50 nm de la côte ;
+•	Qu’il ne peut maintenir le vol horizontale en cas de panne d’un moteur lorsqu’il est utilisé pour un vol pouvant l’ammener en croisiere à s’eloigner de la cote à une distance supérieure à celle  qu’il peut parcourir en vol plané.
+31- INTERDICTION DES VOLS VFR ?
+Un avion ne volera selon les règles VFR :
+•	Entre le coucher et le lever du soleil 
+•	En espace aérien superieure 
+•	A des vitesses tronsonique  ou supersonique
+•	Dans les espace aériens de classe A
+
+    32 - LICENCE DE PILOTE PRIVE ?
+Conditions exigées pour la délivrance de la licence :
+Pour obtenir la licence de pilote privé avion , le condidat doit outre les conditions d’aptitude physique et mentale réunir  les conditions suivantes :
+•	Etre agé de 17 ans révolus
+•	Etre détenteur d’une carte  de stagiaire
+•	Avoir accompli au moins 40 h de vol en qualité pilote avion.
+Le pilote doit justifier avoir accompli au moins 10 h de vol en solo sur avion, sous la surveillance d’un instructeur de vol, dont 5 h de vol en solo sur campagne comprenant au moins un vol d’un minimum de 150 Nm au cours duquel etet effectue un atterissage avec arret complet a deux aerodromes differents ;
+•	Satisfaire à des épreuves thériques et pratiques fixées par arrêté ministeriel 
+Dans tous les cas vises ci-dessous , pour les vols dans les conditions de vol aux instrumenets et notamment pour les vols de nuit, devra etre detenteur de la qualification de vol aux instruments en cours de validite definie a l’article19.
+Renouvvellement de la licenece :
+La licenece de pilote professionnel avion est valable 12 mois ,Cette periode est  ramenee a 6 mois pour le spilotes ages plus de 40 ans
+Elle est renouvelle pour une periode de meme durre sous reserve que l’intresse justifie l’accomplissemment dans les 56 mois precedant la demande de renouvellement d’au moins 15 h de vol en vol en qualite pilote d’avion.S’il ne totalise pas le nombre  d’heueres prescrit,il devra satisfaire a un contrôle d’un instructeur sur les epreuves pratiques exigees pour la delivrance de la licence de pilote professuionnel.
+Lorsque l’interesse est detenteur de la qualification de vol aux instruments ; le renouvellementt de cette qualification entraine ipso facto le renouvellement da la licence elle-même.
+34-QUALIFICATION DE VOL AUX INSTRUMENTS ?
+Conditions exigees pour la delivrance de la qualification :
+Pour obtenir la qualification de vol aux instrument le condidat doit outre les conditions d’aptitude physique et mentale reunir les conditions suivantes :
+•	Etre titulaire d’une licence de pilote
+•	Avoir accompli au moins :
+•	50 heures de vol sur campagne en qaulite de pilote coommandant de bord d’aeronefs de categories jugeees acceptable par le directeur de l’aeronautique civil dont au moins 10 heures sur avion
+•	40 heures aux insrtuments sur avion ou sur helicoptere dont le maxilmum 20 heures peuvent etre aux insrtuments au sol ce maximum etant porte a 30 heures si l’on utilise un simulateur de vol .Les heures aux instruments au sol seront effectuees sous la surveuillance d’un instructeur habilite
+•	Justifier avoir suivi , d’une manièrer satisfaisante et complète un stage homologué
+•	Satisfaire à des épreuves théoriques et pratiques, comportant notamment les épreuves de la qualification de radiotéléphonie internationnalle fixés par arrêté du ministre des transports.
+Les condidats titulaires de la licence de pilote privé avion doivent répondre , en outre, aux conditions d’aptitude physique et mentale ainsi qu’aux conditions d’acuité auditive et de vision requises pour la délivrance d’une attestation médicale de classe 1
+Privilèges du titulaire de la qualification :
+La qualification de vol aux instruments permet à son titulaire d’exercer les fonctions de copilote ou de commandant de bord sur les aéronefs volant de nuit ou suivant les régles de vol aux instruments , sous résèrve que soient remplies, par ailleurs , toutes les conditions relatives à la licence et la qualification de type détenues par l’intéressé.
+Avant d’exercer les privilèges de la qualification de vol aux instruments sur avions multimoteur , le condidat doit prouver qu’il est capable de piloter de tels avions en se référant seulement ausx instruments , un moteur en panne réelle ou simulée.
+Privilèges du titulaire de la licence :
+La licence de pilote privé permet à son titulaire d’exercer sans remunération les fonctions de copilote ou commandant de bord sur tout avion utilisé pour des vols non payants.
+Renouvellement de la licenece :
+La licence de pilote privé avion est valable 24 mois cette péride est ramenée à 12 mois pour les pilotes agés plus de 40 ans .Elle est renouvelée pour une période de même durée sous réserve que l’interessé justifie l’accomplissement d’au moins 5 h de vol entant que  commandant de bord d’avion dans les 6 mois précédant la demande de renouvellement. La moitié du temps de vol effectué en qualité de pilote planeur ou d’hélicoptère peut être comptée jusqu'à concurence de 50 % dans le nombre d’heures de vol exigés pour le renouvellement de la licence.
+Si l’interessé ne totalise pas le nombre d’ heures de vol prescrits pour le renouvellement, il devra satisfaire à un contrôle d’un instructeur DAC portant sur les épreuves pratiques exigées pour la délivrance de la licence de pilote privée avion.
+33 - LICENCE DE PLIOTE PROFESSIONNEL ?
+Conditions exigées pour la délivrance de la licence :
+Pour obtenir la licence de pilote professionnnel avion , le condidat doit , outre les conditions d’aptitude physique et mentales, remplir les conditions suivantes :
+•	Etre agé de 18 ans révolus
+•	Etre titulaire de baccalauréat de l’enseignement secondaire
+•	Avoir accompli au mois 200 heures de vol ou 150 heures si celles -ci ont été accomplies dans le cadre d’un cours d’instruction homologués , en qualité de pilote avion
+Le candidat doit justifier avoir accompli sur avion un minimum de :
+200 heures ou 70 heures dans le cas d’un cours d’instruction homologuée,
+En qualité de pilote commandant de bord.
+20 heures de vol en campagne en qualité de pilote commandant de bord, comprenant un vol d’un minimum 300 NM au cours duquel aura été effectué un atterissage avec arrêt moteur complet à deux aérodromes différents.
+10 heures d’instruction aux instruments dont un maximum de 45 heures peuvent être aux instruments au sol ( Sur simulateur).
+•	Etre titulaire de certificat restreint de radiotéléphonie délivré par le ministère des postes et télécommunication
+•	Satisfaire aux épeuves théoriques et pratiques fixées par arrête du ministre des transports
+•	Privilèges du titulaire de la licenece :
+•	La licenece de pilote professionnel permet ason titulaire :
+•	D’exercer tous les privilèges du titulaire de la licenece pilote avion privée
+•	De remplir des fonctions de pilote commandant de bord de tout avion effectuant un vol autre qu’un vol de transport commercial
+•	De remplir les fonctions de pilote commandant de bord dans le transport aérien commercial, de tout avion dont l’équipage minimal de conduite certifie est d’un seul pilote
+•	De repmlir les fonctions de copilte , dans le transport aérien commercial à bord d’avions ou la presence d’un copilote est exigée
+Renouvellement de la qualification :
+La qualification de vol aux instruments est valable 12mois .
+Elle est renouvellee pour une periode de meme duree,sous reserve que l’interesse ait satisfait a uncontrole d’un instructeur habilite portant sur le maintien de l’aptitude a effectuer des vols selon les regles de vols aux instruments .ce peut etre confondu avec un des controles periodiques impose par la reglementation du transport aerien.
+35 - ESCALE TECHNIQUE FACULTATIVE ETF ?
+Si sur une etape AB, la charge à trransporter ou la capacité des reservoirs conduit à une quantité de carburant embarquée inférieure à celle exigée pour le dépot d’un plan de vol ATC classique ,il y’a lieu d’envisager une ETF avec reclearance en vol.
+Cette methode consisite à considerer un aérodrome approprié C, à proximité de la route AB, et le plus proche de B possible ,ou l’avion a la possibilité d’atterrir pour se ravitailler en carburant ,si au point de décision D ,il ne dispose pas des réserves réglementaires lui permettant la poursuite du vol vers B.
+•	Dépot d’un plan de vol classique pour la destination C (ETF)
+Le total carburant réglementaire à embarquer comprendra Q1
+•	Le roulage en A
+•	Le délestage AC
+•	La reserce de route (5%AC)
+•	La réserve finale 
+•	La réserve de dégagement CC’
+Cette quantité Q represente le total carburant réglementaire pour déposer un plan de vol sur l’escale technique C
+•	Un plan de vol sur la destination B avec réserve de route minorée 
+Le total carburant Q2 comprendra :
+•	Le roulage en A
+•	Le délestage AB 
+•	La réserve de route (5%du point de decision vers B)
+•	La réserve finale 
+•	La réserve de dégagement 
+La quantite Q2 représente le total  carburant qui offre une forte probabilité de réaliser le vol direct sur la destination B (après reclearance en vol)
+La quantité Q réelement ambarquée sur decision du CDB ne peut être inférieure à Q1 mais peut se situer dans la fourchette Q1-Q2
+Au point de décision la re-clearance vers B est demandée à condition que le carburant restant à bord comprenne au moins :
+•	Le délestage DB
+•	La réserve de route 5% DB 
+•	La réserve finale 
+•	La réserve de dégagement BB’
+Le plan de vol sera redigé ainsi :
+Destination :ETF
+Dans la case 18 ajouter (subject to inflight reclearance to B)
+
+36- Signaux visuels de circulation d’aérodrome ? 
+Les panneaux d'aérodromes
+IMG:::assets/images/REG36.png
+
+37 - INTEGRATION AERODROME NON CONTROLE :
+La priorité doit être laissée aux a/f dans le circuit de circulation d’aérodrome et en particulier,l’arrivée directe des a/f en approche finale est interdite en l’absence de consignes particulières,après avoir identifié l’aérodrome ,arrivé à la verticale de l’aire à signaux à une hauteur sup d’au moins à 500ft à celle des circuits de circulation d’aérodrome . Aaprès avoir identifié la piste en service ,rejoindre la branche vent arrière à la hauteur du circuit généralement 1000ft en respectant les configurations .
+Lors du passage des instalations , le pilote doit faire en sorte de positionner l’aire à signaux de son coté.
+38 - PLAN DE VOL :
+Dépot : le dépot du plan de vol est obligatoire pour tous les vols IFR et VFR effectués dans l’espace aérien sous la responsabilité du MAROC.
+Lorsque le service du contrôle de la circulation aérienne est assuré pour un vol ,le plan de vol sera deposé au plus tard 60min  avnt l’heure de départ.S’il est communiqué en vol, il sera transmis en temps utile afin de prévenir à l’organisme approprié des services de la circulation aérienne 10min au moins avant l’heure prévue du passage de a/f du premier point de la route à laquelle s’applique le plan de vol.
+Validité : Lorsqu’il se produit un retard de plus de 30min à l’heure estimée de départ du poste de stationnment dans le cas d’un vol contrôlé,ou un retard de plus de 60min dans le cas de vol non contrôlé, le plan de vol doit être amendé ou,s’il y’a lieu , un nouveau plan de vol doit être déposé et l’ancien plan de vol annulé.
+Clôture : un compte rendu d’arrivee sera remis directement , par radiotelephonie ou par liaison de donnees ,le plus tot possible après l’atterrissage,à l’organisme interessé des services de la circulation aérienne de l’aérodrome d’arrivée .
+Les comptes rendus d’arrivée transmis par les a/f renfermeront les renseignements suivants :
+•	Identification de l’a/f
+•	Aérodrome de départ
+•	Aérodrome de destination (en cas de déroutement seulement)
+•	Aérodrome d’arrivée 
+•	Heure d’arrivée
+39 - AVANT D’ENTREPRENDRE UN VOL .LE CDB DEVRA CONNAITRE TOUS LES RENSEIGNEMENTS DISPONIBLES QUI SERAIT UTILES AU VOL PROJETE ET S’ETRE ASSURE DU FONCTIONNEMENT SATISFAISANT DE SON APPAREIL ET DE SON EQUIPEMENT.
+Pour les vols hors des abords d’un aérodrome et pour tous les vols IFR, l’action prélimainre au vol comprendra l’étude attentive des renseignements et préviosions météorologiques disponibles, les plus recents en tenant compte des besoins en carburant et d’un plan de déroutement.
+40 - PROCEDURE D’ESSAI DE RADIOBALISE :
+Selon la régle FIR
+F : fréquence ‘affichage
+I : identification par code morse
+R : radial, lecture du radial sur RMI et son affichage sur HSI puis vérification du code déviation barre et du TO/FROM pointer.
+
+TECHNIQUE DE VOL
+
+1-	DE  QUELS PARAMETRES LA DISTANCE DE DECOLLAGE DEPEND-T-ELLE ?
+La distance de décollage dépend des paramètres suivants :
+•	Masse de l’avion
+•	Altitude pression de l’aérodrome
+•	Température ambiante de l’aérodrome
+•	Etat et type de surface de la piste
+•	Pente de la piste dans le sens du décollage
+•	Vent (pas plus de 50% de la composante de vent de face ni moins de 150% de la composante de vent arrière)
+•	Braquage des volets hypersustentateurs
+2-	DANS LE MANUEL DE VOL,QUELLE MASSE EST PRISE EN COMPTE POUR LE DECOLLAGE ?
+Dans le manuel de vol , la masse prise en compte pour le décollage est la masse maximale de structure au décollage (MMSD)
+3-	QUELS SONT LES RISQUES EN CAS DE DECOLAGE EN SURCHARGE ?
+Le décollage en surcharge peut faire baisser les performances associés au décollage en terme de pente air en dessous des normes prévues par la certification et peut donc présenter un danger pour la sécurité
+4-	QUELS SONT LES IMPERATIFS DE L’ARRONDI ?
+L’arrondi consiste à transformer la descente en une trajectoire sensiblement parallèle au sol. Dans un premier temps, le pilote voit l’entrée de piste toujours au même endroit sur le pare-brise dans une zone d’immobilité apparente .dans un second temps lorsque les marques d’entrée de piste commencent à défiler, c’est le moment d’arrondir en réduisant d’abord totalement la puissance et en tirant sur le manche pour cabrer l’avion à une assiette qui permet de transformer la trajectoire descendante en trajectoire sensiblement horizontale proche du sol.
+5 - QUELS SONT LES EFFETS DU VENT DEBOUT A L’ATTERRISSAGE ?
+Le vent debout ou de face à l’atterrissage contribue à réduire le palier de décélération , et donc la distance nécessaire à l’atterrissage
+6.	A QUELLE MARGE PAR RAPPORT A LA VITESSE DE DECROCHAGE DE L’AVION ?
+L’avion se pose avec une marge de 1.3 par rapport à  la vitesse de décrochage
+7 - QUELS SONT LES EFFETS QUI LIMITENT L’AVION PAR VENT DE TRAVERS ?
+Les effets qui limitent l’avion par vent de travers sont l’effet de girouette et les effets moteurs. L’effet de girouette tend à faire pivoter l’avion face au vent et peut donc occasionner une sortie de piste .Les effets moteur effet gyroscopique, couple de renversement , couple de tangage..) peuvent se cumuler ou se retrancher à l’effet de girouette , selon que le vent d’un cote ou de l’autre .Sur la plupart des avions dont le moteur tourne à droite , la tendance à l’embardée sera plus importante à gauche qu’à droite car les effets moteurs s’ajoutent à l’effet de girouette.
+8 - QUELS SONT LES EFFETS DU VENT ARRIERE A L’ATTERRISSAGE ?
+Le vent arrière à l’atterrissage entraine une augmentation de la distance nécessaire à l’atterrissage et peut,s’il est assez fort,causer une sortie de piste dans le sens longitudinal.
+9 - JUSQU'A QUEL TAUX DE CHUTE EST PREVUE LA RESISTANCE DU TRAIN D’ATTERRISSAGE ?
+Le train d’atterrissage est prévu pour résister à un taux de chute de -360ft/min à la MMSD ET -600ft/mn à la MMSA.
+10 - QUE RISQUIEZ –VOUS EN UTILISANT DES PNEUS SOUS GONFLES ?
+Des pneus insuffisament gonflés peuvent affecter notablement les performances de l’avion au sol lors des phases de décollage et d’atterrissage .En effets,il existe pour chaque pneu une pression limite egale à ¼ de la pression d’eclatement  et il existe aussi une charge statique maximum admissible qui correspond à un aplatissement du pneu de 33%.
+11 - DEFFINITION DU PLAFOND DE SUSTENTATION ET DE PROPULSION ?
+Plafond de sustentation :
+L’altitude de limite de vol imposé par les qualités aérodynamique de la voilure . A cette  altitude le point de decrochage bas = point de decrochage haut.
+Plafond de propultion :
+Altitude maximale à partir de laquelle les performances des moteus ne permettent plus de continuer en montée.
+
+AEROTECHNIQUE
+1-QUELLE EST LA RELATION ENTRE LA PENTE DE TRAJECTOIRE ,L’INCIDENCE ET L’ASSIETTE ?
+Assiette =incidence +pente
+
+IMG:::assets/images/AEROTECHNIQUE1.png
+
+
+2 - QUELS SONT LES FACTEURS QUI INFLUENCENT LA RESULTANTE AERODYNAMIQUE ?
+La résultante aérodynamique et la résultante vectorielle de deux force aérodynamiques :la portance et la trainée. Les facteurs pouvant l’ influencer sont :
+	la masse volumique de l’air
+	la forme de l’aile
+	l’allongement (rapport de l’envergure sur la corde moyenne)
+	l’état de surface de la cellule
+	la vitesse
+	l’incidence
+3-DE QUOI DEPEND LA FINESSE DE L’AVION ?
+La finesse de l’avion est le rapport ,à une vitesse donnée,entre la portance et la trainée ; elle varie en fonction de l’incidence, les facteurs agissant sur la finesse sont les mêmes que ceux agissant sur la résultante aérodynamique (question précédente)
+F= Vp/Vz= Cz/Cx= D/H
+Vp et Vz dans les mêmes unités de même que D et H 
+4-	DEFINIR LES POINTS CARACTRESTIQUES DE LA POLAIRE(GMP) ?
+Les points caractéristiques de la polaire sont :
+L’incidence de la portance nulle (cz =0)
+L’incidence de finesse maximale 
+L’incidence de cz maximale
+5 - DEFINISSEZ LE ROULIS INDUIT ET LE LACET INVERSE ?
+ROULIS INDUIT : Un effet de lacet direct dù à la gouverne de direction provoque une augmentation de la vitesse de l’aile extérieure entrainant une augmentation de portance de celle-ci et l’apparition d’un couple et d’une rotation de roulis appelée roulis induit , qui peut être contrée par une action sur les ailerons
+LACET INVERSE : Le braquage des ailerons fait varier non seulement la portance mais aussi la trainée des ailes . La trainée due à l’aileron relevé est plus faible que celle de l’aileron abaissé ce qui se traduit par un couple et une rotation de lacet en sens inverse du virage d’ioù son nom de lacet inverse
+6	-  CITER LES CONSEQUENCES DU DERAPAGE SUR LE VOL ?
+En cas de dérapage, le poids apparent n’est plus contenu dans le plan de symetrie mais à l’exterieur du virage .le plan de symetrie n’est plus tangent à la trajectoire air(sans vent) , le nez de l’avion est nettement à l’interieur de celle-ci , ce qui entraine une attaque oblique des fillets d’air sur l’aile extérieure en premier, par conséquent la demi aile extérieure au virage subit une portance plus importante ce qui entraine une forte tendance à chuter et le rayon de virage se réduit de plus en plus .Il s’agit d’un équilibre instable , le mouvement ayant tendance à s’accroitre pour entrainer finalement (si aucune action n’est rapidement engagée un décrochage dissymetrique brutal de l’aile intérieure et un départ en vrille ( tout aussi brutal) dans le sens du virage
+7 - Quelles sont les conséquences d’un centrage avant sur le vol ?
+Un centrage avant augmente la stabilité mais diminue la maniabilité .En effet le moment piqueur important nécessitera au cours des  manœuvres une traction importante sur le manche pour maintenir une assiete correcte ainsi qu’une vitesse élevée pour rendre la gouverne efficace .Un exès de centrage avant peut rendre impossible le décollage
+8 - QUELLES SONT LES CONSEQUENCES D’UN CENTRAGE ARRIERE SUR LE VIOL ?
+Un centrage arrière diminue la stabilite mais augmente la maniabilite .De faibles tractions sur le manche suffisant à provoquer de grandes rotations de tangage et à amener très rapidement aux grands angles d’incidences et au decrochage.le décollage sera spéciallemment dangereux.
+9 - QUEL EST LE ROLE DE LA GOUVERNE DE DIRECTION ?
+La gouverne de direction permet la rotation de l’avion autour de l’axe de lacet
+10 - DEFINISSEZ LE COMPENSATEUR DE REGIME ?
+Le compensateur de régime est un mobile auxillaire qui permet d’annuler au moyen de commandes spéciales , les réactions des commandes de vol dans les cas de vols stabilisés, nécessitent des positions des positions de gouverne autres que le neutre aérodynamique(vol avec moteur stoppé , déplacement du centre de gravite , etc…)
+11 - DEFINISSEZ LE COMPENSATEUR D’EVOLUTION :
+Le compensateur d’evolution est un plan mobile auxillaire qui permet de diminuer l’importance des efforts nécessaires pour manœuvrer les gouvernes , lors des évolutions commandes de l’avion
+12 - TOUT EN MAINTENANT LE VOL EN PALIER , QUE PROVOQUE LA SORTIE DES BECS DE D’ATTAQTE ?
+La sortie des becs de bord d’attaque provoque une augmentation de la portnance maximale (cz max) par augmentation d’incidence
+13 - QUEL EST LE ROLE DES GOUVERNES DE TYPE SPOILER ?
+En utilisation symatrique , les gouvernes de type spoiler ont pour role de diminuer la vitesse en approche à l’atterrissage , et en accélération arrêt .Ils permettant aussi d’augmenter les performances de descente et d’augmenter l’efficacité du freinage par destruction de la portance
+En utilisation dissymetrique les spoilers aident au gauchissement , par couplage avec les ailerons
+14 - A ALTITUDE ET PUISSANCES CONSTANTES , YA –T-’IL PLUSIEURS VITESSES DE VOL POSSIBLES ?POURQOUI ?
+A altitude et puissance constantes , plusieurs vitesse de vol sont possibles , en effet en gardant la meme puissance et la même altitude, un changement de configuration entraine une variation de vitesse .Par exemple la sortie des volets hypersustentateurs entraine une augmentation de portance et de trainée induite, et par conséquent , une diminution de vitesse , tout en gardant la meme puissance et la meme altitude
+15 - QU’EST CE QUE LA MONTEE VZ MAX ?
+La montée Vz max est la montée avec un taux de vario maximal ; elle permet d’atteindre un maximum d’altitude en un minimum de temps.Pratiquemnt , ce type de montée est utilisé pour atteindre rapidement en niveau de vol ou pour traverser rapidement des tranches d’altitudes à la demande de l’ATC
+16 - QU’EST CE QUE LA MONTEE A PENTE MAX ? 
+La montée à pente max est un type de montée permettant d’atteindre un maximum d’altitude en parcourant un minimum de distance horizontale pratiquement , ce type de montée est utilisé en cas de présence d’obstacles au décollage ou lorsqu’un niveau de vol doit être franchi en un point donné
+17 - POURQOUI LA MONTEE VZ MAX OU PENTE MAX S’EFFECTUE –T-ELLE AVEC LES VOLETS 0° ?
+Les montées Vz max et pente max s’effectuent avec les volts 0° parce qu’elles nécesssitent de fortes incidences et donc des vitesses importantes , or la sortie des volets entraine une  augmentation de trainée et donc une diminution de vitesse. 
+          18 - EXPLIQUEZ POURQOUI LA VITEESE DE PENTE MAX EST INFERIEURE A LA VZ MAX ?
+La vitesse de pente max(Vθ max) est inférieure à celle de Vz max car la montée pente max s’effectue avec une plus forte incidence mais à la même puissance que la montée Vz max.Or , à la même puissance , une augmentation d’incidence entraine une diminution de vitesse.
+19 - QUELLE RELATION EXISTE ENTRE LE RAYON DE VIRAGE ET L’INCLINAISON ?
+R=V²/(g.tan¤)
+R= Rayon de virage 
+V = vitesse propre (m/s)
+g= Accélération de la pesanteur (m/s²)
+On doit d’après cette relation qu’une augmentation de l’inclinaison entraine une diminution du rayon de virage.
+20 - DEFINISSEZ LE FACTEUR DE CHARGE EN RESSOURCES ?
+Le facteur de charge en ressources est défini par la relation suivante :
+Nz = cos y +(V²/R.g)
+Nz= facteur de charge 
+Y = Pente
+V = vitesse propre 
+R= rayon du virage
+G = Accélératuion de la pesanteur
+21 - QUELLES SONT LES MAJORATIONS DU FACTEUR DE CHARGE EN VIRAGE A 30° , 45° ET 60° D’INCLINAISON ?
+Les majorations du facteur de charge en virage sont
+¤     nz
+15°  1.03
+30°  1.15
+45°  1.41
+60°  2
+¤ = l’iclinaison
+Nz= facteur de charge
+22-Vous volez en palier à 45° d’inclinaison à une vp 100 KT puis vous passez à une Vp de 150 KT tout en maintenant l’inclinaison . Que devient le facteur de charge ?
+Le factuer de charge en virage est donné par la relation suivante ?
+Nz = racine [1+(V/ R² .g²)]
+R = (150 Kt*0.51m/s/kt²)/(9.81*tg45)=597m
+Donc nz= racine [1+(76.5² /597²*9.81²)] = 1.41
+23-Au plafond tehorique de l’avion,est-il possible d effectuer un virage tout en maintenant le vol en palier ?
+Non,au plafond tehorique de l avion, il est impossible  d effectuer  un virage tout en maintenant le vol en palier,En effet, au plafond tehorique la puissance nécessaire pour garder le vol rectiligne horizontal est egale à la puissance utile maximale,et donc l avion ne peut plus fournir de puissance supplimantaire.
+Or,pendant le virage en palier le facteur de charge augumente et par coséquent,la portance nécessaire pour maintenir le palier augumente .l avion aura besoin de plus de vitesse donc de plus de puissance est impossible à fournir puisque l’avion fournit dejà sa puissance utile maximale pour maintenir le vol rectiligne horizontal au plafond théorique.
+
+24-Quelle sont les actions pour corriger un virage glissé ?
+Pour corriger un virage glissé (bille à l interieur du virage) le pilote doit agir sur le palonnier pour ramener la bille au milieu.Cette action aura pour effet  d’augmenter la cadence du virage afin qu’ il redevienne symetrique
+25-Definissez les differents effets d’un monomoteur GMP ?
+Les différents effets d’un monomoteur GMP sont :
+Souffle helicoidal :
+A plein regime à vitesse faible(décollage),l’avion ne roule pas droit ,il vire systematiquement à gauche .Ce virage est du au souffle hélicoidal provoqué par l’helice qui pousse du  coté de la dérive. Pour contrer ce souffle il faut braquer la dérive vers la droite.
+Couple Gyroscopique :
+Effet du moteur qui provoque le virage à gauche quand la queue de l’avion se soulève et le virage à droite quand elle s’abaisse.Cet effet a surtout lieu quand l’avion est aux basses vitesses et à fort régime du moteur .c’est l’helice qui  constitue un gyroscope(quand on modifie la position de son axe,il reagit à 90° de sa position initiale et dans le sens de rotation)
+Tout ce qui a trait aux effets moteurs tient compte du sens de rotation de l’helice,sens des aiguille d’une montre(negatif ou retrograde) vu de la place du pilote .Sur certains bimoteurs,les moteurs sont en tendem. Dans ce cas,tout en tournant dans le même sens et du fait de leur accouplement dos à dos , les effets s’annulent aussi. Il faut controler la tenue de l’axe à l’aide du palonnier.
+Couple de renversement :
+Couple de réaction opposé à la rotation de l’hélice et peu visible en roulis sur les avions légers
+Couple de tangage :
+Lors de variation de régime, le couple de tangage a soit tendance à lever le nez de l’avion (on se rapproche du decrochage) soit à baisser le nez(trajectoire dangereuse)
+Traction dissymetrique des pales :
+La pale la plus basse de l’helice attaque l’air sous un angle plus grand que celle du haut , ce qui entraine une tendance de rotation en lacet. 
+26-A quels phénomènes est dù le tourbillon marginal ?
+Le tourbillon marginal en anglais wingtip vortex,est le tourbillon qui se crée à l’extremité d’une aile ou d’une pale. Son origine se situe dans la difference de pression entre l’intrados du corps portant considéré. La pression à l’intrados étant normalement  supérieure à la pression  à l’extrados un écoullement de contournement depuis l’intrados vers l’extrados se crée, en prenant en compte la vitesse d’avencement, cette composante de vitesse crée un enroulement tourbillonnaire .
+A ailes similaires et proportionnelles ,le tourbillon marginal est de temps plus intense que l’avion est gros ; ce tourbillon est potentiellement dangereux si un avion suiveur y rentre, ceci induit le besoin d’introduire des distances minimales entre l’avion au décollage, à l’atterrissage,en vol  et qui dépend de leur taille respective.
+27-Citez le facteurs influant sur la turbulence de sillage ?
+La turbulence de sillage est l’association des tourbillons marginaux et des turbillons de fuite ,qui se regoignent en aval du profil donnant naissance à une zone de forttement perturbée. La turbulence de siallage varie selon la catégorie (tonnage )de l’avion qui la génère ansi que l’espacement en temps et distance entre l’avion qui la génère et l’avion qui la subit . En effet , plus un avion est lourd plus sa turbulence de siallege est forte et plus l’espacement nécessaire est important .
+28- qu’utilise-t-on pour améliorer la stabilité ?
+Le dièdre (l’angle formé entre le plan de chaue ail et le plan horizontal), Dihedral if pos and Anhedral if neg.
+29 – dans quel but installe-t-on un contrepoids de forme profilée devant la charnière d’une gouverne ?
+Pour contrer le frottement
+30 – Concernant l’utilisation d’un moteur 5 pistons, une température d’huile anormalement élevée peut avoir pour cause ?
+Un niveau d’huile trop elevé
+31 – tendanbce d’un avion à s’engager en sens contraire du vira	ge du fait de la trainée de l’aile extérieure. Il s’agit de la définition du?
+ Lacet inverse
+32 – La pressurisation d’un avion consiste à ?
+Attenuer la vitesse de variation de la pression d’air ambiante de l’avion lors des montées et descentes 
+33 – L’heptane qui est ajouté à l’octane lors du raffinage de l’essence aviation est ?
+Un hydrocarbure détonnant.
+34 – Avec une essence dont l’indice d’octane est élevé ?
+Le risque de subir le phénomène de détonation est faible. Plus l'indice d'octane d'un carburant est élevé, plus son pouvoir détonant est faible.
+35- Position des soupapes et du piston lors de l’admissions dans un moteur d’avion à 4 temps?
+La soupape d’admission est ouverte et celle d’échappement est fermée. Le piston descend sur son élan et aspire les gaz frais, mélangés au carburant vaporisé.
+36- Position des soupapes et du piston lors de la compression dans un moteur d’avion à 4 temps ?
+Les deux soupapes sont fermées. Le piston remonte et comprime le mélange qui est alors enflammé grâce aux étincelles fournies par les bougies. 
+37- Position des soupapes et du piston lors de l’echappement dans un moteur d’avion à 4 temps ?
+La soupape d’admission est fermée et celle d’échappement est ouverte. 
+  Le piston remonte sur son élan et éjecte  les gaz brûlés. Le cycle reprend ensuite par une nouvelle phase d’admission
+
+INSTRUMENT DE BORD
+1-Quelle est la propriété fondamentale d’un gyroscope ?
+La propriété fondamentale d’un gyroscope est la fixité dans l’espace absolu, suite à son moment cinétique important ,l’axe de rotation propre d’un gyro tend à conserver sa direction,par conséquent, le gyro reste fixe par rapport à l’espace absolu,ce qui revienent à dire qu’il est doté d’un mouvement apparent par rapport à un observateur terrestre.
+
+2-Qu’indique la bille de l’indicateur de virage ?
+La bille de l’indicateur de virage indique la qualite du virage qui peut être normale ,glissé,ou dérapé, le virage est correcte si la bille est au milieu le virage est glissé  si la bille se déplace à l’interieur du virage dans ce cas le taux de virage est trop faible et la cadence doit être augmentée .le virage est dérapé se deplace à l’exterieur du virage dans ce cas le taux de virage est trop fort est la cadence doit être diminuée.
+3-Quelle sont les erreurs du directionnel gyro ?
+Le directionnel gyro est sujet à plusieurs erreurs instrumentales qui sont dues :
+*A l’effet de rotation de la terre :le gyro maintient son axe fixe par rapport aux etoiles et non par rapport ala terre.aussi,en un point fixe de la terre le gyro va precessionner a une vitesse depondant de la latitude d’où la necessite de le recaler fréquament 
+*Au deplacement en longitude de l’avion :dans les deplacement en longitude de l’avion ,la variation de G en1 heure s’ajoute aux 15° si le deplacement a lieu vers l’EST et se retranche dans le cas contraire en deplacement vers l’OUEST .
+*Aux frottement des axes :un frottement sur l’axe verticale cree un couple qui tend a faire toutnee le gyro autour de l’axe horizontal
+*A l’erreur de cadron en virage erreur ayant une inclinaison supperieur a 30°
+4-Dans quelles circonstance les informations du compas magnétique présentent elles des erreurs ?
+Les information du compas magnétique présente des erreurs dans les circonstances suivantes :
+*En virage :erreur due à l’inclinaison de l’avion car la rose du compas soumise à la pesenteur apparente s’incline comme l’avion.
+*Inclinaison supperieure à 25° :Perturbe le fonctionnement de la rose 
+*Erreurs due al’acceleration :Due à l’action de la composante verticale du champs magnétique trrestre qui ,dirigée vers le bas nécessite un délestage sur le côté sud de la rose pour la maintenir horizontale .
+*Erreurs parasite due à son montage approximites de masse mitallique et de circuit electrique .Il on result alors des déviations doivent être compensées
+5-Quels sont les incovenients de l’horizon artificiel ?
+Les inconvenient de l’horizon artificiel resulte de ses erreurs et limites de fonctionnement . Les erreurs sont dues à la rotation terrestre ; au déplacement de l’avion longitudinal, aux frottements des axes et aux accélération(semblable au directionnel gyro)
+Les limites de fonctionnement sont dues aux faite que les mouvements reletifs du gyro et du boitié extérieur sont limité par des butés à plus au moins 60° en tangage et +ou- 90° en roulis. L’horizon artificiel est donc inutilisable pour les évolutions acrobatiques 
+6-Deffinissez la VSO est la VS1 ?
+VSO :la vitesse de decrochage en configuration atterrissage (volets et trains sorties)
+VS1 :vitesse de decrochage en tout autre configuration (lisse ,approche etc)
+7-Pourquoi y'a t-il une prise statique de chaque côté du fuselage ?
+Il y a une prise statique de cheque côté du fuselage pour minimiser les effets de pénétration oblique de l’air dus à un pilotage négligent, une glissade ou des actions involentaires sur les palonniers 
+8-Decrivez le principe de l’anémomètre ?
+L’anémomètre est constitué d’un boitier étanche munis de deux orrifices d’arrivée de pression : la pression statique et la pression totale .Il est aussi constitué d’une capsule anémometrique et d’un système de levier et d’engrenege
+Dans l’ecoullement de l’air ,l’antenne pitot prélève les deux pressions : la pression totale et la pression statique, la pression totale arrive à l’intérieur de la capsule, par contre la pression statique à l’interieur du boitier. La capsule sera donc soumise à des déformations en  fonction de PT-PS. Ces deformations seront transmises à l’aiguille est traduites en indications  de vitesse de vent sur un cadran convenablement gradué
+9-sur l’anémomètre que caracterise la limite inférieure et supérieur de l’arc blanc ?
+Limite inférieure VSO : vitesse de decrochage ,hypersutentateurs sorties(soit trains d’atterrissage volets sortis)
+Limite superieure VFE.vitesse maximale ,hypersutentateurs sortie(soit volet sortis )
+10-Sur l’anemometre a qoui sert l’arc blanc ?
+L’arc blanc couvre la zone d’utilisation des dispositif hypersutentateur notament des volets (evolutions volet sortie) c’est la plage des vitesses de sortie des volets
+11-Sur l’anémomètre à quoi sert l’arc jaune ?
+L’arc jaune couvre la zone de prudence(ne pas utiliser en air turbulent)il est situé entre la VNO et la VNE. C’est la plage des vitesse à  éviter.
+12-Pourqoui s’interdit -t-on  une vitesse supérieure à VNE ?
+On ne doit pas excéder à la VNE pour respecter la résistance structurale de l’avion 
+13-Un avion a une VSO de 70 kt et une VS1 de 90 kt ,quelle est sa vitesse d’approche finale ?
+La vitesse  d’approche finale doit respecter une marge de securite de 1.3 par rapport à la vitesse de decochage configuration atterrissage VSO donc :
+Vapp.finale = 1.3x VSO = 1.3x70= 91kt
+
+AEROMEDECINE
+1-Quels sont les effets de l’altitude sur l’organisme ?
+Lorsque l’altitude augmente la pression atmosphérique et la température diminuent, ce qui entraine les effets suivants sur l’organisme :
+*Hypoxie d’altitude : quand la pression atmospherique diminue l’apport d’oxygène aux tissus diminue , constituent ce que l’on appelle l’hypoxie
+*temps de consience utile : Durée pendant laquelle un individu conserve ses facultes mentales .Il est d’environ 2 minutes à 25000 ft en cas de décompression explosive. Il faut alors effectuer une descente rapide vers un niveau inférieur à 10000 pieds.
+*Barotraumatismes : incidents physiologiques provoques par une expansion des gaz presents dans les cavites corporelles du fait de la baisse de la pression atmosphérique lors d’une augmentation d’altitude .Ils peuvent concerner differents organes(oreille externe , moyenne ou interne , dents , sinus, tube digestif) et ont pour seul remède la descente.
+*L’hyperventillation : Au debut , sous l’effet de la peur , la respiration s’accelere ( faisant baisser anormalement le taux du gaz carbonique du sang) et le pilte est couvertde sueurs .Il peut egalement sentir des fourmillements au niveau des doights et des prteils , des etourdissements passagers , des nausees .Le rythme cardiaque s’accélère et des troubles de la vue peuvent apparaître .L’hyperventillation peut même aboutir à une perte de conscience.
+2-Pour favoriser le confort physique de vos premiers vols , il est conseille de prendre certaines precautions alimentaires ?
+Pour favoriser le confort physique des premiers vols , il faut prendre une alimentation équilibrée avant de voler , incluant des sucres lents ( pates , céréales), des protides et des lipides en petite quantite ( fromage , jambon , œufs).Il faut éviter de ne consommer que des sucres rapides afin de ne pas se retrouver en hypoglycemie et ne pas sauter de repas, principalement le petit dejeuner .Ce dernier sera  nourrissant mais limité en corps gras . Le déjeuner sera avancé vers 11 heures et sera suffisamment leger pour que la digestion n’engourdisse pas trop le pilote durant le vol. Le soir , le menu sera libre et copieux dans la mesure ou il ne perturbera pas le sommeil.
+3-Au cours d’un vol en double commande , si vous ressentes un debut de malaise du au mal de l’air que faites vous ?
+Danss de cas , il est imperatif de se liberer de la tache de pilotage en donnant le contrôle de l’avion a l’autre pilote.Puis , il faut garder le plus possible le contact visuel avec l’extérieur afin de minimiser les effets des contradictions sensorielles entre ce que l’on ressent et ce que l’on voit . Enfin , il faut reprendre son calme , respirer profondement , et se dire que ce n’est qu’un épisode de disconfort qui finira par passer.
+4-Le mal de l’air est un phenomene temporaire pouvant parfois affecter les pilotes débutants .Quelles sont ses causes ?
+Le  mal de l’air est généralement attribué à des perceptions sensorielles conflictuelles , c'est-à-dire à une non concordance entre ce qui est vu ou ressenti et la perception anticipée . Par exmple , lorsque l’on se trouve depuis un certain temps dans un virage coordonné , il y’a stabilisation des capteurs de l’oreille interne qui de par leur conception ,ne recoivent que du mouvements d’accélération,ce qui amène une fausse  impression d’être en vol en palier. Cette impression entre en conflit avec l’information fournie par les yeux qui confirme que nous sommes toujours en virage . La non concordance des informations entre ces deux systèmes est qualifiés de perception sensorielle conflictuelle qui est à l’origine du mal de l’air.
+5-l’emport de lunnettes et d’un couvre chef est obligatoire,deconsielle ?
+Le port de lunettes et d’un couvre chef est fortement conseillé afin de se protéger contre les mefaits du soliel,spécialement peut causer des dommages pour la peau sans parler du manque de concentration et de la fatigue que sa engendre .
+
+
+NAVIGATION
+
+1- La distance entre deux VOR est de 41 Nm. C'est quoi La longueur, en millimètres, qui sépare l’image de ces deux VOR sur une carte d’échelle 1 / 1 000 000 ? 
+E = distance sur la carte (d) / Distance sur la terre (D)		d = D x E
+	d = 41 x1/1 000 000  (41 x1852 000) / 1 000 000  76 mm
+
+IMG:::assets/images/NAV2.png
+
+
+2- Un aéronef volant à 6000 ft par rapport au sol mesure une distance DME de 3 Nm. La distance par rapport à la verticale est ?
+  6000 ft  1 Nm     Dans le triangle ci-contre :
+	3² = 1² + D²	Donc	D² = 9 – 1 = 8
+	D =  2.8 NM
+
+
+
+
+
+
+
+3- Un aéronef vole à une hauteur de 6000 ft par rapport à un terrain où est situé une balise VOR. Entre le terrain et l’aéronef se trouve un obstacle distant du terrain de 25 Nm et ayant une hauteur de 4000 ft. Le VOR pourra être reçu par l’aéronef à une distance maximale de ?
+
+Ici, la portée optique n’est pas limitée par la rotondité de la terre mais par la présence de l’obstacle. Les 	distances étant relativement faibles, on néglige la rotondité de la terre. On peut écrire en première 	d’approximation (d’après le théorème de Thales) :
+	D / 25 = 6000 / 4000
+	 D = (25 x 6000) / 4000
+	D = 37 Nm
+
+
+
+IMG:::assets/images/NAV3.png
+
+
+
+
+
+
+
+
+DEFINITIONS
+
+1 - Définir Avion Classe A ?
+Avions multimoteurs équipés de turbopropulseurs, avec une configuration maximale approuvée en sièges passagers supérieure à 9 ou dont la masse maximale au décollage excède 5700 kg, ainsi que tous les avions multiréacteurs.
+
+2 - Définir Avion Classe B ?
+Avions dont la configuration maximale approuvée en sièges passagers est inférieure à 9 ou dont la masse maximale au décollage est inférieure ou égale à 5700 kg.
+
+3 - Définir TPP1 ?
+Mention attribuée à tout avion multimoteur, quelle que soit sa masse, à condition d’être titulaire d’un CDN de type et de posséder les équipements pour les vols IFR et les vols de nuit en conditions givrantes.
+
+4 - Définir TPP2 ?
+Mention attribuée à tout avion multimoteur dont la masse est inférieure à 5,7 tonnes, à condition d’être titulaire d’un CDN de type et de posséder les équipements requis pour les vols IFR et les vols de nuit.
+
+5 - Définir TPP3 ?
+Attribuée à tout avion monomoteur ou multimoteur dont la masse est inférieure à 5,7 tonnes, à condition d’être titulaire d’un CDN de type et de posséder les équipements requis pour les vols à vue.
+
+6 - Définir TA (Travail Aérien) ?
+Les avions dont le CDN porte cette mention peuvent être utilisés pour toute opération aérienne rémunérée qui emploie un avion à d’autres fins que le transport aérien (instruction, opérations agricoles, etc.).
+
+7 - Définir TMA ?
+Espace aérien associé à un ou plusieurs aérodromes. Il sert à protéger les trajectoires IFR au départ et à l’arrivée qui ne sont pas couvertes par la CTR.
+
+8 - Définir Plancher ?
+500 ft au moins en dessous du niveau de vol minimum autorisé pour la région.
+
+9 - Définir Plafond ?
+500 ft au-dessus du niveau d’attente le plus élevé ou, s’il n’y a pas d’attente prévue, au-dessus du niveau de vol du début du segment d’approche initiale.
+
+10 - Définir ATZ ?
+Espace aérien de dimensions définies établi autour de certains aérodromes pour protéger la circulation d’aérodrome via un contrôle aérien renforcé ou une réglementation spécifique.
+
+11 - Définir CTR ?
+Espace aérien associé à un ou plusieurs aérodromes. Il sert à protéger les trajectoires IFR au décollage et à l’atterrissage, assurant un lien entre le sol et la base de la TMA.
+
+12 - Définir Base de CTR ?
+Le sol ou l’eau.
+
+13 - Définir Plafond du CTR ?
+Base de la TMA, ou, s’il n’y a pas de TMA, 500 ft au-dessus du niveau d’attente du segment d’approche initiale.
+
+14 - Définir Surfaces latérales (CTR) ?
+Généralement de forme cylindrique avec un rayon minimal de 6,5 NM, centré sur l’aérodrome.
+
+15 - Définir Aérodrome contrôlé ?
+Aérodrome où un service de contrôle est assuré pour la circulation d’aérodrome, sans impliquer nécessairement l’existence d’un espace aérien contrôlé.
+
+16 - Définir Circulation d’aérodrome ?
+Ensemble de la circulation sur l’aire de manœuvre et des avions évoluant aux abords de l’aérodrome.
+
+17 - Définir Clairence ?
+Autorisation délivrée par le service de contrôle pour faciliter la circulation aérienne, assurant l’espacement IFR/IFR, IFR/VFR contrôlé, et VFR spécial.
+
+18 - Définir Teneur de la clairence ?
+
+Identification de l’aéronef
+
+Limite d’autorisation
+
+Route
+
+Niveaux de vol
+
+Autres instructions et heure d’expiration
+
+19 - Définir Temps de vol ?
+Temps écoulé depuis le début du déplacement de l’aéronef par ses propres moyens pour décoller, jusqu’à son immobilisation à la fin du vol.
+
+20 - Définir NOTAM ?
+Avis sur l’état, l’établissement ou la modification d’une installation, d’une procédure ou d’un danger pour la navigation aérienne, destiné au personnel opérationnel.
+
+21 - Définir les NOTAM série A ?
+NOTAMs relatifs aux aérodromes internationaux, diffusés à l’international.
+
+22 - Définir les NOTAM série B ?
+NOTAMs relatifs aux aérodromes nationaux, diffusés à l’échelle nationale.
+
+23 - Définir Incident de la circulation aérienne ?
+Événement ayant mis en danger des personnes ou du matériel, provoqué des dommages légers, une infraction aux règles ou une modification de mission.
+
+24 - Définir Accident d’aviation ?
+Événement survenu durant l’évolution d’un aéronef, entraînant des dommages corporels ou matériels importants.
+
+25 - Définir Délestage d’étape ?
+Quantité de carburant nécessaire du départ jusqu’à l’atterrissage à destination, tenant compte des contraintes prévues.
+
+26 - Définir Délestage de dégagement ?
+Carburant nécessaire entre la remise de gaz à destination et l’atterrissage à l’aérodrome de dégagement.
+
+27 - Définir Réserve de route ?
+La plus élevée entre :
+
+5 % du délestage d’étape
+
+Carburant pour 5 minutes d’attente à 1500 ft au-dessus de l’aérodrome
+
+28 - Définir Réserve finale ?
+Carburant pour :
+
+30 min à 1500 ft au-dessus de l’aérodrome de dégagement
+
+45 min à 1500 ft au-dessus de la destination (sans aérodrome de dégagement)
+
+29 - Définir AIP (Aeronautical Information Publication) ?
+Publication officielle répondant aux normes internationales pour diffuser des informations aéronautiques permanentes ou temporaires à long terme.
+
+30 - Définir Aérodrome adéquat ?
+Aérodrome jugé satisfaisant selon les performances requises et les équipements disponibles à l’heure prévue (services, météo, aides, secours…).
+
+31 - Définir Aérodrome adéquat (EASA) ?
+Aérodrome où l’aéronef peut opérer en tenant compte de ses performances et des caractéristiques de la piste.
+
+32 - Définir Aérodrome accessible ?
+Aérodrome à la fois adéquat, avec vent dans les limites, et conditions météo conformes aux minima IFR.
+
+33 - Définir CDN ?
+Certificat de navigabilité, document légal autorisant un aéronef à voler, lorsqu’il est valide.
+
+34 - Définir les catégories d’avion ?
+
+Normale : manœuvres limitées à inclinaison ≤ 60°, facteur de charge -1.52 à +3.8
+
+Utilitaire : inclinaison > 90°, facteur -1.76 à +4.4
+
+Acrobatique : manœuvres libres selon essais en vol, facteur -3 à +6
+
+35 - Définir Autonomie ?
+Temps de vol possible à une altitude et régime donnés.
+
+
+
+
+

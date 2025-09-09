@@ -1,0 +1,107 @@
+plugins {
+    id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+// Fallback: explicitly disable the Gradle strip debug symbols task for release if present
+// This avoids failures when NDK strip tools are missing. Safe for first upload; can be removed later.
+gradle.projectsEvaluated {
+    tasks.configureEach { t ->
+        def n = t.name.toLowerCase()
+        if ((n.contains('strip') && n.contains('release') && n.contains('debugsymbols')) ||
+            n == 'stripreleasenativedebugsymbols' ||
+            n == 'stripreleasepackagelibdebugsymbols' ||
+            n == 'stripreleaseDebugSymbols'.toLowerCase()) {
+            t.enabled = false
+        }
+    }
+}
+
+import java.util.Properties
+import java.io.FileInputStream
+
+// Load signing properties if present (required for Play release builds)
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace = "com.briefly.nassih"
+    compileSdk = 35
+    ndkVersion = "29.0.14033849"
+    buildToolsVersion = "36.0.0"
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+        coreLibraryDesugaringEnabled true
+    }
+
+    // Workaround: avoid stripping native .so files during packaging while NDK/strip tools are missing
+    // This prevents: "Release app bundle failed to strip debug symbols from native libraries"
+    packaging {
+        jniLibs {
+            useLegacyPackaging true
+            // Keep and do not strip debug symbols for native libs
+            keepDebugSymbols += ["**/*.so"]
+            doNotStrip += ["**/*.so"]
+        }
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+        freeCompilerArgs += "-Xjvm-default=all"
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId = "com.briefly.nassih"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    signingConfigs {
+        release {
+            if (keystorePropertiesFile.exists()) {
+                storeFile file(keystoreProperties['storeFile'] ?: '')
+                storePassword keystoreProperties['storePassword'] ?: ''
+                keyAlias keystoreProperties['keyAlias'] ?: ''
+                keyPassword keystoreProperties['keyPassword'] ?: ''
+            } else {
+                // Fallback to debug signing only for local runs; Play release requires key.properties
+                initWith signingConfigs.debug
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+            // Do not package native debug symbols in release AAB (keeps size down and avoids toolchain issues)
+            ndk {
+                debugSymbolLevel 'none'
+            }
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+}

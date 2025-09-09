@@ -1,0 +1,2099 @@
+{
+    "REGLEMENTATION": [
+        {
+            "question": "1- L'Organisation de l'Aviation Civile Internationale établit :",
+            "options": [
+                "des standards et des pratiques recommandées internationaux pour les Etats contractants.",
+                "des standards aéronautiques adoptés par tous les Etats.",
+                "des pratiques recommandées adoptés par tous les Etats.",
+                "des propositions de réglementation aéronautique sous la forme de 18 annexes."
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "2- Le document OACI qui traite principalement de la navigabilité des aéronefs est :",
+            "options": [
+                "l’annexe 2",
+                "l’annexe 5",
+                "l’annexe 16.",
+                "l’annexe 8"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "3- L'Organisation de l’Aviation Civile Internationale (OACI) diffuse diverses publications techniques.\nDans la liste ci-dessous\n1 - Le règlement de la Circulation Aérienne ( RCA)\n2 - Les normes et les pratiques recommandées ( SARP )\n3 - Les procédures pour les services de la Navigation Aérienne ( PANS )\n4 - La publication d'Information Aéronautique ( AIP )\n5 - Les circulaires d'Informations Aéronautiques ( AIC )\n6 - Les procédures complémentaires régionales ( SUPPS )\n7 - Les règlements aéronautiques fédéraux ( FAR )\nles documents établis par l'OACI sont",
+            "options": [
+                "2, 3, 6",
+                "2, 3, 7",
+                "1, 4, 5",
+                "1, 2, 3, 4"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "4- Les règles contenues dans les annexes à la Convention de CHICAGO",
+            "options": [
+                "sont applicables directement aux aéronefs des Etats contractants",
+                "ne sont applicables qu'après introduction dans la législation interne de chaque Etat contractant",
+                "ne sont applicables qu'après introduction dans la législation interne de chaque Etat contractant, sauf en cas de survol de la haute mer ou d'un territoire sans souveraineté",
+                "sont applicables aux aéronefs d'état des états contractants."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "5- Le document OACI qui traite principalement des recherches et sauvetage est :",
+            "options": [
+                "l’annexe 5",
+                "l’annexe 17",
+                "l’annexe 16",
+                "l’annexe 12"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "6- Pour effectuer une escale non commerciale dans un pays étranger, la liberté de l’air qui s’applique est :",
+            "options": [
+                "la première",
+                "la deuxième",
+                "la troisième",
+                "la quatrième"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "7- Lorsqu'un opérateur radar dit la phrase suivante à un aéronef \"poursuivez au cap 030°\", le pilote doit maintenir le cap :",
+            "options": [
+                "vrai 030° en air calme (de manière à suivre la route vraie).",
+                "magnétique 030°",
+                "vrai 030°",
+                "magnétique 030° en air calme (de manière à suivre la route magnétique)."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "8- Lorsqu'un aéronef n'est plus apte au vol, suite à un accident ou à un entretien insuffisant",
+            "options": [
+                "Son certificat d'immatriculation est retiré",
+                "Ses certificats d'immatriculation et de navigabilité sont retirés",
+                "La lettre V est apposée sur son certificat de navigabilité",
+                "La lettre R est apposée sur son certificat de navigabilité"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "9- Les marques de nationalité et d'immatriculation d'un avion sont positionnées sur le fuselage",
+            "options": [
+                "de chaque côté, à un endroit bien visible",
+                "de chaque côté, entre les ailes et l'empennage",
+                "à la discrétion de l'exploitant car elles ne sont pas obligatoires",
+                "au choix, sur les côtés entre les ailes et l'empennage, ou sur la dérive"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "10- Que signifie :\nIMG:::assets/images/R10.png",
+            "options": [
+                "Avancez plus vite",
+                "Avancez plus lentement",
+                "Arrêter le moteur",
+                "Arrêtez vous immédiatement"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "11- Dans quelle partie des publications aéronautique (AIP) se trouvent les informations relatives aux services météorologiques fournis dans les zones et sur les routes,",
+            "options": [
+                "ENR",
+                "AD",
+                "GEN",
+                "MET"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "12- Dans quelle section des AIP sont contenues les informations relatives aux zones interdites, réglementées et dangereuses ?",
+            "options": [
+                "ENR",
+                "MAP",
+                "AGA",
+                "GEN"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "13- Sur un formulaire de plan de vol, lorsqu'aucun code OACI n'a été attribué à un aéroport de dégagement (case 16), il convient :",
+            "options": [
+                "d'écrire XXXX dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) ALTN/ suivi par le nom de l'aéroport",
+                "d'écrire XXXX dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) DEGT/ suivi par le nom de l'aéroport",
+                "d'écrire ZZZZ dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) ALTN/ suivi par le nom de l'aéroport",
+                "d'écrire ZZZZ dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) DEGT/ suivi par le nom de l'aéroport"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "14- La Direction De L’Aéronautique Civile n’est pas responsable de :",
+            "options": [
+                "Développer la coopération avec les organismes internationaux et régionaux dans le domaine de l’aviation civile",
+                "Tenir et suivre l'observatoire des transports aérien",
+                "Établir les documents réglementant l’environnement aéroportuaire",
+                "Adopter les normes et pratiques recommandées par les organisations internationales et veiller à leur respect"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "15- Un aéronef en urgence doit afficher :",
+            "options": [
+                "le code 7600",
+                "le code 7000",
+                "le code 7700",
+                "le code 7500"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "16- Un aéronef affichant code 7500 est supposé être en :",
+            "options": [
+                "état d’urgence",
+                "panne de communication",
+                "intervention d’illicite",
+                "égaré"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "17- La FIR de casablanca a pour limite supérieur :",
+            "options": [
+                "FL195",
+                "FL200",
+                "FL190",
+                "UNL"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "18- L'un des principaux objectifs de l'OACI est :",
+            "options": [
+                "d'approuver de nouvelles compagnies aériennes internationales utilisant des avions à réaction",
+                "d'approuver de nouvelles compagnies aériennes internationales",
+                "d'approuver les tarifs des billets établis par les compagnies aériennes internationales",
+                "de développer des règles et des techniques pour l'aviation internationale"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "19- La seconde liberté de l'air est :",
+            "options": [
+                "Le droit de survol sans atterrir",
+                "Le droit d'atterrir pour une escale technique",
+                "le droit de cabotage (circulation tran-frontière)",
+                "le droit d'effectuer un vol commercial avec des passagers à bord entre deux Etats"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "20- La définition de \"aire de manoeuvre\" est :",
+            "options": [
+                "la partie d'un aérodrome à utiliser pour le décollage, l'atterrissage et la circulation des aéronefs, y compris l'aire de stationnement",
+                "la partie d'un aérodrome à utiliser pour le décollage, l'atterrissage et la circulation des aéronefs, y compris l'aire de mouvement et l'aire de stationnement",
+                "la partie d'un aérodrome à utiliser pour le décollage, l'atterrissage et la circulation des aéronefs, non compris l'aire de stationnement",
+                "aucune réponse n'es correcte"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "21- Ce geste signifie :\nIMG:::assets/images/R21.png",
+            "options": [
+                "Avancez plus vite",
+                "Avancez plus lentement",
+                "Virez à gauche",
+                "Virez à droite"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "22- Le titre III de la loi 40-13 traite des :",
+            "options": [
+                "Services aéronautiques aéronautiques",
+                "Servitudes",
+                "Aérodromes",
+                "Aéronefs"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "23- L’article 17 de la loi 40-13 stipule que tout aéronef doit, lorsqu'il effectue un vol, être muni des documents suivants :",
+            "options": [
+                "Son certificat d'immatriculation ; son certificat de navigabilité mentionnant l'état technique et la capacité de l'aéronef ainsi que sa durée de validité et l'autorité qui a délivré ledit certificat ; les licences et autres titres aéronautiques correspondant nécessaires pour chaque membre de l'équipage ; son carnet de vol",
+                "Son certificat d'immatriculation ;son certificat de navigabilité mentionnant l'état technique et la capacité de l'aéronef ainsi que sa durée de validité et l'autorité qui a délivré ledit certificat ;les licences et autres titres aéronautiques correspondant nécessaires pour chaque membre de l'équipage ;son carnet de route",
+                "son certificat d'immatriculation ; son carnet de route",
+                "son certificat d'immatriculation ; son certificat de navigabilité ; son carnet de route"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "24. Conformément à l’article (…) de l’arrêté 3163-12,les aéronefs sont classés dans les catégories suivantes :",
+            "options": [
+                "(3) - aéronefs à sustentation motorisée ; avions ; ballons libres ; dirigeables d'un volume supérieur à 4 600 mètres cubes ;hélicoptères ;planeurs",
+                "(2) - aéronefs à sustentation motorisée ; avions ; ballons libres ; dirigeables d'un volume supérieur à 4 600 mètres cubes ;hélicoptères ;planeurs",
+                "(3) – aérodynes ;aérostats",
+                "(2) – aérodynes ;aérostats"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "25. Un AIRAC est :",
+            "options": [
+                "un système intégré composé des éléments suivants : AIP, suppléments AIP, NOTAM, AIC, listes de contrôle et listes récapitulatives",
+                "une publication émise par ou avec l'autorité d'un Etat contenant des informations aéronautiques à caractère urgent pour la navigation aérienne",
+                "un acronyme désignant un système qui a pour but la notification à l'avance, sur la base de dates communes de mise en vigueur, de circonstances impliquant des changements importants dans les pratiques d'exploitation",
+                "un avis diffusé par télécommunication et donnant, sur l'établissement, l'état ou la modification d'une installation, d'un service, d'une procédure aéronautiques, ou d'un danger pour la navigation aérienne, des renseignements qu'il est essentiel de communiquer à temps au personnel chargé des opérations aériennes"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "26- Selon l'Annexe 8 OACI, un certificat de navigabilité doit être renouvelé ou rester valide d'après :",
+            "options": [
+                "les lois de l'Etat dans lequel il est exploité",
+                "les lois de l'Etat d'immatriculation",
+                "les lois de l'Etat d'immatriculation et d'exploitation",
+                "les exigences établies par l'OACI"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "27- Lorsqu'un aéronef a subi un dommage, il peut être autorisé à poursuivre son vol, si :",
+            "options": [
+                "l'Etat d'immatriculation considère que la nature du dommage subi est telle que l'aéronef est toujours en état de navigabilité",
+                "l'Etat de construction informe l'Etat d'immatriculation que la nature du dommage subi est telle que l'aéronef est toujours en état de navigabilité",
+                "l'Etat de conception et l'Etat de construction considèrent que l'avion est toujours en état de navigabilité",
+                "l'Etat de conception et l'Etat de construction informent l'Etat d'immatriculation que navigabilité."
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "28- La fermeture d'une piste pour une durée d'un an, pour cause de maintenance, sera publiée :",
+            "options": [
+                "seulement dans les AIP",
+                "NOTAM, AIP et MAL.",
+                "seulement par NOTAM.",
+                "dans les NOTAM et AIP, y compris les Suppléments."
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "29- Un aérostat non entraîné par un organe moteur est un :",
+            "options": [
+                "dirigeable",
+                "ornithoptère",
+                "ballon",
+                "planeur"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "30- En utilisant le code visuel air-sol la(les) lettre(s) semblables au symbole signifiant \"demande assistance\" est (sont) :\nIMG:::assets/images/R30.png",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "31- La lettre commune d'identification devra être choisie parmi les séries de caractères inclus dans les codes d'appel radio alloués :",
+            "options": [
+                "à l'Organisation de l'Aviation Civile Internationale par l'Union Internationale des Télécommunications",
+                "à l'Etat d'immatriculation par l'Organisation de l'Aviation Civile Internationale",
+                "à l'Etat d'immatriculation par l'Union Internationale desTélécommunications",
+                "à l'Etat de l'opérateur"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "32- L'attribution d'une lettre commune d'identification à une autorité chargée de délivrer des immatriculations sera effectuée par :",
+            "options": [
+                "l'Union Internationale des Télécommunications",
+                "l'Organisation de l'Aviation Civile Internationale",
+                "l'Etat d'immatriculation et acceptée par l'Union Internationale des Télécommunications",
+                "l'Etat d'immatriculation"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "33- La régulation du flux de trafic aérien au Maroc est basée sur la procédure d’allocation d’un créneau.\nLe sigle conventionnel de celui-ci est :",
+            "options": [
+                "SLOT",
+                "SLAP",
+                "SLAT",
+                "SRQT"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "34- Quelle est la taille minimum des lettres employées pour l'immatriculation des aérodynes ?",
+            "options": [
+                "fuselage 30 centimètres, ailes 50 cm",
+                "fuselage 100 centimètres, ailes 50 cm",
+                "ailes 60 centimètres, fuselage 30 cm",
+                "ailes 30 cm, fuselage à 50 centimètres"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "35- Quelle est la signification du symbole représenté dans le code des signaux visuels air-sol à l'usage\ndes survivants ?\nIMG:::assets/images/R35.png",
+            "options": [
+                "demandons assistance médicale",
+                "demandons assistance",
+                "atterrissage impossible",
+                "larguez les fournitures d'urgence ici"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "36- L'inscription d'un aéronef sur le registre d'immatriculation comprend :\n1. la date d'immatriculation\n2. le lieu d'immatriculation\n3. le numéro d'immatriculation\n4. le numéro du certificat de navigabilité\n5. la nationalité du propriétaire\n6. l'aérodrome d'attache de l'aéronef\n7. la description de l'aéronef",
+            "options": [
+                "3+6+7",
+                "1+2+3+5",
+                "1+3+4+5",
+                "4+5+6+7"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "37- Le programme national de sécurité de l’aviation civile devra être établi par :",
+            "options": [
+                "l’OACI ainsi que d’autres organisations incluant l’état contractant concerné",
+                "l’ECAC",
+                "l’OACI",
+                "chaque état contractant"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "38. Pour les deux étiquettes représentées en annexe, les risques principaux et subsidiaires sont respectivement :\nIMG:::assets/images/R38.png",
+            "options": [
+                "matière infectieuse, corrosive",
+                "matière corrosive, toxique",
+                "matière corrosive, infectieuse",
+                "matière toxique, corrosive"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "39. Lorsque des lettres sont utilisées pour la marque d'immatriculation, les combinaisons ne devront pas pouvoir être confondues avec les signaux d'urgence, par exemple :",
+            "options": [
+                "RCC",
+                "LLL",
+                "FFF",
+                "TTT"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "40- La procédure AIRPROX :",
+            "options": [
+                "est utilisée par un commandant de bord, lorsqu’il estime que la sécurité de son aéronef a été ou aurait pu être compromise par un risque de collision avec un autre aéronef",
+                "ne pourra être poursuivie que si elle a,fait l’objet d’une procédure initiale AIRPROX",
+                "est appliquée par un contrôleur aérien lorsqu’il a constaté qu’un aéronef avait commis une infraction à la réglementation de la circulation aérienne",
+                "équivaut à une plainte déposée auprès du tribunal de grande instance et à ce titre, ne doit être utilisée que si le commandant de bord (ou le contrôleur ) a dûment constaté une infraction caractérisé aux règles de l’air"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "41- Les marques d'immatriculation seront constituées par des lettres, des chiffres ou par une combinaison de lettres et de chiffres et sera assignée par :",
+            "options": [
+                "l'Etat d'immatriculation seulement",
+                "l'Union Internationale des Télécommunications",
+                "l'Organisation de l'Aviation Civile Internationale",
+                "l'Etat d'immatriculation ou l'Autorité d'immatriculation sous marque commune"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "42- Concernant les clairances IFR, un pilote doit :",
+            "options": [
+                "répéter intégralement la clairance",
+                "ne rien répéter du tout",
+                "répéter la route, le FL, le code transpondeur",
+                "le FL, les parties nécessitant des vérifications"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "43- Quels groupes de lettres ne doivent pas être utilisés pour l'immatriculation des avions afin d'éviter toute confusion avec des signaux d'urgence ?",
+            "options": [
+                "PAN",
+                "LLL",
+                "RCC",
+                "DDD"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "44- Lorsque des lettres sont utilisées pour la marque d'immatriculation, les combinaisons ne devront pas pouvoir être confondues avec les signaux d'urgence ou de détresse, par exemple :",
+            "options": [
+                "DDD",
+                "XXX",
+                "LLL",
+                "RCC"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "45- Conformément à la réglementation marocaine aucune publicité ni inscription autre que celles définies ci-dessus ne doit apparaître sur une surface extérieure d'un aéronef sauf autorisation écrite du.",
+            "options": [
+                "Exploitant",
+                "Directeur de l'Air",
+                "Propriétaire",
+                "Constructeur"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "46- Après que vous soyez revenu sur une route aérienne par guidage radar, que signifie l’instruction du contrôle départ « reprenez votre propre navigation » ?",
+            "options": [
+                "vous êtes encore en contact radar, mais vous devez signaler vos positions",
+                "le service radar est terminé",
+                "les services de la CA ne vous donneront plus d’informations",
+                "vous devriez suivre cette route aérienne à l’aide de vos moyens de navigation"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "47- Juste avant d'arriver sur l'aire de trafic, un aéronef roule malencontreusement dans l'herbe, une roue tombe dans un trou et endommage sérieusement l'aéronef, ce qui oblige l'équipage à retarder le départ :",
+            "options": [
+                "ceci est un accident et l'équipage doit suivre la procédure relative à ce cas",
+                "ceci est un incident et le commandant de bord doit en informer les autorités de l'aéroport dans les 48 heures",
+                "puisqu'aucune blessure ,les actions à entreprendre consistent à se mettre en relation avec l'assurance, le mécanicien, la compagnie et le responsable en charge des pistes et des voies de circulation",
+                "ceci est une irrégularité d'exploitation, l'équipage doit informer la compagnie du délai qui résultera de la réparation"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "48- L'Etat qui dirige une enquête sur un accident d'aviation doit :",
+            "options": [
+                "tenir une conférence de presse immédiatement après la cloture de l'enquête",
+                "aucune réponse n'est correcte",
+                "publier un rapport final comme demandé par l'Etat de l'exploitant",
+                "publier un rapport final selon les normes OACI"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "49- Le compte rendu préliminaire d'enquête sur un accident sera présenté aux Etats destinataires et à l'OACI :",
+            "options": [
+                "dans une des langues de travail de l'OACI",
+                "dans la langue de l'Etat enquêteur",
+                "en anglais ",
+                "dans une des langues majeures du monde"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "50- Une clairance est toujours valide :",
+            "options": [
+                "pour une période maximum de 5mn",
+                "pour une période maximum de 30mn",
+                "jusqu’à la limite de clairance",
+                "jusqu’à l’atterrissage à destination"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "51- La notification d'accident sera adressée aux Etats concernés et à l'OACI :",
+            "options": [
+                "dans la langue de l'Etat menant l'enquête",
+                "dans une des langues de travail de l'OACI",
+                "dans une des langues les plus répandues dans le monde",
+                "en anglais"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "52- La responsabilité d'ordonner une enquête concernant les circonstances d'un accident incombe à :",
+            "options": [
+                "l'Etat dans lequel a eu lieu l'accident",
+                "l'Etat de construction",
+                "L'OACI",
+                "l'Etat d'immatriculation"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "53- Un feu de classe B est un feu :",
+            "options": [
+                "de liquides ou solides liquéfiables",
+                "de métaux ou gaz ou produits chimiques (feux spéciaux)",
+                "d'origine électrique",
+                "d'origine électrique"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "54- La blessure grave. est Toute blessure que subit une personne au cours d’un accident et qui nécessite l’hospitalisation pendant plus de………., cette hospitalisation commençant dans ……….qui suivent la date à laquelle les blessures ont été subies",
+            "options": [
+                "48 heures- sept jours",
+                "sept jours-30 jours",
+                "48 heures- 30 jours",
+                "1 jour-30 jours"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "55- Les renseignements ci-après ne peuvent pas être rendus publics ou être utilisés à des fins autres que celles de l'enquêtete technique :\n1.les déclarations recueillies aupres des personnes ;\n2.les enregistrements revelant l’identite des personnes ayant temoigne dans le cadre de\nl'enquête technique y compris l'enquête de premiere information ;\n3.les renseignements recueillis qui revetent un caractère sensible et personnel,\nnotamment les informations sur la santé des personnes ;\n4.Les photos de l’épave.",
+            "options": [
+                "1+2+3+4",
+                "1+2+3",
+                "1+2",
+                "1"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "56- Le document de référence traitant du transport de marchandises dangereuses est :",
+            "options": [
+                "la convention de Washington",
+                "l'annexe 18 de l'OACI",
+                "l'annexe 8 de l'OACI",
+                "l'instruction n°300 du 3 juin 1957"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "57- L'abréviation \"IMC\" signifie:",
+            "options": [
+                "Conditions météorologiques de vol aux instruments (Instrument météorological conditions)",
+                "Dans des conditions météorologiques",
+                "Fréquence météorologique internationale (International météorological channel)",
+                "Dans la plupart des cas (In most cases)"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "58- L'abréviation \"SSR\" signifie:",
+            "options": [
+                "Radar de surveillance et de recherche (Search and surveillance radar)",
+                "Radar secondaire de surveillance(Secondary surveillance radar)",
+                "Résistance du revêtement de la piste (Surface stength of runway)",
+                "Rapport......()"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "59- Quelle est la distance maximale à laquelle vous pouvez espérer une bonne réception VHF au dessus d'une surface plane lorsque vous vous trouvez au FL 100:",
+            "options": [
+                "Environ 30 NM",
+                "Environ 300 NM.",
+                "Environ 120 NM.",
+                "Environ 12 NM"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "60- Lors d' une procédure de détresse vous utiliserez lors de l'appel la phraséologie:",
+            "options": [
+                "DETRESSE - DETRESSE - DETRESSE",
+                "HELP -HELP -HELP ",
+                "PANNE -PANNE - PANNE",
+                "MAYDAY- MAYDAY -MAYDAY"
+            ],
+            "correctOptionIndex": 3
+        }
+    ],
+    "COMMUNICATION IFR": [
+        {
+            "question": "1- Un signal émis par radiotéléphonie contenant les mots MAYDAY MAYDAY MAYDAY signifie:",
+            "options": [
+                "L'avion doit vidanger son carburant",
+                "L'avion a un message très urgent à  passer concernant la sécurité d'un navire, avion ou véhicule",
+                "L'avion doit communiquer un message concernant du mauvais temps le long de sa route",
+                "Un danger imminent guette l'avion et une assistance immédiate est requise"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "2- Pour transmettre la RVR de la piste 16, l’ATC utilisera la phrase suivante:",
+            "options": [
+                "RVR piste 16 toucher… mètres, milieu à …mètres, fin …mètres",
+                "Les valeurs du transmissiomètre sont : …mètres et …mètres",
+                "RVR au début de la piste 16 est …mètres",
+                "RVR piste 16 …mètres en diagonale …mètres en diagonale …mètres"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "3- Que signifie « coefficient de freinage 45 » dans un rapport de piste?",
+            "options": [
+                "Action de freinage non mesurable",
+                "Action de freinage moyenne",
+                "Action de freinage médiocre",
+                "Action de freinage bonne"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "4- Que signifie « coefficient de freinage 20 » dans un rapport de piste ?",
+            "options": [
+                "Action de freinage moyenne",
+                "Action de freinage médiocre",
+                "Action de freinage bonne",
+                "Action de freinage insignifiante"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "5- Sous quelles conditions l’action de freinage est qualifiée de « insignifiante »:",
+            "options": [
+                "Piste recouverte avec de la neige seiche",
+                "Piste recouverte de glace",
+                "Piste recouverte de neige mouillée et de poudreuse",
+                "Conditions de pistes normales"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "6- Si on vous demande vos « conditions de vol », cela signifie que vous devez:",
+            "options": [
+                "Indiquer les conditions de vol comme le vent, la visibilité, la température",
+                "Indiquer si vous volez en IMC ou en VMC",
+                "Indiquer si la visibilité est suffisante pour l'atterrissage",
+                "Indiquer si vous volez en IFR ou en VFR"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "7- Que signifie le terme « diffusion »?",
+            "options": [
+                "Une transmission où aucune réponse n'est requise de la part de la station réceptrice",
+                "Une transmission radiotéléphonique du sol vers les aéronefs en vol",
+                "Une transmission d'informations concernant la navigation qui n'est pas adressée à une ou des stations en particulier",
+                "Une transmission contenant des informations météorologiques et opérationnelles vers les avions en vol dans des zones",
+                "Une transmission contenant des informations météorologiques et opérationnelles vers les avions en vol dans des zones océaniques éloignées hors de portée des stations au sol VHF"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "8- Que signifie le terme « communications air-sol »?",
+            "options": [
+                "Des communications unilatérales depuis des stations à la surface de la terre",
+                "Des communications unilatérales depuis les avions vers les stations à la surface de la terre",
+                "Des communications bilatérales entre des avions et des stations à la surface de la terre",
+                "Toute communication depuis un avion vers une station au sol nécessitant le support de l'AFTN"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "9- Que signifie l’abréviation « IMC »?",
+            "options": [
+                "In Most Cases",
+                "Instrument Meteorological Conditions",
+                "International Meteorological Channel",
+                "In Meteorological Conditions"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "10- Que signifie l’abréviation « H24 »?",
+            "options": [
+                "Coucher au lever du soleil",
+                "Lever au coucher du soleil",
+                "Service continu jour et nuit",
+                "Pas d'heures de travail spécifiques"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "11- Que signifie l’abréviation « AIS »?",
+            "options": [
+                "Airport Information System",
+                "Aerodrome Identification Signal-area",
+                "Aeronautical Information Service",
+                "Aerodrome Information Service"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "12- Que signifie l’abréviation « SAR »?",
+            "options": [
+                "Surveillance Airport Radar",
+                "Search and Rescue",
+                "Standard Arrival Route",
+                "Secondary Altimeter Responder"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "13- Que signifie l’abréviation “ATIS”?",
+            "options": [
+                "Air traffic information service",
+                "Airport terminal information service",
+                "Automatic terminal information system",
+                "Automatic terminal information service"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "14- Que signifie la phrase « Vérifiez »?",
+            "options": [
+                "Collationnez le relèvement VDF",
+                "Répétez votre dernière transmission",
+                "'Check' et confirmez avec l'envoyeur",
+                "Considérez cette transmission comme non émise"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "15- Quelle phrase est utilisée pour communiquer ce message : « Considérez cette transmission comme non émise » ?",
+            "options": [
+                "Ma dernière transmission est annulée",
+                "Annulez mon dernier message",
+                "Oubliez le",
+                "Ignorez"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "16- Quand un pilote doit il utiliser le terme « décollage »?",
+            "options": [
+                "Seulement une fois que l'avion se déplace sur la piste en service",
+                "Jamais, il est seulement utilisé par la tour de contrôle",
+                "Pour informer la tour qu'on est prêt au départ",
+                "Pour collationner une autorisation de décollage seulement"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "17- Comment un pilote doit-il informer la tour qu’il abandonne la manœuvre de décollage?",
+            "options": [
+                "Je stoppe",
+                "J'abandonne le décollage",
+                "Je romps le décollage",
+                "J'annule le décollage"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "18- Quelle est la façon correcte pour un pilote d’accuser réception que l’information Golf de l’ATIS a bien été reçue ?",
+            "options": [
+                "Information Golf",
+                "Le temps Golf reçu",
+                "Nous avons l'information",
+                "Nous avons l'ATIS Golf"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "19- Quel est l’indicatif radiotéléphonique pour une station sol s’occupant du contrôle d’approche (pas de service radar) ?",
+            "options": [
+                "RADAR",
+                "ARRIVÉE",
+                "APPROCHE",
+                "CONTRÔLE"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "20- Le signal de détresse et le message de détresse doivent être envoyés par un avion en détresse sur :",
+            "options": [
+                "la fréquence SIV désignée pour l'espace aérien concerné",
+                "la fréquence d'urgence dans tous les cas",
+                "la fréquence de garde régionale",
+                "la fréquence air-sol en service à ce moment là"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "21- Un signal envoyé par radiotéléphonie contenant les mots PAN PAN, PAN PAN, PAN PAN signifie :",
+            "options": [
+                "Un avion en finale débute une remise de gaz",
+                "Un danger imminent menace l'avion et une assistance immédiate est demandée",
+                "L'avion s'écarte de la route autorisée à cause d'un orage et demande une nouvelle clairance immédiatement",
+                "L'avion a un message très urgent à transmettre concernant la sécurité d'un navire, d'un avion ou de tout autre véhicule, mais une assistance immédiate n'est pas requise"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "22- En entendant un message d’urgence, un pilote doit :",
+            "options": [
+                "Imposer le silence sur la fréquence en service",
+                "Accuser réception du message immédiatement",
+                "Surveiller la fréquence pour assumer une assistance si nécessaire",
+                "Changer de fréquence, parce que le silence radio sera imposé sur la fréquence en service"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "23- Que signifie le terme « heure d’approche estimée » ?",
+            "options": [
+                "L'heure à laquelle un avion qui arrive, s'attend à survoler l'aide à la navigation désignée et appropriée de l'aérodrome de destination",
+                "L'heure à laquelle un avion qui arrive, avant d'atteindre l'aide radio desservant l'aérodrome de destination, commencera l'approche aux instruments pour un atterrissage",
+                "L'heure à laquelle l'ATC s'attend à ce qu'un avion qui arrive, suivant un délai, quittera le point d'attente pour terminer son approche pour un atterrissage",
+                "L'heure d'attente au dessus de la balise à partir de laquelle la procédure pour un atterrissage sera débutée"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "24- En volant en IFR, qu’est ce qui définit au mieux le terme « approche à vue »?",
+            "options": [
+                "Une approche par un vol IFR ou tout ou partie de la procédure d'approche aux instruments n'est pas remplie, et l'approche est exécutée en références visuelles au sol.",
+                "Une approche effectuée par un vol IFR incapable de maintenir les VMC",
+                "Une manoeuvre à vue exécutée par un vol IFR quand les conditions sur l'aérodrome de destination sont égales ou meilleures que les minimas VMC",
+                "Une extension d'une procédure d'approche aux instruments pour amener l'avion dans une position pour atterrir sur une piste qui n'est pas située pour une approche directe"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "25- Que signifie le terme « limite de clairance »?",
+            "options": [
+                "L'heure après laquelle une clairance du contrôle aérien sera automatiquement annulée si le vol n'a pas commencé",
+                "L'heure d'expiration d'une clairance du contrôle",
+                "L'heure à laquelle il est donné à l'avion une clairance du contrôle aérien",
+                "Le point vers lequel un avion reste dans la clairance du contrôle aérien"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "26- Un « Automatic Terminal Information Service » donne :",
+            "options": [
+                "Des informations concernant les phénomènes météorologiques qui pourraient affecter la sécurité des opérations aériennes",
+                "Information de routine aux avions arrivant et partant grâce à une diffusion continue et répétitive",
+                "Informations opérationnelles et météorologiques actuelles essentielles à la sécurité de la navigation aérienne dans une FIR",
+                "Bulletins Météo concernant un nombre spécifique d'aérodromes situés dans une région d'information de vol ( FIR )"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "27- Que signifie le terme « Waypoint » ?",
+            "options": [
+                "Un terme générique désignant le système taxyway-Piste d'un aéroport international",
+                "Une position définie sur un aérodrome utilisée pour calibrer les INS",
+                "Un signal indiquant la direction de la piste en service",
+                "Une position géographique spécifique, utilisée pour définir une route de navigation de surface ou le chemin d'un avion employant la navigation de surface"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "28- Que signifie le terme « INS » ?",
+            "options": [
+                "Instrument Navigation System",
+                "Inertial Navigation System",
+                "International NOTAM System",
+                "International Navigation Service"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "29- Que signifie l’abréviation “MLS” ?",
+            "options": [
+                "Microwave Landing System",
+                "Minimum Safe Level",
+                "Mean Sea Level",
+                "Minimum Sector Level"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "30- Que signifie l’abréviation “SELCAL” ?",
+            "options": [
+                "Un système dans lequel la communication radiotéléphonique entre deux stations peut être établie dans les deux directions simultanément",
+                "Un système dans lequel la communication radiotéléphonique ne peut être établie qu'entre les avions",
+                "Un système qui permet l'appel sélectif d'un seul avion sur des canaux radiotéléphoniques reliant une station au sol avec l'avion",
+                "Un système conçu pour des échanges directs d'information entre les services ATS"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "31- Que signifie l’abréviation « SSR »?",
+            "options": [
+                "Standard Snow Report",
+                "Search and Surveillance Radar",
+                "Surface Strength of Runway",
+                "Secondary Surveillance Radar"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "32- Que signifie l’abréviation “RNAV”?",
+            "options": [
+                "Radio Navigation",
+                "Navigation au Radar",
+                "Navigation de Route",
+                "Navigation de Surface"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "33- Que signifie le terme « RVR »?",
+            "options": [
+                "Runway Visibility Report",
+                "Radar Vectors Requested",
+                "Runway Visual Range",
+                "Recleared Via Route"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "34- Que signifie le mot “Veillez”?",
+            "options": [
+                "Examinez un système ou une procédure",
+                "Attendez et je vous appellerai",
+                "Etablissez le contact radio avec…",
+                "Surveillez sur… ( la fréquence)"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "35- Que signifie l’instruction:\n« Fastair 345 standby 118.9 » pour la TOUR?",
+            "options": [
+                "Fastair 345 devrait mettre cette fréquence sur Standby",
+                "Fastair 345 devrait changer de fréquence sur 118.9, sur laquelle des informations d'aérodrome sont diffusées",
+                "Fastair 345 devrait contacter la TOUR sur 118.9",
+                "Fastair 345 devrait écouter la fréquence 118.9 sur laquelle la TOUR communiquera plus tard"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "36- Fastair 345 doit contacter Stephenville ARRIVEE sur la fréquence 118.0. Quelle est la manière correcte pour indiquer qu’il suivra cette instruction?",
+            "options": [
+                "Je change sur ARRIVEE Fastair 345",
+                "Je change terminé Fastair 345",
+                "118.0 Fastair 345",
+                "Stéphenville ARRIVEE Fastair 345"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "37- Quelle phraséologie doit utiliser un pilote si il reçoit une instruction de l’ATC qu’il ne peut exécuter ?",
+            "options": [
+                "Incapable de faire",
+                "Instruction Négatif",
+                "Impossible de faire ça",
+                "J'ignore"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "38- Quelle phrase devrait utiliser un pilote pour informer l’ATC qu’il fait une procédure d’approche manquée?",
+            "options": [
+                "Remise de gaz",
+                "Approche manquée",
+                "Je monte",
+                "J'overshoot"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "39- Quel est l’indicatif aéronautique pour une station aéronautique indiquant un centre de contrôle (non radar)?",
+            "options": [
+                "APPROCHE",
+                "CENTRE",
+                "CONTRÔLE",
+                "RADAR"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "40- Quel est l’indicatif aéronautique pour une station aéronautique indiquant le contrôle radar des départs?",
+            "options": [
+                "RADAR",
+                "CONTRÔLE",
+                "DÉPARTS",
+                "APPROCHE"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "41- Quel est l’indicatif aéronautique pour une station aéronautique indiquant le contrôle radar des arrivées?",
+            "options": [
+                "ARRIVÉE",
+                "APPROCHE",
+                "RADAR",
+                "DIRECTEUR"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "42- Quelle est la forme abrégée, si elle existe, de l’indicatif Fastair 2345?",
+            "options": [
+                "Pas de forme abrégée",
+                "Fastair 345",
+                "Fastair 45",
+                "2345"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "43- Quel est l’indicatif correct de Fastair 345 dans l’appel initial à le tour de contrôle de l’aérodrome et au service de contrôle d’approche, si l’avion a une masse maxi décollage supérieure à 136 tonnes?",
+            "options": [
+                "Fastair 345",
+                "Heavy Fastair 345",
+                "Fastair 345 heavy",
+                "Fastair 345 gros avion"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "44- Quand un avion de la catégorie de turbulence lourde doit-il inclure le mot “heavy” immédiatement après son indicatif? (ex: Fastair 345 heavy)",
+            "options": [
+                "Dans le premier appel à la tour de contrôle de l'aérodrome et au service de contrôle d'approche",
+                "Jamais",
+                "Dans tous les appels",
+                "Dans tous les appels à la tour de contrôle et au service de contrôle d'approche"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "45- Quels éléments ou instructions doivent toujours être collationnés?",
+            "options": [
+                "QNH, code SSR, état des aides à l'approche",
+                "QNH, information météo, piste en service",
+                "Clairances ATC, Instructions de vitesse, information d'état des pistes",
+                "Code SSR, QNH, clairances décollage, instructions de vitesse"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "46- Quel devrait être le collationnement du pilote pour: « Montez au FL280 »?",
+            "options": [
+                "Je monte au niveau de vol deux quatre-vingt",
+                "Je monte au niveau de vol deux huit zéro",
+                "Je monte deux huit zéro",
+                "Je monte jusqu'au deux quatre-vingt"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "47- Quel devrait être le collationnement du pilote pour: « montez à 2500ft »?",
+            "options": [
+                "Je monte jusqu'à deux point cinq",
+                "plus haut jusqu'à deux mille cinq cent",
+                "Je monte jusqu'à deux mille cinq cent pieds",
+                "Je monte jusqu'à deux mille cinq cent"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "48- L’ATC autorise Fastair 345 à descendre du FL100 jusqu’au FL80. Quel est le collationnement correct du pilote?",
+            "options": [
+                "Je descends vers 80, Fastair 345",
+                "Je quitte niveau de vol 100 vers niveau de vol 80, Fastair 345",
+                "Plus bas vers niveau de vol 80, Fastair 345",
+                "Je quitte 100 vers 80, Fastair 345"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "49- Quels éléments d’un rapport de position ne peuvent être omis?",
+            "options": [
+                "Identification avion, position, heure, niveau",
+                "Identification avion, position, heure",
+                "Identification avion, position, niveau",
+                "Identification avion, position, prochaine position"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "50- Une transmission en l’air doit être faite:",
+            "options": [
+                "sur la fréquence désignée (fréquence en service)",
+                "à toutes les stations aéronautiques disponibles",
+                "sur les fréquences régionales de garde seulement",
+                "pendant les vols IFR seulement"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "51- Un avion rencontrant une panne de communication radio pendant un vol IFR en VMC devrait :",
+            "options": [
+                "Continuer à voler en VMC, atterrir sur l'aérodrome approprié le plus proche, rendre compte à son arrivée",
+                "Quitter l'espace controlé et continuer le vol dans un espace non contrôlé",
+                "Afficher IDENT et se derouter vers l'aérodrome de dégagement",
+                "Continuer le vol jusqu'à l'aérodrome de destination dans tous les cas"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "52- Un avion en IFR et en VMC connaît une panne de communication radio. L’avion doit :",
+            "options": [
+                "Atterrir sur l'aérodrome de destination",
+                "Retourner sur l'aérodrome de départ",
+                "Atterrir sur l'aéroport de dégagement",
+                "Atterir sur l'aérodrome approprié le plus proche"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "53- Un avion en IFR et en IMC connaît une panne de communication radio. L’avion doit :",
+            "options": [
+                "Se diriger, conformément au plan de vol, vers l'aide à la navigation de l'aérodrome de destination",
+                "Se diriger vers un endroit à partir duquel le vol peut être continué suivant les règles de vol à vue",
+                "Se dérouter vers l'aérodrome le plus approprié suivant la route du vol",
+                "Exécuter une approche VMC sur l'aérodrome approprié le plus proche"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "54- Un avion rencontrant une panne de communication radio pendant un vol IFR en IMC doit rester sur l’aide à la navigation désignée servant l’aérodrome de destination :",
+            "options": [
+                "3 minutes, si une heure d'approche n'est pas connue",
+                "sous aucune circonstances",
+                "5 minutes dans tous les cas",
+                "Jusqu'à l'heure d'approche prévue, la dernière reçue et collationnée"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "55- Un avion rencontrant une panne de communication radio pendant un vol IFR en VMC doit commencer la descente au dessus de l’aide à la navigation de l’aéroport de destination (pas de ETA reçue)",
+            "options": [
+                "Après 3 minutes, si aucune heure d'approche n'a été collationnée",
+                "5 minutes après la dernière heure d'approche collationnée",
+                "Immédiatement après l'avoir atteinte dans tous les cas",
+                "A, ou aussi proche de, l'ETA du plan de vol en cours"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "56- Un avion rencontrant une panne de communication radio dans un vol IFR en IMC doit atterrir si possible sous :",
+            "options": [
+                "30 minutes après l'ETA ou la dernière ETA, si elle est plus tard",
+                "30 minutes après avoir noté la panne radio",
+                "30 minutes après avoir attendu pour une ETA",
+                "15 minutes après avoir quitté le niveau de transition"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "57- A l’intérieur d’une région européenne, un avion ayant une panne de communication radio sur un départ en IFR doit afficher 7600 et :",
+            "options": [
+                "Monter immédiatement jusqu'au niveau de croisière indiqué dans le plan de vol",
+                "Maintenir le dernier niveau assigné par l'ATC pour une période de 3 minutes et puis monter en respect du plan de vol",
+                "Atterrir sur l'aérodrome de départ dans tous les cas",
+                "Maintenir la dernière altitude assignée par l'ATC pour une période de 5 minutes puis continuer en respect du plan de vol"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "58- Un avion au départ connaît une panne de communication radio durant un vol IFR sous vecteurs radars, il doit :",
+            "options": [
+                "Afficher 7600 et maintenir le dernier cap assigné par l'ATC pour une période de 3 minutes et ensuite revenir à la route du vol en respect du plan de vol",
+                "Afficher 7600 et après revenir à la route indiquée sur le plan de vol de la manière la plus directe",
+                "Afficher 7600, maintenir le cap présent pendant 1 minute et après revenir à la route indiquée dans le plan de vol de la manière la plus courte",
+                "Afficher 7600 et après, sans tenir compte des limites d'instructions de l'ATC, revenir à la route indiquée dans le plan de vol de la manière la plus courte"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "59- Dans le cas de panne de transpondeur survenant après le départ d’un vol IFR, le pilote doit :",
+            "options": [
+                "Atterrir sur l'aérodrome approprié le plus proche pour réparer",
+                "Informer le service ATC compétent immédiatement",
+                "Afficher 7600",
+                "Continuer le vol en VMC"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "60- Dans le cas où le transpondeur tombe en panne avant le départ pour un vol IFR, le pilote doit :",
+            "options": [
+                "Informer le FIS pour un relai avec l'AIS",
+                "Obtenir avant tout la permission de l'ATC de continuer le vol",
+                "Inscrire dans l'item 18 du plan de vol « transpondeur hors service »",
+                "Informer l'ATC après le départ"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "61- Que signifient les mots « PAN PAN MEDICAL »?",
+            "options": [
+                "Ce signal est inadmissible en radiotéléphonie",
+                "L'avion a un passager malade à bord et demande une priorité à l'atterrissage",
+                "L'avion a un besoin urgent d'une intervention médicale après l'atterrissage sur l'aéroport de destination",
+                "Le message qui suit concerne un transport médicalié protégé opéré par un avion exclusivement assigné au transport médical"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "62- Le message concernant le transport protégé médical par un avion assigné exclusivement au transport médical doit être précédé par le signal :",
+            "options": [
+                "TRANSPORT MEDICAL",
+                "PAN PAN MEDICAL",
+                "TRANSPORT PROTÉGÉ",
+                "PAN PAN TRANSPORT"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "63- Que signifie le mot « accusez réception » ?",
+            "options": [
+                "Faites moi savoir si vous avez reçu et compris ce message",
+                "Donnez moi les informations suivantes",
+                "Répétez moi tout le message exactement comme vous l'avez reçu",
+                "Répétez toute votre dernière transmission"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "64- Que signifie le mot « approuvé »?",
+            "options": [
+                "Permission pour l'action proposée accordée",
+                "C'est correct",
+                "Autorisé à procéder sous les conditions spécifiées",
+                "Je répète pour la clarté"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "65- Quel mot ou phrase doit être employé pour indiquer une séparation entre portions de message?",
+            "options": [
+                "Break",
+                "Stop",
+                "Je répète",
+                "Terminé"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "66- Que signifie le mot “annulez” ?",
+            "options": [
+                "Attendez et je vous appellerai",
+                "Un changement a été fait à votre dernière clairance",
+                "Annulez la clairance transmise précédemment",
+                "Considérez cette transmission comme non émise"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "67- Que signifie le mot “check” ?",
+            "options": [
+                "Je comprends votre message",
+                "Confimez votre dernière transmission",
+                "Collationnez ma dernière instruction",
+                "Examinez un système ou une procédure"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "68- Quel mot ou phrase doit être utilisé lorsque l’on donne une autorisation de procéder sous les conditions spécifiées ?",
+            "options": [
+                "Approuvé",
+                "Parlez",
+                "Autorisé",
+                "Je répète, procédez"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "69- Quel mot ou phrase doit être utilisé pour demander si vous avez correctement reçu un message, une clairance, instruction, etc ?",
+            "options": [
+                "Confirmez",
+                "Correct",
+                "Accusez réception",
+                "Vérifiez"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "70- Que signifie le mot “contactez” ?",
+            "options": [
+                "C'est correct",
+                "Contact radio établi",
+                "Veillez sur … (fréquence)",
+                "Etablissez contact radio avec :"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "71- Quel mot ou phrase doit être utilisé pour répéter pour la clarté ?",
+            "options": [
+                "Je répète",
+                "Confirmer",
+                "Collationner",
+                "Vérifier"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "72- Que signifie le mot “correct” ?",
+            "options": [
+                "C'est correct",
+                "Une erreur est survenue dans cette transmission. La version correcte est …",
+                "Permission pour l'action proposée non accordée",
+                "Négatif, la version correcte est :"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "73- Quel mot doit être utilisé pour indiquer qu’une erreur a été faite dans une transmission ou message ?",
+            "options": [
+                "Correction",
+                "Correct",
+                "Négatif",
+                "Ignorez"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "74- Que signifie le mot “ignorez” ?",
+            "options": [
+                "Considérez cette transmission comme non envoyée",
+                "Une erreur a été faite dans cette transmission",
+                "Annulez la dernière clairance transmise",
+                "Attendez et je vous appellerai"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "75- Quel mot doit être utilisé lorsqu’il est demandé la lisibilité de la transmission ?",
+            "options": [
+                "Je vous lis fort et clair",
+                "Collationnez",
+                "Rapportez la lisibilité",
+                "Comment lisez vous ?"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "76- Que signifie le mot “négatif”?",
+            "options": [
+                "Je répète",
+                "Considérez cette transmission comme non envoyée",
+                "Annulez la dernière clairance transmise",
+                "Non"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "77- Quel mot ou phrase doit être utilisé pour indiquer qu’un changement a été fait à votre dernière clairance et que la nouvelle clairance a priorité sur votre clairance précédente ou au moins une partie de cette dernière?",
+            "options": [
+                "Re-autorisé",
+                "Autorisé",
+                "Approuvé",
+                "Break break"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "78- Que signifie le mot “re-autorisé” ?",
+            "options": [
+                "Considérez cette transmission comme non envoyée",
+                "Permission donnée pour l'action proposée",
+                "Une erreur a été faite dans ma dernière transmission",
+                "Un changement a été fait sur ma dernière clairance"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "79- Que signifie le mot “rapportez” ?",
+            "options": [
+                "Redites",
+                "Répétez moi tout ce message exactement comme vous l'avez reçu",
+                "Passez moi les informations suivantes",
+                "Examinez un système ou une procédure"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "80- Quel mot ou phrase doit être utilisé pour dire : “Réduisez votre débit de paroles” ?",
+            "options": [
+                "Parlez plus lentement",
+                "Les mots deux fois",
+                "Répétez",
+                "Redites"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "81- Quel est le suffixe de l’indicatif radiotéléphonique pour une station aéronautique donnant le service radar ( en général)?",
+            "options": [
+                "RADAR",
+                "CONTRÔLE",
+                "RADAR-CONTRÔLE",
+                "RADAR-SERVICE"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "82- Quel est le suffixe de l’indicatif radiotéléphonique pour une station aéronautique donnant la délivrance des clairances ?",
+            "options": [
+                "DELIVRANCE CLAIRANCE",
+                "CLAIRANCE",
+                "DELIVRANCE",
+                "RADIO"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "83- Quand un avion reçoit l’appel « TOUTES STATIONS Stephenville RADAR, Arrêtez de transmettre MAYDAY » il est demandé :",
+            "options": [
+                "De continuer une communication normale sur la fréquence en service",
+                "Ne pas interférer avec la communication de détresse",
+                "D'assister Stephenville RADAR à gérer la trafic en détresse",
+                "De quitter la fréquence en service"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "84- Quand un avion reçoit l’appel « TOUTES STATIONS stephenville RADAR, trafic de détresse terminé » il est demandé :",
+            "options": [
+                "D'arrêter les communications avec Stephenville RADAR",
+                "D'imposer le silence à toutes les stations dans les alentours",
+                "D'accuser réception de ce message",
+                "De retrouver une communication normale avec Stephenville RADAR"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "85- Que signifie la phrase « break break »?",
+            "options": [
+                "Les échanges de transmissions sont terminés et aucune réponse n'est attendue",
+                "Cela indique une séparation entre des portions dans un message transmis vers un avion",
+                "Cela indique une séparation entre des messages transmis à plusieurs avions dans un environnement très chargé",
+                "Ma communication est terminée et j'attends une réponse de votre part"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "86- Quel message suivant doit utiliser une station de contrôle en détresse pour imposer le silence ?",
+            "options": [
+                "Arrêtez de transmettre, URGENCE",
+                "Arrêtez de transmettre, DETRESSE",
+                "Arrêtez de transmettre, MAYDAY",
+                "toutes stations sur la fréquence, MAYDAY trafic"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "87- Les communications de détresse et les conditions d’imposition du silence doivent être terminées en transmettant un message. Quels mots ou phrase ce message doit inclure?",
+            "options": [
+                "Ignorez les communications de détresse, OUT",
+                "Communications d'urgence finies",
+                "Trafic MAYDAY terminé",
+                "Trafic en Détresse terminé"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "88- Quelle phrase doit être utilisée si vous voulez dire : ” la communication est difficile. Envoyez s’il vous plait chaque mot ou groupe de mot deux fois “?",
+            "options": [
+                "Les mots deux fois",
+                "Répétez, Répétez",
+                "Répétez deux fois",
+                "Le message une seconde fois"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "89- Lorsqu’un avion n’est plus en détresse, il doit transmettre un message annulant les conditions de détresse. Quels mots doivent être inclus dans ce message?",
+            "options": [
+                "MAYDAY, retrouvant les opérations normales",
+                "Annule la détresse",
+                "MAYDAY annulé",
+                "Conditions de détresse terminées"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "90- Le message d’urgence à envoyer à un avion présentant des conditions d’urgence doit contenir au moins les éléments / détails suivants :",
+            "options": [
+                "Nom de la station réceptrice, position actuelle, assistance requise",
+                "Indicatif de l'appareil, aéroport de destination, ETA à destination, route du vol",
+                "Indicatif de l'appareil, nature des conditions d'urgence, intentions du pilote, position actuelle, niveau et cap",
+                "Identification de l'avion, aérodrome de départ, niveau et cap"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "91- Laquelle de ces affirmations est correcte?",
+            "options": [
+                "Les communications d'urgence ont la priorité sur toutes les autres communications",
+                "Les communications d'urgence ont la priorité sur toutes les autres communications, sauf celles de détresse",
+                "Il n'y a pas de différence de priorité entre des communications de détresse et des communications d'urgence",
+                "Les clairances de l'ATC ont la même priorité que les communications d'urgence"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "92- Pour indiquer qu’il n’occupe plus la piste en service, un pilote doit dire au contrôleur :",
+            "options": [
+                "Piste dégagée",
+                "Piste claire",
+                "Piste libre",
+                "Sorti de la piste"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "93- Pendant un guidage radar, le contrôleur demande au pilote du XY-ABC de tourner au cap 360°. Le collationnement correct de cette instruction est :",
+            "options": [
+                "Un collationnement n'est pas nécessaire puisque XY-ABC a été identifié",
+                "Cap nord, X-BC",
+                "Cap trois cent soixante, X-BC",
+                "Cap trois six zéro, X-BC"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "94- Le silence radio peut être imposé par la station aéronautique en cas de:",
+            "options": [
+                "Difficultés techniques",
+                "Communication d'urgence",
+                "Surcharge de la fréquence",
+                "Trafic en détresse"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "95- Quels messages suivants envoyés par l’ATC vers un avion doivent être collationnés ?\n1- « descendez à (altitude) 3000ft »\n2- « vent 240°, 15 noeuds, rafales 30 noeuds »\n3- « tournez à droite cap 210 »\n4- « réduisez votre vitesse à 160 noeuds »\n5- « affichez 1723 »\n6- « Action de freinage médiocre »",
+            "options": [
+                "1,2,3,5",
+                "tous",
+                "1,3,4,5",
+                "1,3,4,5,6"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "96- L’expression « transmission en l’air à cause d’une panne radio » implique qu’aucune réponse n’est attendue. Elle doit être utilisée par :",
+            "options": [
+                "Un avion étant au courant d'une panne du récepteur",
+                "Un avion faisant une transmission en l'air à un terrain non contrôlé",
+                "Un contrôleur radar fournissant une approche PAR ou SRE",
+                "Une station au sol diffusant une information à toutes les stations écoutant"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "97- Quand une station aéronautique diffuse une information à plus de une station, l’appel commence par :",
+            "options": [
+                "« Message à tous les avions sur la fréquence »",
+                "« Message à tous les avions sur la fréquence»",
+                "« Toutes stations »",
+                "« S'il vous plait, écoutez »"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "98- Que signifie l’abréviation “ATIS”?",
+            "options": [
+                "Automatic terminal information service",
+                "Automatic terminal information system",
+                "Airport terminal information service",
+                "Air traffic information service"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "99- Que signifie l’abréviation « SAR »?",
+            "options": [
+                "Standard Arrival route",
+                "Search and rescue",
+                "Surveillance Airport radar",
+                "Secondary altimeter responder"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "100- Que signifie l’abréviation « AIS »?",
+            "options": [
+                "Aeronautical Information service",
+                "Aerodrome Identification signal-area",
+                "Airport information system",
+                "Aerodrome information service"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "101- Que signifie l’abréviation « IMC »?",
+            "options": [
+                "In Meteorological Conditions",
+                "International meteorological channel",
+                "Instrument Meteorological Conditions",
+                "In Most Cases"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "102- Quels messages suivants envoyés par l’ATC vers un avion doivent être collationnés?\n1- « descendez à  (altitude) 3000ft »\n2- « vent 240°, 15 noeuds, rafales 30 noeuds »\n3- « tournez à droite cap 210 »\n4- « réduisez votre vitesse à 160 noeuds »\n5- « affichez 1723 »\n6- « Action de freinage médiocre »",
+            "options": [
+                "1, 2, 3, 5",
+                "tous",
+                "1, 3, 4, 5",
+                "1, 3, 4, 5, 6"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "103- Quel est le suffixe de l’indicatif radiotéléphonique pour une station aÃ©ronautique donnant la dÃ©livrance des clairances",
+            "options": [
+                "DELIVRANCE CLAIRANCE",
+                "CLAIRANCE",
+                "DELIVRANCE",
+                "RADIO"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "104- Quel est le suffixe de lindicatif radiotéléphonique pour une station aÃ©ronautique donnant le servie radar ( en gÃ©nÃ©ral)?",
+            "options": [
+                "RADAR",
+                "CONTROLE",
+                "RADAR-CONTROLE",
+                "RADAR-SERVICE"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "105- Quels éléments d’un rapport de position ne peuvent être omis?",
+            "options": [
+                "Identification avion, position, prochaine position",
+                "Identification avion, position, niveau",
+                "Identification avion, position, heure",
+                "Identification avion, position, heure, niveau"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "106- L’ATC autorise Fastair 345 à descendre du FL100 jusqu’au FL80. Quelle est le collationnement correct du pilote?",
+            "options": [
+                "Plus bas vers niveau de vol 80, Fastair 345",
+                "Je quitte niveau de vol 100 vers niveau de vol 80, Fastair 345",
+                "Je descends vers 80, Fastair 345",
+                "Je quitte 100 vers 80, Fastair 345"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "107- Quel est l’indicatif correct de Fastair 345 dans l’appel initial à  le tour de contrôle de l’aérodrome et au service de contrôle d’approche, si l’avion a une masse maxi décollage supérieure à  136 tonnes?",
+            "options": [
+                "Fastair 345 gros avions",
+                "Fastair 345 heavy",
+                "Heavy Fastair 345",
+                "Fastair 345"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "108- Quel est l’indicatif aéronautique pour une station aéronautique indiquant le contrôle radar des arrivées:",
+            "options": [
+                "RADAR",
+                "APPROCHE",
+                "ARRIVEE",
+                "DIRECTEUR"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "109- Quel est l’indicatif aéronautique pour une station aéronautique indiquant le contrôle radar des départs?",
+            "options": [
+                "APPROCHE",
+                "DEPARTS",
+                "CONTROLE",
+                "RADAR"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "110- Quel est l’indicatif aéronautique pour une station aéronautique indiquant un centre de contrôle (non radar)?",
+            "options": [
+                "CONTROLE",
+                "CENTRE",
+                "APPROCHE",
+                "RADAR"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "111- Que signifie le terme « RVR »?",
+            "options": [
+                "Recleared via route…",
+                "Runway Visual Range",
+                "Radars vectors requested",
+                "Runway visibility report"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "112- Que signifie l’abréviation “RNAV”?",
+            "options": [
+                "Navigation de surface",
+                "Navigation de route",
+                "Navigation au radar",
+                "Radio navigation"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "113- Que signifie l’abréviation « SSR »?",
+            "options": [
+                "Surface strengh of runway",
+                "Search and surveillance radar",
+                "Standart snow report",
+                "Secondary surveillance radar"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "114- Que signifie l’abréviation “MLS”?",
+            "options": [
+                "Mean sea level",
+                "Minimum safe level",
+                "Microwave Landing system",
+                "Minimum sector level"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "115- Que signifie le terme « INS »?",
+            "options": [
+                "International navigation service",
+                "International NOTAM system",
+                "Inertial navigation system",
+                "Instrument navigation system"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "116- Quel est l’indicatif radiotéléphonique pour une station sol s’occupant du contrôle d’approche (pas de service radar)?",
+            "options": [
+                "CONTROLE",
+                "APPROCHE",
+                "ARRIVEE",
+                "RADAR"
+            ],
+            "correctOptionIndex": 1
+        }
+    ],
+    "COMMUNICATION VFR": [
+        {
+            "question": "1- Un avion en détresse devrait envoyer le message suivant par radio:",
+            "options": [
+                "MAYDAY, MAYDAY, MAYDAY",
+                "DETRESFA, DETRESFA, DETRESFA",
+                "PAN PAN, PAN PAN, PAN PAN",
+                "URGENCE, URGENCE, URGENCE"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "2- Comment un METAR d’aéroports particuliers peut il être obtenu en vol?",
+            "options": [
+                "VOLMET",
+                "AFIS",
+                "ATIS",
+                "SIGMET"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "3- Quel est le code transpondeur pour une panne de communication en vol?",
+            "options": [
+                "6700",
+                "7600",
+                "7500",
+                "7700"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "4- Quelle abréviation est utilisée pour une « zone de contrôle »?",
+            "options": [
+                "CTR",
+                "CTZ",
+                "CZ",
+                "CTA"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "5- Que signifie l’abréviation « AFIS »?",
+            "options": [
+                "Aeronautical flight information system",
+                "Automatic flight information service",
+                "Aerodrome flashing identification signal",
+                "Aerodrome flight information service"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "6- Que signifie l’abréviation « FIR »?",
+            "options": [
+                "Flow information received",
+                "Flight information region",
+                "Flight information required",
+                "Flight information radar"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "7- Quelle abréviation est utilisée pour « Temps coordonné Universel »?",
+            "options": [
+                "COUT",
+                "GMT",
+                "CUT",
+                "UTC"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "8- Si on vous demande de donner votre hauteur, à quelle code Q vous référerez vous?",
+            "options": [
+                "QFE",
+                "QDM",
+                "QNH",
+                "QBI"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "9- Quel code Q est utilise pour donner une altitude?",
+            "options": [
+                "QNH",
+                "QFE",
+                "QFF",
+                "QNJ"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "10- Quel est le code Q pour « cap magnétique jusqu’à  la station »? (Sans vent)",
+            "options": [
+                "QTE",
+                "QNE",
+                "QDR",
+                "QDM"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "11- Quel est le code Q pour « Relèvement vrai depuis la station »?",
+            "options": [
+                "QTE",
+                "QDM",
+                "QDR",
+                "QFE"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "12- Quel est le code Q pour « Relèvement magnétique depuis la station »?",
+            "options": [
+                "QFE",
+                "QDM",
+                "QDR",
+                "QTE"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "13- Quelle est la façon correcte d’épeler HB-JYC dans un message radio?",
+            "options": [
+                "hotel bravo juliett Yankee Charlie",
+                "hotel bravo juliett India kilo",
+                "hotel bravo India Yankee Charlie",
+                "hotel bravo India victor Charlie"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "14- Quelle phrase doit être utilisée si vous voulez dire : « Je voudrais savoir… ou je voudrais obtenir… »?",
+            "options": [
+                "Demandons",
+                "Collationnons",
+                "Reportons",
+                "Confirmons"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "15- Quelle phrase doit être utilisée pour confirmer que le message a été répété correctement?",
+            "options": [
+                "C’est affirmatif",
+                "Affirme",
+                "Correct",
+                "C’est vrai"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "16- Quelle phrase devrait être utilisée pour dire:\n« Une erreur a été dite pendant la transmission, la version correcte est… »?",
+            "options": [
+                "QNH 1017, negative 1016",
+                "QNH 1017 , correction QNH 1016",
+                "QNH 1017, negatif QNH 1016",
+                "QNH 1017, negative je repete 1016"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "17- Quelle phrase doit être utilisée pour dire:\n« Je comprend votre message et j’agirai en fonction »?",
+            "options": [
+                "Roger",
+                "J’agirai avec votre instruction",
+                "Wilco",
+                "Ok, je le ferai"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "18- Quelle phrase doit être utilisée pour dire:\n« Oui »",
+            "options": [
+                "Affirme",
+                "Oui",
+                "Roger",
+                "Affirmatif"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "19- Laquelle de ces phrases est utilisée pour dire à la tour de contrôle qu’un pilote fait une approche manquée?",
+            "options": [
+                "Je vais faire une autre approche",
+                "J’overshoote",
+                "Je tire",
+                "Remise de gaz"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "20- Quel est l’indicatif qui indique la station aéronautique de service de contrôle d’aérodrome?",
+            "options": [
+                "AERODROME",
+                "CONTROLE",
+                "PARKING",
+                "TOUR"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "21- Quel est l”indicatif qui indique la station aéronautique de service d’information de vol?",
+            "options": [
+                "INFORMATION",
+                "CENTRE D INFORMATION DE VOL",
+                "CENTRE DE VOL",
+                "CONTROLE"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "22- Quel est l’indicatif qui indique la station aéronautique donnant le contrôle des mouvements en surface des avions sur l’aire de manœuvre?",
+            "options": [
+                "TOUR",
+                "APPROCHE",
+                "SOL",
+                "CONTROLE"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "23- Quelle forme abrégée de l’indicatif de l’avion XY-ABC est correcte?",
+            "options": [
+                "BC",
+                "ABC",
+                "X-BC",
+                "XY-BC"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "24- Quelle forme abrégée de l’indicatif de Cherokee XY-ABC est correcte?",
+            "options": [
+                "Cherokee BC",
+                "Cherokee XY-BC",
+                "Cherokee X-BC",
+                "Cherokee X-ABC"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "25- De quelle manière l’avion XY-ABC appelle la TOUR de Stephenville au premier contact?",
+            "options": [
+                "Stephenville XY-ABC",
+                "Stephenville TOUR X-BC",
+                "TOUR XY-ABC",
+                "Stephenville TOUR XY-ABC"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "26- Il a été demandé à  l’avion X-BC de contacter Stephenville TOUR sur la fréquence 118.7.\nQuelle est la réponse correcte pour indiquer qu’il suivra l’instruction?",
+            "options": [
+                "je change X-BC",
+                "je changerai sur la TOUR X-BC",
+                "Stephenville TOUR X-BC",
+                "118.7 X-BC"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "question": "27- Il a été demandé à  l’avion X-BC d’écouter l’ATIS sur la fréquence 123.45, sur laquelle des informations sont diffusées.\nQuelle est la réponse correcte pour indiquer qu’il suivra cette instruction?",
+            "options": [
+                "Surveille 123.45 X-BC",
+                "Contacterai 123.45 X-BC",
+                "Change sur 123.45 X-BC",
+                "Check 123.25 X-BC"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "question": "28- Laquelle de ces fréquence est une fréquence internationale de détresse?",
+            "options": [
+                "6500 KHz",
+                "121.500 MHz",
+                "122.500 MHz",
+                "121.050 MHz"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "29- Un avion qui se retrouve en cas d’urgence doit afficher :",
+            "options": [
+                "7500",
+                "7700",
+                "6700",
+                "7600"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "30- Un message d’urgence doit être précédé du signal radiotéléphonique suivant:",
+            "options": [
+                "PAN PAN, dit trois fois",
+                "MAYDAY, dit trois fois",
+                "URGENCE, dit trois fois",
+                "ALERFA , dit trois fois"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "question": "31- Quelle est la bande de fréquence utilisée par les services mobiles aéronautiques?",
+            "options": [
+                "1810 – 2850 KHz",
+                "118.000 – 136.975 MHz",
+                "108.000 – 117.975 MHz",
+                "11650 – 13200 KHz"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "32- Quelle est la séparation de fréquences entre deux fréquences consécutives dans la bande VHF?",
+            "options": [
+                "250 KHz",
+                "25 KHz",
+                "50 KHz",
+                "75 KHz"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "question": "33- Quel mot ou phrase doit être utilisé si on veut dire:\n« Attendez et je vous appellerai »?",
+            "options": [
+                "Wilco",
+                "Standby",
+                "parlez",
+                "Roger"
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

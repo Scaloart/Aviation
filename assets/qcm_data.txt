@@ -1,0 +1,533 @@
+[CATEGORY]
+REGLEMENTATION
+
+1- L'Organisation de l'Aviation Civile Internationale établit :
+A des standards et des pratiques recommandées internationaux pour les Etats contractants.
+B des standards aéronautiques adoptés par tous les Etats.
+C des pratiques recommandées adoptés par tous les Etats.
+D des propositions de réglementation aéronautique sous la forme de 18 annexes.
+
+A
+
+2- Le document OACI qui traite principalement de la navigabilité des aéronefs est :
+A l’annexe 2
+B l’annexe 5
+C l’annexe 16.
+D l’annexe 8
+
+D
+
+3- L'Organisation de l’Aviation Civile Internationale (OACI) diffuse diverses publications techniques.
+Dans la liste ci-dessous
+1 - Le règlement de la Circulation Aérienne ( RCA)
+2 - Les normes et les pratiques recommandées ( SARP )
+3 - Les procédures pour les services de la Navigation Aérienne ( PANS )
+4 - La publication d'Information Aéronautique ( AIP )
+5 - Les circulaires d'Informations Aéronautiques ( AIC )
+6 - Les procédures complémentaires régionales ( SUPPS )
+7 - Les règlements aéronautiques fédéraux ( FAR )
+les documents établis par l'OACI sont
+A 2, 3, 6
+B 2, 3, 7
+C 1, 4, 5
+D 1, 2, 3, 4
+
+A
+
+4- Les règles contenues dans les annexes à la Convention de CHICAGO
+A sont applicables directement aux aéronefs des Etats contractants
+B ne sont applicables qu'après introduction dans la législation interne de chaque Etat contractant
+C ne sont applicables qu'après introduction dans la législation interne de chaque Etat contractant, sauf en cas de survol de la haute mer ou d'un territoire sans souveraineté
+D sont applicables aux aéronefs d'état des états contractants.
+
+B
+
+5- Le document OACI qui traite principalement des recherches et sauvetage est :
+A l’annexe 5
+B l’annexe 17
+C l’annexe 16
+D l’annexe 12
+
+D
+
+6- Pour effectuer une escale non commerciale dans un pays étranger, la liberté de l’air qui s’applique est : 
+A la première
+B la deuxième
+C la troisième
+D la quatrième
+
+B
+
+7- Lorsqu'un opérateur radar dit la phrase suivante à un aéronef "poursuivez au cap 030°", le pilote doit maintenir le cap :
+A vrai 030° en air calme (de manière à suivre la route vraie).
+B magnétique 030°
+C vrai 030°
+D magnétique 030° en air calme (de manière à suivre la route magnétique).
+
+B
+
+8- Lorsqu'un aéronef n'est plus apte au vol, suite à un accident ou à un entretien insuffisant
+A Son certificat d'immatriculation est retiré
+B Ses certificats d'immatriculation et de navigabilité sont retirés
+C La lettre V est apposée sur son certificat de navigabilité
+D La lettre R est apposée sur son certificat de navigabilité
+
+d
+
+9- Les marques de nationalité et d'immatriculation d'un avion sont positionnées sur le fuselage
+A de chaque côté, à un endroit bien visible
+B de chaque côté, entre les ailes et l'empennage
+C à la discrétion de l'exploitant car elles ne sont pas obligatoires
+D au choix, sur les côtés entre les ailes et l'empennage, ou sur la dérive
+
+
+D
+
+10- Que signifie :
+IMG:::assets/images/R10.png
+A Avancez plus vite
+B Avancez plus lentement
+C Arrêter le moteur
+D Arrêtez vous immédiatement
+
+D
+
+
+11- Dans quelle partie des publications aéronautique (AIP) se trouvent les informations relatives aux services météorologiques fournis dans les zones et sur les routes,
+A ENR
+B AD
+C GEN
+D MET
+
+C
+
+
+12- Dans quelle section des AIP sont contenues les informations relatives aux zones interdites, réglementées et dangereuses ?
+A ENR
+B MAP 
+C AGA
+D GEN
+
+A
+
+13- Sur un formulaire de plan de vol, lorsqu'aucun code OACI n'a été attribué à un aéroport de dégagement (case 16), il convient :
+
+A d'écrire XXXX dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) ALTN/ suivi par le nom de l'aéroport
+B d'écrire XXXX dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) DEGT/ suivi par le nom de l'aéroport
+C d'écrire ZZZZ dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) ALTN/ suivi par le nom de l'aéroport
+D d'écrire ZZZZ dans la case 16 et d'indiquer dans la case 18 (informations supplémentaires) DEGT/ suivi par le nom de l'aéroport
+
+C
+
+14- La Direction De L’Aéronautique Civile n’est pas responsable de :
+A Développer la coopération avec les organismes internationaux et régionaux dans le domaine de l’aviation civile
+B Tenir et suivre l'observatoire des transports aérien
+C Établir les documents réglementant l’environnement aéroportuaire 
+D Adopter les normes et pratiques recommandées par les organisations internationales et veiller à leur respect
+
+B
+
+
+15- Un aéronef en urgence doit afficher :
+A
+B
+C
+A le code 7600
+B le code 7000
+C le code 7700
+D le code 7500
+
+C
+
+
+16- Un aéronef affichant code 7500 est supposé être en :
+A état d’urgence
+B panne de communication
+C intervention d’illicite
+D égaré
+
+C
+
+
+17- La FIR de casablanca a pour limite supérieur :
+A
+B
+C
+A FL195
+B FL200
+C FL190
+D UNL
+
+A
+
+
+
+18- L'un des principaux objectifs de l'OACI est :
+A d'approuver de nouvelles compagnies aériennes internationales utilisant des avions à réaction
+B d'approuver de nouvelles compagnies aériennes internationales
+C d'approuver les tarifs des billets établis par les compagnies aériennes internationales
+D de développer des règles et des techniques pour l'aviation internationale
+
+D
+
+
+19- La seconde liberté de l'air est :
+A Le droit de survol sans atterrir
+B Le droit d'atterrir pour une escale technique
+C le droit de cabotage (circulation tran-frontière)
+D le droit d'effectuer un vol commercial avec des passagers à bord entre deux Etats
+ 
+B
+
+20- La définition de "aire de manoeuvre" est :
+
+A la partie d'un aérodrome à utiliser pour le décollage, l'atterrissage et la circulation des aéronefs, y compris l'aire de stationnement
+B la partie d'un aérodrome à utiliser pour le décollage, l'atterrissage et la circulation des aéronefs, y compris l'aire de mouvement et l'aire de stationnement
+C la partie d'un aérodrome à utiliser pour le décollage, l'atterrissage et la circulation des aéronefs, non compris l'aire de stationnement
+D aucune réponse n'es correcte
+
+A
+
+
+21- Ce geste signifie :
+IMG:::assets/images/R21.png
+A Avancez plus vite
+B Avancez plus lentement
+C Virez à gauche
+D Virez à droite
+
+D
+
+
+22- Le titre III de la loi 40-13 traite des :
+A Services aéronautiques aéronautiques
+Servitudes
+C Aérodromes
+D Aéronefs
+
+B
+
+
+23- L’article 17 de la loi 40-13 stipule que tout aéronef doit, lorsqu'il effectue un vol, être muni des documents suivants :
+A Son certificat d'immatriculation ; son certificat de navigabilité mentionnant l'état technique et la capacité de l'aéronef ainsi que sa durée de validité et l'autorité qui a délivré ledit certificat ; les licences et autres titres aéronautiques correspondant nécessaires pour chaque membre de l'équipage ; son carnet de vol
+B Son certificat d'immatriculation ;son certificat de navigabilité mentionnant l'état technique et la capacité de l'aéronef ainsi que sa durée de validité et l'autorité qui a délivré ledit certificat ;les licences et autres titres aéronautiques correspondant nécessaires pour chaque membre de l'équipage ;son carnet de route
+C son certificat d'immatriculation ; son carnet de route
+D son certificat d'immatriculation ; son certificat de navigabilité ; son carnet de route
+
+A
+
+
+24. Conformément à l’article (…) de l’arrêté 3163-12,les aéronefs sont classés dans les catégories suivantes :
+A (3) - aéronefs à sustentation motorisée ; avions ; ballons libres ; dirigeables d'un volume supérieur à 4 600 mètres cubes ;hélicoptères ;planeurs
+B (2) - aéronefs à sustentation motorisée ; avions ; ballons libres ; dirigeables d'un volume supérieur à 4 600 mètres cubes ;hélicoptères ;planeurs
+C (3) – aérodynes ;aérostats
+D (2) – aérodynes ;aérostats
+
+A
+
+25. Un AIRAC est :
+A un système intégré composé des éléments suivants : AIP, suppléments AIP, NOTAM, AIC, listes de contrôle et listes récapitulatives
+B une publication émise par ou avec l'autorité d'un Etat contenant des informations aéronautiques à caractère urgent pour la navigation aérienne
+C un acronyme désignant un système qui a pour but la notification à l'avance, sur la base de dates communes de mise en vigueur, de circonstances impliquant des changements importants dans les pratiques d'exploitation
+D un avis diffusé par télécommunication et donnant, sur l'établissement, l'état ou la modification d'une installation, d'un service, d'une procédure aéronautiques, ou d'un danger pour la navigation aérienne, des renseignements qu'il est essentiel de communiquer à temps au personnel chargé des opérations aériennes
+
+C
+
+26- Selon l'Annexe 8 OACI, un certificat de navigabilité doit être renouvelé ou rester valide d'après :
+A les lois de l'Etat dans lequel il est exploité
+B les lois de l'Etat d'immatriculation
+C les lois de l'Etat d'immatriculation et d'exploitation
+D les exigences établies par l'OACI
+
+B
+
+27- Lorsqu'un aéronef a subi un dommage, il peut être autorisé à poursuivre son vol, si :
+A l'Etat d'immatriculation considère que la nature du dommage subi est telle que l'aéronef est toujours en état de navigabilité
+B l'Etat de construction informe l'Etat d'immatriculation que la nature du dommage subi est telle que l'aéronef est toujours en état de navigabilité
+C l'Etat d'immatriculation, l'Etat de conception et l'Etat de construction considèrent que l'avion est toujours en état de navigabilité
+D l'Etat de conception et l'Etat de construction informent l'Etat d'immatriculation que navigabilité.
+
+A
+
+28- La fermeture d'une piste pour une durée d'un an, pour cause de maintenance, sera publiée :
+A seulement dans les AIP
+B NOTAM, AIP et MAL.
+C seulement par NOTAM.
+D dans les NOTAM et AIP, y compris les Suppléments.
+
+D
+
+29- Un aérostat non entraîné par un organe moteur est un : 
+A dirigeable
+B ornithoptère
+C ballon
+D planeur
+
+C
+
+30- En utilisant le code visuel air-sol la(les) lettre(s) semblables au symbole signifiant "demande assistance" est (sont) :
+IMG:::assets/images/R30.png
+A 1 
+B 2 
+C 3
+D 4
+
+A
+
+31- La lettre commune d'identification devra être choisie parmi les séries de caractères inclus dans les codes d'appel radio alloués :
+A à l'Organisation de l'Aviation Civile Internationale par l'Union Internationale des Télécommunications
+B à l'Etat d'immatriculation par l'Organisation de l'Aviation Civile Internationale
+C à l'Etat d'immatriculation par l'Union Internationale desTélécommunications
+D à l'Etat de l'opérateur
+
+A
+
+32- L'attribution d'une lettre commune d'identification à une autorité chargée de délivrer des immatriculations sera effectuée par :
+A l'Union Internationale des Télécommunications
+B l'Organisation de l'Aviation Civile Internationale
+C l'Etat d'immatriculation et acceptée par l'Union Internationale des Télécommunications
+D l'Etat d'immatriculation
+
+B
+
+33- La régulation du flux de trafic aérien au Maroc est basée sur la procédure d’allocation d’un créneau.
+Le sigle conventionnel de celui-ci est :
+A SLOT
+B SLAP
+C SLAT
+D SRQT
+
+A
+
+34- Quelle est la taille minimum des lettres employées pour l'immatriculation des aérodynes ?
+A fuselage 30 centimètres, ailes 50 cm
+B fuselage 100 centimètres, ailes 50 cm
+C ailes 60 centimètres, fuselage 30 cm
+D ailes 30 cm, fuselage à 50 centimètres
+
+A
+
+35- Quelle est la signification du symbole représenté dans le code des signaux visuels air-sol à l'usage
+des survivants ?
+IMG:::assets/images/R35.png
+A demandons assistance médicale
+B demandons assistance
+C atterrissage impossible
+D larguez les fournitures d'urgence ici
+
+A
+
+36- L'inscription d'un aéronef sur le registre d'immatriculation comprend :
+1. la date d'immatriculation
+2. le lieu d'immatriculation
+3. le numéro d'immatriculation
+4. le numéro du certificat de navigabilité
+5. la nationalité du propriétaire
+6. l'aérodrome d'attache de l'aéronef
+7. la description de l'aéronef
+A 3+6+7
+B 1+2+3+5
+C 1+3+4+5
+D 4+5+6+7
+
+A
+
+37- Le programme national de sécurité de l’aviation civile devra être établi par :
+A l’OACI ainsi que d’autres organisations incluant l’état contractant concerné
+B l’ECAC
+C l’OACI
+D chaque état contractant
+
+D
+
+38. Pour les deux étiquettes représentées en annexe, les risques principaux et subsidiaires sont respectivement :
+IMG:::assets/images/R38.png
+A matière infectieuse, corrosive
+B matière corrosive, toxique
+C matière corrosive, infectieuse
+D matière toxique, corrosive
+
+D
+
+39. Lorsque des lettres sont utilisées pour la marque d'immatriculation, les combinaisons ne devront pas pouvoir être confondues avec les signaux d'urgence, par exemple :
+A RCC
+B LLL
+C FFF
+D TTT
+
+D
+
+40- La procédure AIRPROX :
+A est utilisée par un commandant de bord, lorsqu’il estime que la sécurité de son aéronef a été ou aurait pu être compromise par un risque de collision avec un autre aéronef
+B ne pourra être poursuivie que si elle a,fait l’objet d’une procédure initiale AIRPROX
+C est appliquée par un contrôleur aérien lorsqu’il a constaté qu’un aéronef avait commis une infraction à la réglementation de la circulation aérienne
+D équivaut à une plainte déposée auprès du tribunal de grande instance et à ce titre, ne doit être utilisée que si le commandant de bord (ou le contrôleur ) a dûment constaté une infraction caractérisé aux règles de l’air
+
+A
+
+41- Les marques d'immatriculation seront constituées par des lettres, des chiffres ou par une combinaison de lettres et de chiffres et sera assignée par :
+A l'Etat d'immatriculation seulement
+B l'Union Internationale des Télécommunications
+C l'Organisation de l'Aviation Civile Internationale
+D l'Etat d'immatriculation ou l'Autorité d'immatriculation sous marque commune
+
+D
+
+42- Concernant les clairances IFR, un pilote doit :
+A répéter intégralement la clairance
+B ne rien répéter du tout
+C répéter la route, le FL, le code transpondeur
+D le FL, les parties nécessitant des vérifications
+
+A
+
+43- Quels groupes de lettres ne doivent pas être utilisés pour l'immatriculation des avions afin d'éviter toute confusion avec des signaux d'urgence ?
+A PAN
+B LLL
+C RCC
+D DDD
+
+A
+
+44- Lorsque des lettres sont utilisées pour la marque d'immatriculation, les combinaisons ne devront pas pouvoir être confondues avec les signaux d'urgence ou de détresse, par exemple :
+A DDD
+B XXX
+C LLL
+D RCC
+
+B
+
+45- Conformément à la réglementation marocaine aucune publicité ni inscription autre que celles définies ci-dessus ne doit apparaître sur une surface extérieure d'un aéronef sauf autorisation écrite du.
+A Exploitant
+B Directeur de l'Air
+C Propriétaire
+D Constructeur
+
+B
+
+46- Après que vous soyez revenu sur une route aérienne par guidage radar, que signifie l’instruction du contrôle départ « reprenez votre propre navigation » ?
+A vous êtes encore en contact radar, mais vous devez signaler vos positions
+B le service radar est terminé
+C les services de la CA ne vous donneront plus d’informations
+D vous devriez suivre cette route aérienne à l’aide de vos moyens de navigation
+
+D
+
+47- Juste avant d'arriver sur l'aire de trafic, un aéronef roule malencontreusement dans l'herbe, une roue tombe dans un trou et endommage sérieusement l'aéronef, ce qui oblige l'équipage à retarder le départ :
+A ceci est un accident et l'équipage doit suivre la procédure relative à ce cas
+B ceci est un incident et le commandant de bord doit en informer les autorités de l'aéroport dans les 48 heures
+C puisqu'aucune blessure ,les actions à entreprendre consistent à se mettre en relation avec l'assurance, le mécanicien, la compagnie et le responsable en charge des pistes et des voies de circulation
+D ceci est une irrégularité d'exploitation, l'équipage doit informer la compagnie du délai qui résultera de la réparation
+
+A
+
+48- L'Etat qui dirige une enquête sur un accident d'aviation doit :
+A tenir une conférence de presse immédiatement après la cloture de l'enquête
+B aucune réponse n'est correcte
+C publier un rapport final comme demandé par l'Etat de l'exploitant
+D publier un rapport final selon les normes OACI
+
+D
+
+49- Le compte rendu préliminaire d'enquête sur un accident sera présenté aux Etats destinataires et à l'OACI :
+A dans une des langues de travail de l'OACI
+B dans la langue de l'Etat enquêteur
+C en anglais 
+D dans une des langues majeures du monde
+
+A
+
+50- Une clairance est toujours valide :
+A pour une période maximum de 5mn
+B pour une période maximum de 30mn
+C jusqu’à la limite de clairance
+D jusqu’à l’atterrissage à destination
+
+C
+
+51- La notification d'accident sera adressée aux Etats concernés et à l'OACI :
+A dans la langue de l'Etat menant l'enquête
+B dans une des langues de travail de l'OACI
+C dans une des langues les plus répandues dans le monde
+D en anglais
+
+B
+
+52- La responsabilité d'ordonner une enquête concernant les circonstances d'un accident incombe à :
+A l'Etat dans lequel a eu lieu l'accident
+B l'Etat de construction
+C L'OACI
+D l'Etat d'immatriculation
+
+A
+
+53- Un feu de classe B est un feu :
+A de liquides ou solides liquéfiables
+B de métaux ou gaz ou produits chimiques (feux spéciaux)
+C d'origine électrique
+D d'origine électrique
+
+A
+
+54- La blessure grave. est Toute blessure que subit une personne au cours d’un accident et qui nécessite l’hospitalisation pendant plus de………, cette hospitalisation commençant dans ……….qui suivent la date à laquelle les blessures ont été subies
+A 48 heures- sept jours
+B sept jours-30 jours
+C 48 heures- 30 jours
+D 1 jour-30 jours
+
+A
+
+55- Les renseignements ci-après ne peuvent pas être rendus publics ou être utilisés à des fins autres que celles de l'enquêtete technique :
+1.les déclarations recueillies aupres des personnes ;
+2.les enregistrements revelant l’identite des personnes ayant temoigne dans le cadre de
+l'enquête technique y compris l'enquête de premiere information ;
+3.les renseignements recueillis qui revetent un caractère sensible et personnel,
+notamment les informations sur la santé des personnes ;
+4.Les photos de l’épave.
+A 1+2+3+4
+B 1+2+3
+C 1+2
+D 1
+
+C
+
+56- Le document de référence traitant du transport de marchandises dangereuses est :
+A la convention de Washington
+B l'annexe 18 de l'OACI
+C l'annexe 8 de l'OACI
+D l'instruction n°300 du 3 juin 1957
+
+B
+
+57- L'abréviation "IMC" signifie:
+A Conditions météorologiques de vol aux instruments (Instrument météorological conditions)
+B Dans des conditions météorologiques
+C Fréquence météorologique internationale (International météorological channel)
+D Dans la plupart des cas (In most cases)
+
+A
+
+58- L'abréviation "SSR" signifie:
+A Radar de surveillance et de recherche (Search and surveillance radar)
+B Radar secondaire de surveillance(Secondary surveillance radar)
+C Résistance du revêtement de la piste (Surface stength of runway)
+D Rapport......()
+
+B
+
+59- Quelle est la distance maximale à laquelle vous pouvez espérer une bonne réception VHF au dessus d'une surface plane lorsque vous vous trouvez au FL 100:
+A Environ 30 NM
+B Environ 300 NM.
+C Environ 120 NM.
+D Environ 12 NM
+
+C
+
+60- Lors d' une procédure de détresse vous utiliserez lors de l'appel la phraséologie:
+A DETRESSE - DETRESSE - DETRESSE
+B HELP -HELP -HELP 
+C PANNE -PANNE - PANNE
+D MAYDAY- MAYDAY -MAYDAY
+
+D
+

@@ -1,0 +1,20 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /user_avatars/{userId}/{fileName} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /users/{userId}/dossiers/{fileName} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Manual payment proofs
+    match /manual_payments/{uid}/{fileName} {
+      // Owner or admin can read
+      allow read: if request.auth != null && (request.auth.uid == uid || request.auth.token.roles.admin == true);
+      // Owner can upload
+      allow write: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isSelf(uid) { return signedIn() && request.auth.uid == uid; }
+    function isAdmin() { return signedIn() && request.auth.token.roles.admin == true; }
+
+    // Users collection
+    match /users/{userId} {
+      // Read: owner or admin
+      allow read: if isSelf(userId) || isAdmin();
+
+      // Owner can manage their own basic data, but NOT elevate subscription.
+      // Admins can update anything.
+      allow create: if isSelf(userId);
+      allow delete: if isAdmin();
+      allow update: if isAdmin() || (
+        isSelf(userId)
+        && !('subscription' in request.resource.data)
+      );
+
+      // Subcollections (bookmarks, exams, etc.)
+      match /{document=**} {
+        allow read, write: if isSelf(userId) || isAdmin();
+      }
+    }
+
+    // Manual bank transfer submissions (top-level)
+    match /manual_payments/{paymentId} {
+      // Create: only the owner can create
+      allow create: if signedIn() && request.resource.data.uid == request.auth.uid;
+
+      // Read: owner or admin
+      allow read: if (resource.data.uid == request.auth.uid) || isAdmin();
+
+      // Approvals/changes: admins only
+      allow update, delete: if isAdmin();
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "236989254194",
+    "project_id": "epl-3-the-brief",
+    "storage_bucket": "epl-3-the-brief.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236989254194:android:89a7346800cb989c960a2b",
+        "android_client_info": {
+          "package_name": "com.briefly.nassih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236989254194-oenpo1sla40ksga7qoc299fq3jcrucg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.briefly.nassih",
+            "certificate_hash": "d586c478c226b7b31a5b69c66898d3126b27d5ca"
+          }
+        },
+        {
+          "client_id": "236989254194-2dhlq9fj62skcqcjbgf7ejvh23oehn1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIG2b6x7VLBVbveoWQCDOFbrduh40WCY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236989254194-2dhlq9fj62skcqcjbgf7ejvh23oehn1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236989254194-613no9hrg6hlhifbfbbtrjet3r50gkev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pilotWeatherBriefing"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236989254194:android:e9b9a1f2f9015602960a2b",
+        "android_client_info": {
+          "package_name": "com.example.pilot_weather_briefing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236989254194-2dhlq9fj62skcqcjbgf7ejvh23oehn1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIG2b6x7VLBVbveoWQCDOFbrduh40WCY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236989254194-2dhlq9fj62skcqcjbgf7ejvh23oehn1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236989254194-613no9hrg6hlhifbfbbtrjet3r50gkev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pilotWeatherBriefing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

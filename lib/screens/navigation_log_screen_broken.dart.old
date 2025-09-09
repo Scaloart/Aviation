@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:pilot_weather_briefing/models/notam_model.dart';
+import 'package:pilot_weather_briefing/models/temsi_chart_model.dart';
+import 'package:pilot_weather_briefing/models/wintem_chart_model.dart';
+
+class NavigationLogScreen extends StatelessWidget {
+  final List<String> selectedItems;
+  final String airportCodes;
+  final List<TemsiChart>? selectedTemsiCharts;
+  final List<WintemChart>? selectedWintemCharts;
+  final List<Notam>? selectedNotams;
+  final String? flightPlanPath;
+
+  const NavigationLogScreen({
+    Key? key,
+    required this.selectedItems,
+    required this.airportCodes,
+    this.selectedTemsiCharts,
+    this.selectedWintemCharts,
+    this.selectedNotams,
+    this.flightPlanPath,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Navigation LOG', style: GoogleFonts.montserrat(fontWeight: FontWeight.w600)),
+        backgroundColor: const Color(0xFFE3F2FD),
+      ),
+      body: Center(
+        child: Text(
+          'Navigation LOG Screen - Coming Soon!',
+          style: GoogleFonts.montserrat(fontSize: 18),
+        ),
+      ),
+    );
+  }
+}

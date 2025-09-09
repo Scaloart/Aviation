@@ -1,0 +1,39 @@
+Releasing updates later
+Bump msix_version in 
+pubspec.yaml
+ (e.g., 1.0.1.0).
+Rebuild:
+powershell
+flutter pub run msix:create
+Replace the file in public/:
+Copy new MSIX to something like public/BrieFly_1.0.1.0_x64.msix.
+Update 
+public/BrieFly.appinstaller
+:
+Set Version="1.0.1.0".
+Update the MainPackage Uri to the new filename.
+Deploy again:
+powershell
+firebase deploy --only hosting
+Summary:
+
+You’re ready to deploy now. Run the deploy command and share the .appinstaller URL above.Releasing updates later
+Bump msix_version in 
+pubspec.yaml
+ (e.g., 1.0.1.0).
+Rebuild:
+powershell
+flutter pub run msix:create
+Replace the file in public/:
+Copy new MSIX to something like public/BrieFly_1.0.1.0_x64.msix.
+Update 
+public/BrieFly.appinstaller
+:
+Set Version="1.0.1.0".
+Update the MainPackage Uri to the new filename.
+Deploy again:
+powershell
+firebase deploy --only hosting
+Summary:
+
+You’re ready to deploy now. Run the deploy command and share the .appinstaller URL above.

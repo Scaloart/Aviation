@@ -1,0 +1,8 @@
+{
+  "latest_version": "4.0.0",
+  "latest_build": 4,
+  "mandatory": true,
+  "min_supported_build": 4,
+  "installer_url": "https://epl-3-the-brief.web.app/windows/v4/BrieFly_Setup_4.0.0.exe",
+  "notes": "Major update 4.0 with improvements and fixes."
+}

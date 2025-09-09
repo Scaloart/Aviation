@@ -1,0 +1,87 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "epl-3-the-brief",
+          "appId": "1:236989254194:android:e9b9a1f2f9015602960a2b",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "epl-3-the-brief",
+          "configurations": {
+            "android": "1:236989254194:android:e9b9a1f2f9015602960a2b",
+            "ios": "1:236989254194:ios:10cc1b37db569729960a2b",
+            "macos": "1:236989254194:ios:10cc1b37db569729960a2b",
+            "web": "1:236989254194:web:9c88ec7d27db9ff1960a2b",
+            "windows": "1:236989254194:web:f79fb1d000a2b89c960a2b"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ],
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "/update.json",
+        "headers": [
+          { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate, max-age=0" }
+        ]
+      },
+      {
+        "source": "/windows/v3/BrieFly_Setup_3.0.0.exe",
+        "headers": [
+          { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate, max-age=0" }
+        ]
+      },
+      {
+        "source": "/windows/v4/BrieFly_Setup_4.0.0.exe",
+        "headers": [
+          { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate, max-age=0" }
+        ]
+      },
+      {
+        "source": "**/*.appinstaller",
+        "headers": [
+          { "key": "Content-Type", "value": "application/appinstaller" }
+        ]
+      },
+      {
+        "source": "**/*.msix",
+        "headers": [
+          { "key": "Content-Type", "value": "application/vnd.ms-appx" }
+        ]
+      }
+    ]
+  }
+}

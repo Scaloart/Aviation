@@ -1,0 +1,31 @@
+﻿# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.buildlog/
+build/
+.android/
+.ios/
+.macos/Pods/
+ios/Pods/
+macos/Pods/
+**/DerivedData/
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store
+Thumbs.db
+# Locks and caches
+**/*.lock
+# Firebase cache
+.firebase/hosting.*
+# Big/built artifacts
+dist/
+installer/*.exe
+public/windows/**/BrieFly_Setup_*.exe
+tools/charts/**/*.zip
+tools/temp_downloads/
+tools/**/msedgedriver.exe
+# Secrets
+assets/credentials/service_account.json
