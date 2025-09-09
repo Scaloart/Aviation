@@ -56,8 +56,15 @@ jobs:
           if [ -z "$FIREBASE_TOKEN" ]; then echo "FIREBASE_TOKEN secret is missing"; exit 1; fi
           firebase deploy --only hosting --token "$FIREBASE_TOKEN"
 
-      - name: Upload artifact (backup)
+           - name: Upload artifact (backup)
         uses: actions/upload-artifact@v4
         with:
           name: macos-unsigned-zip
           path: public/macos/v${{ env.MAJOR }}/BrieFly-macOS-${{ inputs.version }}.zip
+
+      - name: Upload build log (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build_macos_log
+          path: build_macos.log
