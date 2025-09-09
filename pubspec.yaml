@@ -117,7 +117,9 @@ dev_dependencies:
 
 dependency_overrides:
   flutter_secure_storage_windows: ^3.0.0
-  vector_math: 2.1.4
+  # Flutter 3.35 requires newer Matrix4 APIs (translateByDouble/scaleByDouble)
+  # available in vector_math >= 2.1.5
+  vector_math: ^2.1.5
   web: ^1.1.1
 
 # For information on the generic Dart part of this file, see the
