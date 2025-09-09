@@ -29,3 +29,9 @@ tools/temp_downloads/
 tools/**/msedgedriver.exe
 # Secrets
 assets/credentials/service_account.json
+public/BrieFly_Setup_*.exe
+public/windows/**/BrieFly_Setup_*.exe
+installer/*.exe
+public/BrieFly_Setup_*.exe
+public/windows/**/BrieFly_Setup_*.exe
+installer/*.exe
