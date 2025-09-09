@@ -59,9 +59,11 @@ jobs:
       - name: Deploy to Firebase Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_PROJECT_ID: epl-3-the-brief
         run: |
           if [ -z "$FIREBASE_TOKEN" ]; then echo "FIREBASE_TOKEN secret is missing"; exit 1; fi
-          firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+          firebase --version
+          firebase deploy --only hosting --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
 
       - name: Upload artifact (backup)
         uses: actions/upload-artifact@v4
