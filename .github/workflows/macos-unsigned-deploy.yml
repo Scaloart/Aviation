@@ -30,8 +30,13 @@ jobs:
 
       - name: Zip .app
         run: |
-          APP_PATH="macos/Build/Products/Release/BrieFly.app"
-          if [ ! -d "$APP_PATH" ]; then echo "App not found at $APP_PATH"; exit 1; fi
+          # Find built .app in Flutter's default output dir
+          APP_PATH=$(ls -d build/macos/Build/Products/Release/*.app 2>/dev/null | head -n 1)
+          if [ -z "$APP_PATH" ] || [ ! -d "$APP_PATH" ]; then
+            echo "App not found under build/macos/Build/Products/Release/*.app"
+            echo "Directory listing:" && ls -la build/macos/Build/Products/Release || true
+            exit 1
+          fi
           ZIP_NAME="BrieFly-macOS-${{ inputs.version }}.zip"
           ditto -c -k --sequesterRsrc --keepParent "$APP_PATH" "$ZIP_NAME"
 
