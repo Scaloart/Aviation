@@ -59,21 +59,38 @@ jobs:
         uses: dawidd6/action-download-artifact@v3
         with:
           workflow: macos-unsigned-deploy.yml
+          workflow_conclusion: failure
+          name: macos-unsigned-zip
+          path: artifact_failed
+          branch: main
+
+      - name: Fallback: download from latest completed run (deploy only)
+        if: ${{ inputs.deploy_only == 'true' }}
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          workflow: macos-unsigned-deploy.yml
           workflow_conclusion: completed
           name: macos-unsigned-zip
-          path: artifact
+          path: artifact_completed
           branch: main
 
       - name: Prepare ZIP from artifact (deploy only)
         if: ${{ inputs.deploy_only == 'true' }}
         run: |
           mkdir -p "public/macos/v${MAJOR}/"
-          ART="artifact/BrieFly-macOS-${{ inputs.version }}.zip"
-          if [ ! -f "$ART" ]; then
-            echo "Artifact $ART not found. Listing artifact dir:" && ls -la artifact || true
+          # Prefer artifact from latest failed run (where build succeeded but deploy failed), else use completed
+          ART_FAILED="artifact_failed/BrieFly-macOS-${{ inputs.version }}.zip"
+          ART_COMPLETED="artifact_completed/BrieFly-macOS-${{ inputs.version }}.zip"
+          if [ -f "$ART_FAILED" ]; then
+            mv "$ART_FAILED" "public/macos/v${MAJOR}/"
+          elif [ -f "$ART_COMPLETED" ]; then
+            mv "$ART_COMPLETED" "public/macos/v${MAJOR}/"
+          else
+            echo "No macOS ZIP artifact found in latest failed or completed runs."
+            echo "Listing artifact_failed:" && ls -la artifact_failed || true
+            echo "Listing artifact_completed:" && ls -la artifact_completed || true
             exit 1
           fi
-          mv "$ART" "public/macos/v${MAJOR}/"
 
       - name: Prepare Hosting folder structure
         if: ${{ inputs.deploy_only != 'true' }}
@@ -83,7 +100,7 @@ jobs:
 
       - name: Install Firebase CLI
         run: |
-          npm install -g firebase-tools
+          npm install -g firebase-tools@13
 
       - name: Upload artifact (backup)
         if: always()
@@ -100,8 +117,9 @@ jobs:
         run: |
           if [ -z "$FIREBASE_TOKEN" ]; then echo "FIREBASE_TOKEN secret is missing"; exit 1; fi
           firebase --version
-          # Deploy explicitly to the default site to avoid target resolution issues on CI
-          firebase deploy --only "hosting:${FIREBASE_SITE}" --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
+          # Create a local hosting target mapping for this run and deploy to it
+          firebase target:apply hosting default "$FIREBASE_SITE" --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
+          firebase deploy --only hosting:default --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
 
       - name: Upload build log (on failure)
         if: failure()
