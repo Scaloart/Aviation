@@ -96,10 +96,12 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           FIREBASE_PROJECT_ID: epl-3-the-brief
+          FIREBASE_SITE: epl-3-the-brief
         run: |
           if [ -z "$FIREBASE_TOKEN" ]; then echo "FIREBASE_TOKEN secret is missing"; exit 1; fi
           firebase --version
-          firebase deploy --only hosting --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
+          # Deploy explicitly to the default site to avoid target resolution issues on CI
+          firebase deploy --only "hosting:${FIREBASE_SITE}" --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
 
       - name: Upload build log (on failure)
         if: failure()

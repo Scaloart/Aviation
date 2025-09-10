@@ -45,6 +45,7 @@
     "rules": "storage.rules"
   },
   "hosting": {
+    "site": "epl-3-the-brief",
     "public": "public",
     "ignore": [
       "firebase.json",
