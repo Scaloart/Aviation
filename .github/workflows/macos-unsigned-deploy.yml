@@ -7,6 +7,10 @@ on:
         description: "Version to package (e.g., 4.0.0)"
         required: true
         default: "4.0.0"
+      deploy_only:
+        description: "Skip build and deploy latest artifact"
+        required: false
+        default: "false"
 
 jobs:
   build-and-deploy:
@@ -21,14 +25,17 @@ jobs:
           channel: stable
 
       - name: Flutter pub get
+        if: ${{ inputs.deploy_only != 'true' }}
         run: flutter pub get
 
       - name: Build macOS release (unsigned)
+        if: ${{ inputs.deploy_only != 'true' }}
         run: |
           set -o pipefail
           flutter build macos --release -v 2>&1 | tee build_macos.log
 
       - name: Zip .app
+        if: ${{ inputs.deploy_only != 'true' }}
         run: |
           # Find built .app in Flutter's default output dir
           APP_PATH=$(ls -d build/macos/Build/Products/Release/*.app 2>/dev/null | head -n 1)
@@ -47,7 +54,29 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           echo "MAJOR=${VERSION%%.*}" >> $GITHUB_ENV
 
+      - name: Download latest macOS ZIP artifact (deploy only)
+        if: ${{ inputs.deploy_only == 'true' }}
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          workflow: macos-unsigned-deploy.yml
+          workflow_conclusion: completed
+          name: macos-unsigned-zip
+          path: artifact
+          branch: main
+
+      - name: Prepare ZIP from artifact (deploy only)
+        if: ${{ inputs.deploy_only == 'true' }}
+        run: |
+          mkdir -p "public/macos/v${MAJOR}/"
+          ART="artifact/BrieFly-macOS-${{ inputs.version }}.zip"
+          if [ ! -f "$ART" ]; then
+            echo "Artifact $ART not found. Listing artifact dir:" && ls -la artifact || true
+            exit 1
+          fi
+          mv "$ART" "public/macos/v${MAJOR}/"
+
       - name: Prepare Hosting folder structure
+        if: ${{ inputs.deploy_only != 'true' }}
         run: |
           mkdir -p "public/macos/v${MAJOR}/"
           mv "BrieFly-macOS-${{ inputs.version }}.zip" "public/macos/v${MAJOR}/"
@@ -55,6 +84,13 @@ jobs:
       - name: Install Firebase CLI
         run: |
           npm install -g firebase-tools
+
+      - name: Upload artifact (backup)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-unsigned-zip
+          path: public/macos/v${{ env.MAJOR }}/BrieFly-macOS-${{ inputs.version }}.zip
 
       - name: Deploy to Firebase Hosting
         env:
@@ -64,12 +100,6 @@ jobs:
           if [ -z "$FIREBASE_TOKEN" ]; then echo "FIREBASE_TOKEN secret is missing"; exit 1; fi
           firebase --version
           firebase deploy --only hosting --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
-
-      - name: Upload artifact (backup)
-        uses: actions/upload-artifact@v4
-        with:
-          name: macos-unsigned-zip
-          path: public/macos/v${{ env.MAJOR }}/BrieFly-macOS-${{ inputs.version }}.zip
 
       - name: Upload build log (on failure)
         if: failure()
