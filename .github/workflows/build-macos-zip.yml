@@ -1,4 +1,4 @@
-﻿name: Build macOS ZIP (artifact only)
+name: Build macOS ZIP (artifact only)
 
 on:
   workflow_dispatch:
@@ -56,6 +56,37 @@ jobs:
         with:
           name: macos-unsigned-zip
           path: public/macos/v${{ env.MAJOR }}/BrieFly-macOS-${{ inputs.version }}.zip
+
+      - name: Authenticate to Google Cloud (service account)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCLOUD_SERVICE_KEY }}
+
+      - name: Set gcloud project
+        run: gcloud config set project epl-3-the-brief
+
+      - name: Upload ZIP to Firebase Storage and make public
+        env:
+          VERSION: ${{ inputs.version }}
+          MAJOR: ${{ env.MAJOR }}
+        run: |
+          echo "Uploading to gs://epl-3-the-brief.appspot.com/macos/v${MAJOR}/BrieFly-macOS-${VERSION}.zip"
+          gsutil cp "public/macos/v${MAJOR}/BrieFly-macOS-${VERSION}.zip" "gs://epl-3-the-brief.appspot.com/macos/v${MAJOR}/BrieFly-macOS-${VERSION}.zip"
+          # Make the object publicly readable (no token URL)
+          gsutil acl ch -u AllUsers:R "gs://epl-3-the-brief.appspot.com/macos/v${MAJOR}/BrieFly-macOS-${VERSION}.zip"
+          echo "Public URL (GCS): https://storage.googleapis.com/epl-3-the-brief.appspot.com/macos/v${MAJOR}/BrieFly-macOS-${VERSION}.zip"
+          echo "Public URL (Firebase API): https://firebasestorage.googleapis.com/v0/b/epl-3-the-brief.appspot.com/o/macos%2Fv${MAJOR}%2FBrieFly-macOS-${VERSION}.zip?alt=media"
+
+      - name: Install Firebase CLI
+        run: npm i -g firebase-tools@13
+
+      - name: Deploy Hosting (publish site content)
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth.outputs.credentials_file_path }}
+        run: |
+          firebase --version
+          firebase deploy --only hosting --project epl-3-the-brief --non-interactive
 
       - name: Upload build log (always)
         if: always()

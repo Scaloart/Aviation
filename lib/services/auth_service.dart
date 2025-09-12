@@ -58,8 +58,9 @@ class AuthService {
       } catch (_) {}
       return userCredential;
     } on FirebaseAuthException catch (e) {
+      // Surface auth errors to the UI so proper messages are shown
       print(e.message);
-      return null;
+      rethrow;
     }
   }
 
@@ -83,35 +84,41 @@ class AuthService {
       return credential;
     } on FirebaseAuthException catch (e) {
       print(e.message);
-      return null;
+      // Rethrow so UI can display the error message
+      rethrow;
     }
   }
 
   Future<void> signInWithGoogle() async {
-    final provider = GoogleAuthProvider();
-    final UserCredential cred = await _auth.signInWithProvider(provider);
-    final user = cred.user;
-    if (user != null) {
-      // If first login, create a basic user profile in Firestore
-      if (cred.additionalUserInfo?.isNewUser == true) {
-        await _firestoreService.setUserData(user.uid, {
-          'name': user.displayName ?? '',
-          'email': user.email ?? '',
-          'photoURL': user.photoURL,
-          'subscription': {'type': 'free', 'expiryDate': null}
-        });
-      }
-      // Start listening for RevenueCat customer info to keep subscription in sync
-      _setupPurchaseListener(user.uid);
-    }
-    onAuthChanged();
-    // Cross-device sync: pull then push
     try {
-      await BookmarksService().syncFromCloud();
-      await ExamStorageService().syncFromCloud();
-      await BookmarksService().pushAllToCloud();
-      await ExamStorageService().pushAllToCloud();
-    } catch (_) {}
+      final provider = GoogleAuthProvider();
+      final UserCredential cred = await _auth.signInWithProvider(provider);
+      final user = cred.user;
+      if (user != null) {
+        // If first login, create a basic user profile in Firestore
+        if (cred.additionalUserInfo?.isNewUser == true) {
+          await _firestoreService.setUserData(user.uid, {
+            'name': user.displayName ?? '',
+            'email': user.email ?? '',
+            'photoURL': user.photoURL,
+            'subscription': {'type': 'free', 'expiryDate': null}
+          });
+        }
+        // Start listening for RevenueCat customer info to keep subscription in sync
+        _setupPurchaseListener(user.uid);
+      }
+      onAuthChanged();
+      // Cross-device sync: pull then push
+      try {
+        await BookmarksService().syncFromCloud();
+        await ExamStorageService().syncFromCloud();
+        await BookmarksService().pushAllToCloud();
+        await ExamStorageService().pushAllToCloud();
+      } catch (_) {}
+    } on FirebaseAuthException catch (e) {
+      // Propagate to UI
+      rethrow;
+    }
   }
 
 

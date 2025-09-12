@@ -114,11 +114,20 @@ void main() {
         await _logError(e, s, context: 'windowManager.ensureInitialized');
       }
       const windowOptions = WindowOptions(
-        titleBarStyle: TitleBarStyle.hidden,
-        windowButtonVisibility: false,
+        // Use native title bar on macOS so close/minimize/fullscreen buttons are visible
+        titleBarStyle: TitleBarStyle.normal,
+        windowButtonVisibility: true,
       );
       await windowManager.waitUntilReadyToShow(windowOptions, () async {
         try {
+          // Explicitly exit fullscreen on macOS before showing the window
+          if (Platform.isMacOS) {
+            try { await windowManager.setFullScreen(false); } catch (_) {}
+            try { await windowManager.setResizable(true); } catch (_) {}
+            try { await windowManager.setMinimumSize(const Size(1024, 700)); } catch (_) {}
+            try { await windowManager.setSize(const Size(1280, 800)); } catch (_) {}
+            try { await windowManager.center(); } catch (_) {}
+          }
           await windowManager.show();
           await windowManager.focus();
         } catch (e, s) {
@@ -126,7 +135,13 @@ void main() {
         }
         await Future.delayed(const Duration(milliseconds: 150));
         try {
-          await windowManager.setFullScreen(true);
+          // Do not force fullscreen on macOS; just maximize. Keep fullscreen for others.
+          if (Platform.isMacOS) {
+            // Keep windowed mode with native title bar
+            await windowManager.setFullScreen(false);
+          } else {
+            await windowManager.setFullScreen(true);
+          }
         } catch (e1, s1) {
           await _logError(e1, s1, context: 'windowManager.setFullScreen');
           try {
@@ -166,8 +181,13 @@ void main() {
       if (!kIsWeb && (Platform.isWindows || Platform.isLinux || Platform.isMacOS)) {
         await Future.delayed(const Duration(milliseconds: 150));
         try {
-          await windowManager.setFullScreen(true);
-          await windowManager.focus();
+          if (Platform.isMacOS) {
+            await windowManager.setFullScreen(false);
+            await windowManager.focus();
+          } else {
+            await windowManager.setFullScreen(true);
+            await windowManager.focus();
+          }
         } catch (e, s) {
           await _logError(e, s, context: 'postFrame fullscreen/focus');
         }
